@@ -7,9 +7,9 @@ This project compares the **real part** of the position–position quantum time 
 ![Graph](results_quartic_beta_1.0.png)
 
 ## 🔍 Description
-- The **exact quantum time correlation function** is computed numerically via Hamiltonian diagonalization.  
-- The **quasi-classical (q-class) result** is obtained using the Wigner truncated approximation, which combines an initial Wigner distribution with classical dynamics.  
-- The **CMD result** corresponds to a centroid molecular dynamics–type approximation based on a novel phase-space mapping of quantum mechanical operators.  
+- The **exact quantum time correlation function** (blue) is computed numerically via Hamiltonian diagonalization.  
+- The **quasi-classical (q-class) result** (green) is obtained using the Wigner truncated approximation, which combines an initial Wigner distribution with classical dynamics.  
+- The **CMD result** (red) corresponds to a centroid molecular dynamics–type approximation based on a novel phase-space mapping of quantum mechanical operators.  
 
 ## 💡 Key Insights
 - All methods agree at **t = 0**, where no dynamics occur and the quantum ensemble is represented exactly.
