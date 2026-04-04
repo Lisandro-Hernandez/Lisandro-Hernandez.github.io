@@ -4,7 +4,7 @@
 This project presents the position–position quantum time correlation function of a one-dimensional quantum oscillator at inverse temperature **β = 1.0**.
 
 ## 📈 Visualization
-![Graph](results_quartic_beta_1.0.png)
+![Graph](results_quartic_beta_1.0.pdf)
 
 ## 🔍 Description
 - The **exact quantum time correlation function** is computed numerically via Hamiltonian diagonalization.  
