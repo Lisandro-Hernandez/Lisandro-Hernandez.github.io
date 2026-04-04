@@ -1,7 +1,7 @@
 # 📊 Quantum Time Correlation Function for a Quantum Oscillator
 
 ## 🧠 Overview
-This project presents the position–position quantum time correlation function of a one-dimensional quantum oscillator at inverse temperature **β = 1.0**.
+This project compares the **real part** of the position–position quantum time correlation function for a one-dimensional quartic oscillator at inverse temperature **β = 1.0**, computed exactly and using two approximate methods.
 
 ## 📈 Visualization
 ![Graph](results_quartic_beta_1.0.png)
