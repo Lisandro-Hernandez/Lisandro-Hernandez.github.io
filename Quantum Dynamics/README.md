@@ -12,10 +12,10 @@ This project presents the position–position quantum time correlation function 
 - The **CMD result** corresponds to a centroid molecular dynamics–type approximation based on a novel phase-space mapping of quantum mechanical operators.  
 
 ## 💡 Key Insights
-- All methods agree at **time t = 0**, where no dynamics occur and the quantum ensemble is represented exactly.  
+- All methods agree at **t = 0**, where no dynamics occur and the quantum ensemble is represented exactly.  
 - As time evolves, both approximate methods deviate from the exact quantum dynamics.  
-- The new phase-space mapping provides improved accuracy compared to Wigner dynamics, due to the use of an effective force rather than a purely classical force.
-- Like in the case of Wigner, the new mapping dynamics can be incrementally improved to arbitrary degree with additional computational effort. 
+- The new phase-space mapping provides improved accuracy over Wigner dynamics due to the use of an effective force rather than a purely classical force.  
+- As in the Wigner approach, the accuracy of the new mapping can be systematically improved to arbitrary precision with increased computational effort.  
 - At high temperatures, both approximate approaches converge to the classical limit.  
 - In the harmonic limit, both methods reproduce the exact quantum dynamics.  
 
