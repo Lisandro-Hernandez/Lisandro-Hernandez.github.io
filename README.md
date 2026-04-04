@@ -1,6 +1,6 @@
-# 📊 Mossbauer Spectrum of Iron-57 at 300 K in a one-dimensional lattice
+# 📊 Mossbauer Spectrum of Iron-57 at 300 K
 
-## 🧠 This graph shows [briefly what it’s about].
+## 🧠 This graph shows gamma rays energy spectrum of Iron-27 in a 1D lattice at room temperature
 
 ## 📈 Visualization      ← Heading for the image itself
 ![Graph](mossbauer_spectrum.png)
