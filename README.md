@@ -18,7 +18,7 @@ This graph shows the gamma-ray energy spectrum of Iron-57 in a 1D harmonic latti
 - A free nucleus would have a continuous spectrum, since its Hamiltonian commutes with momentum  
 - Discrete spectrum arises from non-commutativity of the Hamiltonian and momentum operator  
 - Maximum in this spectrum is shifted below E_0 (nominal nuclear excitation energy) due to recoil  
-- Relativistic effects can cause hyperfine line splitting, which can be added analytically
+- Relativistic effects cause hyperfine line splitting, which can be added analytically
 
 ## 📌 Notes
 Code available upon request
