@@ -8,12 +8,12 @@ This graph shows the gamma-ray energy spectrum of Iron-57 in a 1D harmonic latti
 
 ## 🔍 What This Shows
 - Peaks correspond to nuclear energy levels of Iron-57  
-- Line spacing is determined by lattice frequency  
+- Line spacing is determined by lattice vibrational frequency
 - E_R represents the kinetic energy of recoil  
 - For illustration, E_R is set near the lattice vibrational excitation energy; this can be adjusted straightforwardly
 
 ## 💡 Key Insights
-- This spectrum illustrates fundamental quantum effects in a 1D lattice  
+- This spectrum illustrates quantum momentum transfer effects in a 1D lattice  
 - A free nucleus would have a continuous spectrum, since its Hamiltonian commutes with momentum  
 - Discrete spectrum arises from non-commutativity of the Hamiltonian and momentum operator  
 - Maximum in this spectrum is shifted below E_0 (nominal nuclear excitation energy) due to recoil  
