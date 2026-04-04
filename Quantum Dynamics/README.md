@@ -4,7 +4,7 @@
 This graph shows the position-position quantum time correlation function of a 1D quatum oscillator at inverse temperature beta = 1.0
 
 ## 📈 Visualization
-![Graph](mossbauer_spectrum.png)
+![Graph](results_quartic_beta_1.0.pdf)
 
 ## 🔍 What This Shows
 - Peaks correspond to nuclear energy levels of Iron-57  
