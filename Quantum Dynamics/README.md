@@ -7,18 +7,17 @@ This graph shows the position-position quantum time correlation function of a 1D
 ![Graph](results_quartic_beta_1.0.pdf)
 
 ## 🔍 What This Shows
-- Peaks correspond to nuclear energy levels of Iron-57  
-- Line spacing is determined by lattice vibrational frequency 
-- E_R represents the kinetic energy of recoil  
-- For illustration, the graph shows a “weakly bound” nucleus with \(E_R > \hbar \omega\); this can be adjusted easily. In practice, \(E_R\) is around \(\hbar \omega / 2\), which results in fewer peaks spaced farther apart.
+- The exact quantum time correlation function is determined numerically through Hamiltonian diagonalization
+- The q-class result represents Wigner truncated approximation; i.e. initial Wigner distribution and classical dynamics
+- The CMD result represents the CMD-type of approximation on a new phase-space representation mapping of quantum mechanical operators.
 
 
 ## 💡 Key Insights
-- This spectrum illustrates quantum momentum transfer effects in a 1D lattice  
-- A free nucleus would have a continuous spectrum, since its Hamiltonian commutes with momentum  
-- Discrete spectrum arises from non-commutativity of the Hamiltonian and momentum operator  
-- Maximum in this spectrum is shifted below E_0 (nominal nuclear excitation energy) due to recoil  
-- Relativistic effects cause hyperfine line splitting, which can be added analytically
+- The approximate results aggree with the exact result at time zero as there is no dynamics and the quantum ensemble representation is accurate.
+- Both approximate dynamics deviate from the exact quantum dyanmics as time progresses.  
+- The new phase space mapping is however more accurate than the Wigner dynamics due to the use of an effective force or a classical force respectively. 
+- Both approximate methods converge to the classical result at high temperatures. 
+- Both methods render exact dynamics in the harmonic limit.
 
 ## 📌 Notes
 Code available upon request
