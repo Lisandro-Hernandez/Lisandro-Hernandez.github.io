@@ -1,7 +1,6 @@
-# 📊 Project Title        ← Main title (always at top)
-Mossbauer Spectrum of Iron-57 at 300 K in a one-dimensional lattice
-## 🧠 Overview           ← Heading for context
-This graph shows [briefly what it’s about].
+# 📊 Mossbauer Spectrum of Iron-57 at 300 K in a one-dimensional lattice
+
+## 🧠 This graph shows [briefly what it’s about].
 
 ## 📈 Visualization      ← Heading for the image itself
 ![Graph](mossbauer_spectrum.png)
