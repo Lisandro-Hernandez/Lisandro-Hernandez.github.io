@@ -13,9 +13,10 @@ This graph shows the gamma-ray energy spectrum of Iron-57 in a 1D harmonic latti
 - For illustration, E_R is set near the lattice vibrational excitation energy; this can be adjusted straightforwardly
 
 ## 💡 Key Insights
-- The spectrum of a free nucleus would be continuous (because system Hamiltonian would commute with momentum operator)
-- Discrete spectrum arises from non-commutativity of the system Hamiltonian and momentum operator  
-- Maximum in this spectrum is shifted below E_0 (the nominal nuclear excitation energy) due to recoil
+- This spectrum illustrates fundamental quantum effects in a 1D lattice  
+- A free nucleus would have a continuous spectrum, since its Hamiltonian commutes with momentum  
+- Discrete spectrum arises from non-commutativity of the Hamiltonian and momentum operator  
+- Maximum in this spectrum is shifted below E_0 (nominal nuclear excitation energy) due to recoil  
 - Relativistic effects can cause hyperfine line splitting, which can be added analytically
 
 ## 📌 Notes
