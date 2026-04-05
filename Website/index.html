@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Lisandro Hernández de la Peña</title>
+
+<style>
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f9fafb;
+    color: #222;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* NAVBAR */
+.navbar {
+    position: sticky;
+    top: 0;
+    background: white;
+    border-bottom: 1px solid #ddd;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #2b6cb0;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #1a365d;
+}
+
+/* HERO */
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 40px 0;
+}
+
+.hero img {
+    width: 180px;
+    border-radius: 10px;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.email {
+    color: #2b6cb0;
+}
+
+/* SECTIONS */
+.section {
+    margin-bottom: 50px;
+}
+
+h1 {
+    color: #1a365d;
+}
+
+h2 {
+    color: #1a365d;
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 5px;
+}
+
+/* TAGS */
+.tags span {
+    display: inline-block;
+    background: #e2e8f0;
+    padding: 6px 10px;
+    margin: 5px;
+    border-radius: 15px;
+    font-size: 14px;
+}
+
+/* PROJECT CARDS */
+.project {
+    background: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+/* PUBLICATIONS */
+.publication {
+    margin-bottom: 25px;
+}
+
+.publication a {
+    font-weight: bold;
+    color: #2b6cb0;
+    text-decoration: none;
+}
+
+.publication img {
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+}
+
+/* VIDEOS */
+iframe {
+    width: 100%;
+    height: 315px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+    <ul>
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#research">RESEARCH</a></li>
+        <li><a href="#teaching">TEACHING</a></li>
+        <li><a href="#projects">PROJECTS</a></li>
+        <li><a href="#publications">PUBLICATIONS</a></li>
+        <li><a href="#movies">MOVIES</a></li>
+    </ul>
+</div>
+
+<div class="container">
+
+<!-- HOME -->
+<div id="home" class="hero">
+    <div class="hero-text">
+        <h1>Lisandro Hernández de la Peña</h1>
+        <p><strong>Associate Professor of Chemistry</strong></p>
+        <p>
+            <a href="http://www.kettering.edu/chemistry">Department of Natural Sciences</a><br>
+            <a href="http://www.kettering.edu">Kettering University</a><br>
+            <span class="email">lhernand@kettering.edu</span>
+        </p>
+    </div>
+    <img src="photo.jpg" alt="Profile Photo">
+</div>
+
+<!-- RESEARCH -->
+<div id="research" class="section">
+    <h2>Research Interests</h2>
+    <div class="tags">
+        <span>Theoretical Chemical Physics</span>
+        <span>Statistical Mechanics</span>
+        <span>Molecular Dynamics</span>
+        <span>Quantum Dynamics</span>
+        <span>Monte Carlo Methods</span>
+        <span>Path Integrals</span>
+        <span>Spectroscopy</span>
+        <span>Quantum Computing</span>
+    </div>
+</div>
+
+<!-- TEACHING -->
+<div id="teaching" class="section">
+    <h2>Teaching</h2>
+    <ul>
+        <li>CHEM 137 – Principles of Chemistry</li>
+        <li>CHEM 237 – General Chemistry</li>
+        <li>CHEM 361 – Physical Chemistry I</li>
+        <li>CHEM 363 – Physical Chemistry II</li>
+        <li>CHEM 492 – Topics in Physical Chemistry</li>
+        <li>CHEM/EP 391 – Introduction to Nuclear Sciences</li>
+        <li>CHEM 437 – Inorganic Chemistry</li>
+        <li>PHYS 363 – Thermodynamics and Statistical Physics</li>
+        <li>PHYS 491 – Advanced Quantum Mechanics</li>
+        <li>CHME 210 – Chemical Engineering Thermodynamics</li>
+    </ul>
+</div>
+
+<!-- PROJECTS -->
+<div id="projects" class="section">
+    <h2>Projects</h2>
+
+    <div class="project">
+        <a href="../Quantum Dynamics/index.html"><strong>Quantum Dynamics</strong></a>
+        <p>Quantum time correlation functions via new phase-space mapping.</p>
+    </div>
+
+    <div class="project">
+        <a href="../Theoretical Spectroscopy/index.html"><strong>Theoretical Spectroscopy</strong></a>
+        <p>Mossbauer spectra of Fe-57 at room temperature.</p>
+    </div>
+</div>
+
+<!-- PUBLICATIONS -->
+<div id="publications" class="section">
+    <h2>Selected Publications</h2>
+
+    <div class="publication">
+        <a href="https://pubs.acs.org/doi/10.1021/acs.jchemed.8b00029">
+            A Simplified Poschl-Teller Potential
+        </a>
+        <p>E. Brown and <strong>L. Hernández de la Peña</strong> (2018)</p>
+        <img src="images/cover_figure.gif">
+    </div>
+
+</div>
+
+<!-- MOVIES -->
+<div id="movies" class="section">
+    <h2>Molecular Movies</h2>
+
+    <iframe src="https://www.youtube.com/embed/gIb40oH0faM" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/GxcLR4zeDoM" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/7uaCx_HXtls" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/oBWfORKm_lc" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/MUtJPk-jVTM" allowfullscreen></iframe>
+
+</div>
+
+</div>
+
+</body>
+</html>
