@@ -344,18 +344,18 @@ iframe {
 
 </div>
 
-<!-- CSS for responsive videos -->
+<!-- CSS for smaller, responsive videos -->
 <style>
 #movies .video-container {
-    max-width: 560px;       /* max width of container */
+    max-width: 400px;       /* smaller container */
     margin: 20px auto;      /* center container */
-    text-align: center;     /* center the iframes */
+    text-align: center;
 }
 
 #movies .video-container iframe {
-    width: 100%;            /* responsive width */
-    height: 315px;          /* standard YouTube height */
-    margin-bottom: 15px;    /* spacing between multiple videos */
+    width: 100%;            /* fills container width */
+    height: 225px;          /* keeps 16:9 aspect ratio for 400px width */
+    margin-bottom: 15px;
 }
 </style>
 
