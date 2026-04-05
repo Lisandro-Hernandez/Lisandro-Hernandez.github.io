@@ -321,19 +321,44 @@ iframe {
 }
 </style>
 
-<!-- MOVIES -->
+<!-- MOLECULAR MOVIES -->
 <div id="movies" class="section">
     <h2>Molecular Movies</h2>
 
-    <iframe src="https://www.youtube.com/embed/gIb40oH0faM" allowfullscreen></iframe>
-    <iframe src="https://www.youtube.com/embed/GxcLR4zeDoM" allowfullscreen></iframe>
-    <iframe src="https://www.youtube.com/embed/7uaCx_HXtls" allowfullscreen></iframe>
-    <iframe src="https://www.youtube.com/embed/oBWfORKm_lc" allowfullscreen></iframe>
-    <iframe src="https://www.youtube.com/embed/MUtJPk-jVTM" allowfullscreen></iframe>
+    <div class="video-container">
+        <p>Nonequilibrium methods in quantum systems</p>
+        <iframe src="https://www.youtube.com/embed/gIb40oH0faM" title="Iodide ion through quantum water" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div class="video-container">
+        <p>Coarse-grained modeling of condensed matter systems (using DMD)</p>
+        <iframe src="https://www.youtube.com/embed/GxcLR4zeDoM" title="Simulation of liquid methane" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/7uaCx_HXtls" title="Simulation of liquid benzene" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/oBWfORKm_lc" title="Collision dynamics for benzene molecules" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div class="video-container">
+        <p>Quantum effects on the thermodynamics of ionic solvation in water</p>
+        <iframe src="https://www.youtube.com/embed/MUtJPk-jVTM" title="Iodide ion micro-solvated" frameborder="0" allowfullscreen></iframe>
+    </div>
 
 </div>
 
-</div>
+<!-- CSS for responsive videos -->
+<style>
+#movies .video-container {
+    max-width: 560px;       /* max width of container */
+    margin: 20px auto;      /* center container */
+    text-align: center;     /* center the iframes */
+}
+
+#movies .video-container iframe {
+    width: 100%;            /* responsive width */
+    height: 315px;          /* standard YouTube height */
+    margin-bottom: 15px;    /* spacing between multiple videos */
+}
+</style>
+
 
 </body>
 </html>
