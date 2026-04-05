@@ -4,7 +4,7 @@
 This project compares the **real part** of the position–position quantum time correlation function for a one-dimensional **quartic oscillator** at inverse temperature **β = 1.0**, computed exactly and using two approximate methods.
 
 ## 📈 Visualization
-![Graph](results_quartic_beta_1.0.png)
+<img src="results_quartic_beta_1.0.png" alt="Graph" style="max-width:100%; height:auto;">
 
 ## 🔍 Description
 - The **exact quantum time correlation function** (blue) is computed numerically via Hamiltonian diagonalization.  
