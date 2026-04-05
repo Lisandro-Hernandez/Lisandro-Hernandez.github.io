@@ -4,7 +4,7 @@
 This graph shows the gamma-ray energy spectrum of Iron-57 in a 1D harmonic lattice at room temperature. The spectrum is fully determined analytically.
 
 ## 📈 Visualization
-<img src="mossbauer_spectrum.png" alt="Graph" width="500">
+<img src="mossbauer_spectrum.png" alt="Graph" width="600">
 
 ## 🔍 What This Shows
 - \(E_0 = 14.4 \, \text{keV}\) corresponds to the nuclear excitation energy of iron-57.  
