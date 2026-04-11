@@ -17,7 +17,7 @@ This graph shows the irreversible work distribution for the forward and reverse 
 - We have shown that if this system is prepared in an equilibrium state, after which a control parameter in the fictitious Hamiltonian is changed in a finite time, then formally the Jarzynski
 nonequilibrium work relation and the Crooks fluctuation relation hold, where work is defined as the change in the energy as given by the fictitious Hamiltonian.
 - Since the energy diverges for the classical field theory in canonical equilibrium, two regularization methods are introduced which limit the number of degrees of freedom to be finite, and the corresponding distribution cumulants of the work are shown to converge in canonical equilibrium as the number of degrees of freedom go to infinity.
-- The numerical applicability of the methods is demonstrated numerically for a quartic double-well potential and analytically for a harmonic system.
+- The applicability of the methods is demonstrated numerically for a quartic double-well potential and analytically for a harmonic system.
 
 ## 📌 Notes
 Code available upon request
