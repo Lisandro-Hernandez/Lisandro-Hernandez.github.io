@@ -13,11 +13,9 @@ This graph shows the irreversible work distribution for the forward and and reve
 
 
 ## 💡 Key Insights
-- The spectrum illustrates quantum momentum transfer effects in gamma decay.  
-- For a free nucleus, the spectrum would be continuous, since the Hamiltonian commutes with the momentum operator.  
-- The discrete structure arises from the non-commutativity of the Hamiltonian and momentum operator in a bound system.  
-- The spectral maximum is shifted below \(E_0\) (the nominal nuclear excitation energy) due to recoil effects.  
-- Relativistic corrections lead to hyperfine line splitting, which can be incorporated analytically.  
+- Jarzynski equality and Crooks fluctuation relation are generalized to quantum systems in the context of imaginary time path integrals.
+- The emerging classical field theory can be regularized and the corresponding distribution coummulants are shown to converge in canonical equilibrium.
+-   
 
 ## 📌 Notes
 Code available upon request
