@@ -1,7 +1,7 @@
-# 📊 Mossbauer Spectrum of Iron-57 at 300 K
+# 📊 Quantum Free Energy from Non-Equilibrium Path Integral Methods
 
 ## 🧠 Overview
-This graph shows the gamma-ray energy spectrum of Iron-57 in a 1D harmonic lattice at room temperature. The spectrum is fully determined analytically.
+This graph shows the irreversible work distribution for the forward and and reverse processes at different protocol speeds: quasistatic, finite process, and instantaneous. The distributions are determined analytically for a harmonic system.
 
 ## 📈 Visualization
 <img src="variousSpeeds.png" alt="Graph" width="600">
