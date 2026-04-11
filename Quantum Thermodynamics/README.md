@@ -1,7 +1,7 @@
 # 📊 Quantum Free Energy from Non-Equilibrium Path Integral Methods
 
 ## 🧠 Overview
-This graph shows the irreversible work distribution for the forward and reverse processes at different protocol speeds: quasistatic, finite process, and instantaneous. The distributions are determined analytically for a harmonic system.
+The graph illustrates the irreversible work distributions for forward and reverse processes across three protocol regimes: quasistatic, finite-rate, and instantaneous. For a harmonic system, these distributions are obtained analytically, although no general closed form exists.
 
 ## 📈 Visualization
 <img src="variousSpeeds.png" alt="Graph" width="600">
