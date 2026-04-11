@@ -7,17 +7,16 @@ This graph shows the irreversible work distribution for the forward and reverse 
 <img src="variousSpeeds.png" alt="Graph" width="600">
 
 ## 🔍 What This Shows
-- According to Crooks fluctuation theorem, the free energy change of the process $\Delta F$ is given by the intersection of the forward and reverse distributions.
-- The free energy change is independent of irreversible process speed.
-- Since these are non-equilibrium adiabatic processes, the system is out of equilibrium for $t > 0$ in all cases.
+- According to the [Crooks fluctuation theorem](https://en.wikipedia.org/wiki/Crooks_fluctuation_theorem), the free energy change of the process $\Delta F$ is given by the intersection of the forward and reverse distributions.
+- The free energy change remains independent of the protocol speed.
+- Since these are non-equilibrium adiabatic processes, the system is out of equilibrium at $t > 0$ in all cases.
 
 ## 💡 Key Insights
-- [Jarzynski equality](https://en.wikipedia.org/wiki/Jarzynski_equality) and [Crooks fluctuation theorem](https://en.wikipedia.org/wiki/Crooks_fluctuation_theorem) are generalized to quantum systems in the context of imaginary time path integrals.
-- The path-integral representation is isomorphic to the configurational partition function of a classical field theory, to which a natural but fictitious Hamiltonian dynamics can be associated.
-- We have shown that if this system is prepared in an equilibrium state, after which a control parameter in the fictitious Hamiltonian is changed in a finite time, then formally the Jarzynski
-nonequilibrium work relation and the Crooks fluctuation relation hold, where work is defined as the change in the energy as given by the fictitious Hamiltonian.
-- Since the energy diverges for the classical field theory in canonical equilibrium, two regularization methods are introduced which limit the number of degrees of freedom to be finite, and the corresponding distribution cumulants of the work are shown to converge in canonical equilibrium as the number of degrees of freedom go to infinity.
-- The applicability of the methods is demonstrated numerically for a quartic double-well potential and analytically for a harmonic system.
+- The [Jarzynski equality](https://en.wikipedia.org/wiki/Jarzynski_equality) and [Crooks fluctuation theorem](https://en.wikipedia.org/wiki/Crooks_fluctuation_theorem) are generalized to quantum systems using imaginary-time path integrals.
+- The path-integral representation is isomorphic to the configurational partition function of a classical field theory, which can be associated with a natural but fictitious Hamiltonian dynamics.
+- We demonstrate that if this system is prepared in an equilibrium state and a control parameter in the fictitious Hamiltonian is changed over finite time, the Jarzynski and Crooks relations hold, with work defined as the energy change in the fictitious Hamiltonian.
+- To address energy divergence in the classical field theory, we introduce two regularization methods that limit the degrees of freedom. The corresponding work distribution cumulants are shown to converge in canonical equilibrium as the degrees of freedom approach infinity.
+- The applicability of these methods is demonstrated numerically for a quartic double-well potential and analytically for a harmonic system.
 
 ## 📌 Notes
-Code available upon request
+Code available upon request.
