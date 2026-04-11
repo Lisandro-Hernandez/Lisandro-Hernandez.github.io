@@ -7,10 +7,9 @@ This graph shows the irreversible work distribution for the forward and and reve
 <img src="variousSpeeds.png" alt="Graph" width="600">
 
 ## 🔍 What This Shows
-- \(E_0 = 14.4 \, \text{keV}\) corresponds to the nuclear excitation energy of iron-57.  
-- The line spacing is determined by the lattice vibrational frequency.  
-- \(E_R\) represents the recoil kinetic energy of the nucleus.  
-- For illustration, the graph depicts a “weakly bound” nucleus with \(E_R > \hbar \omega\); this parameter can be adjusted easily. In practice, \(E_R \approx \hbar \omega / 2\), leading to fewer spectral lines with larger spacing.
+- According to Crooks fluctuation theorem, the free energy change of the process \( \Delta F \) is given by the intersection of the forward and reverse distributions. 
+- The free energy change is independent of process speed. 
+- Since these are non-equilibrium adiabatic processes, the system is out of equilibrium at t > 0 in all cases. 
 
 
 ## 💡 Key Insights
