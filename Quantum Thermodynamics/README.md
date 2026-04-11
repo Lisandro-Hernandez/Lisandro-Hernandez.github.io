@@ -8,8 +8,8 @@ This graph shows the irreversible work distribution for the forward and reverse 
 
 ## 🔍 What This Shows
 - According to Crooks fluctuation theorem, the free energy change of the process $\Delta F$ is given by the intersection of the forward and reverse distributions.
-- The free energy change is independent of process speed.
-- Since these are non-equilibrium adiabatic processes, the system is out of equilibrium at $t > 0$ in all cases.
+- The free energy change is independent of irreversible process speed.
+- Since these are non-equilibrium adiabatic processes, the system is out of equilibrium for $t > 0$ in all cases.
 
 ## 💡 Key Insights
 - [Jarzynski equality](https://en.wikipedia.org/wiki/Jarzynski_equality) and [Crooks fluctuation theorem](https://en.wikipedia.org/wiki/Crooks_fluctuation_theorem) are generalized to quantum systems in the context of imaginary time path integrals.
