@@ -12,7 +12,7 @@ This graph shows the irreversible work distribution for the forward and reverse 
 - Since these are non-equilibrium adiabatic processes, the system is out of equilibrium at $t > 0$ in all cases. 
 
 ## 💡 Key Insights
-- [Jarzynski equality](https://en.wikipedia.org/wiki/Jarzynski_equality) and Crooks fluctuation relation are generalized to quantum systems in the context of imaginary time path integrals.
+- [Jarzynski equality](https://en.wikipedia.org/wiki/Jarzynski_equality) and [Crooks fluctuation theorem](https://en.wikipedia.org/wiki/Crooks_fluctuation_theorem) are generalized to quantum systems in the context of imaginary time path integrals.
 - The emerging classical field theory can be regularized and the corresponding distribution cumulants are shown to converge in canonical equilibrium.
 
 ## 📌 Notes
