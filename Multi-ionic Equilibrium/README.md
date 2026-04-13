@@ -1,7 +1,7 @@
 # 📊 Titration Curves of Strong, Weak and Poly-protic Acids with Strong Base
 
 ## 🧠 Overview
-Nume
+Numerically exact titration curves of stron acid (HCl), weak acid (KHP) and poly-protic acid (maleic) with NaOH.
 
 ## 📈 Visualization
 
