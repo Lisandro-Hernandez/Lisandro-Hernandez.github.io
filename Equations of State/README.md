@@ -22,7 +22,7 @@ A great deal of information can be extracted from equations of state. Shown here
 ## 💡 Key Insights
 - **Phase Convergence:** The liquid-vapor phase transition region narrows as the system approaches the critical temperature. At the critical temperature ($T_c$), the transition region converges to a single point.
 - **Model Discrepancy:** Due to the differences between predicted and experimental critical points (points A and B), the van der Waals liquid-vapor equilibrium line deviates from experimental observations.
-- **Fluid Symmetry:** As the critical point is approached along the coexistence line, the distinction between the liquid and vapor phases diminishes. Consequently, the densities converge until the phases merge into a single fluid phase at the critical point.
+- **Phase Convergence**: As the critical point is approached along the coexistence line, the physical distinction between the liquid and vapor phases diminishes. The properties of the two states converge until they merge into a single, homogeneous fluid phase at the critical point.
 - **Thermodynamics of Vaporization:** The heat of vaporization is always positive, reflecting an endothermic process. As the system reaches the critical point and the phases merge, the enthalpy change associated with the phase transformation vanishes.
 
 ## 📌 Notes
