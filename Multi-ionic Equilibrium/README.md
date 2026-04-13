@@ -1,7 +1,7 @@
 # 📊 Titration Curves of Strong, Weak, and Polyprotic Acids with Strong Base
 
 ## 🧠 Overview
-This repository contains **numerically exact** titration curves of a strong acid (HCl), a weak acid (KHP), and a polyprotic acid (Maleic) with NaOH. These models utilize the full system of equilibrium equations rather than common introductory approximations.
+This repository contains **numerically exact** titration curves of a strong acid (HCl), a weak acid (KHP), and a polyprotic acid (Maleic) with NaOH. These results are obtained by solving the full system of equilibrium equations rather than common approximations in introductory chemistry courses.
 
 ## 📈 Visualization
 
