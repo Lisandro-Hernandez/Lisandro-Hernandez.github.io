@@ -5,11 +5,11 @@ A great deal of infomration can be extracted from equations of state. Here is sh
 
 ## 📈 Visualization
 
-<img src="densities.png" alt="Graph" width="600">
-
 <img src="isotherms.png" alt="Graph" width="600">
 
 <img src="phase_diagram.png" alt="Graph" width="600">
+
+<img src="densities.png" alt="Graph" width="600">
 
 <img src="argon_vs_exp.png" alt="Graph" width="600">
 
