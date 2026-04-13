@@ -1,4 +1,4 @@
-# 📊 Quantum Time Correlation Function for a Quartic Oscillator
+# 📊 Heats of Vaporization
 
 ## 🧠 Overview
 This project compares the **real part** of the position–position quantum time correlation function for a one-dimensional **quartic oscillator** at inverse temperature **β = 1.0**, computed exactly and using two approximate methods.
