@@ -1,4 +1,4 @@
-# 📊 Information from Equations of State -- van der Waals Equation of State
+# 📊 van der Waals Equation of State
 
 ## 🧠 Overview
 A great deal of infomration can be extracted from equations of state. Here is shown the isotherms, liquid-vapor phase diagram, liquid-vapor densities and heats of vaporization as a function of temperature.
