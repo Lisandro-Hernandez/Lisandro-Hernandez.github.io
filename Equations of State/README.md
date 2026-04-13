@@ -4,14 +4,14 @@
 A great deal of infomration can be extracted from equations of state. Here is shown the isotherms, liquid-vapor phase diagram, liquid-vapor densities and heats of vaporization as a function of temperature.
 
 ## 📈 Visualization
-<img src="argon_vs_exp.png" alt="Graph" width="600">
 
 <img src="densities.png" alt="Graph" width="600">
 
 <img src="isotherms.png" alt="Graph" width="600">
 
-<img src="phase-diagram.png" alt="Graph" width="600">
+<img src="phase_diagram.png" alt="Graph" width="600">
 
+<img src="argon_vs_exp.png" alt="Graph" width="600">
 
 ## 🔍 Description
 - The **exact quantum time correlation function** (blue) is computed numerically via Hamiltonian diagonalization.  
