@@ -1,7 +1,7 @@
-# 📊 Heats of Vaporization
+# 📊 Information from Equations of State -- van der Waals Equation of State
 
 ## 🧠 Overview
-This project compares the **real part** of the position–position quantum time correlation function for a one-dimensional **quartic oscillator** at inverse temperature **β = 1.0**, computed exactly and using two approximate methods.
+A great deal of infomration can be extracted from equations of state. Here is shown the isotherms, liquid-vapor phase diagram, liquid-vapor densities and heats of vaporization as a function of temperature.
 
 ## 📈 Visualization
 <img src="argon_vs_exp.png" alt="Graph" width="600">
