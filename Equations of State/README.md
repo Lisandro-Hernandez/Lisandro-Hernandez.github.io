@@ -6,10 +6,19 @@ A great deal of infomration can be extracted from equations of state. Here is sh
 ## 📈 Visualization
 <img src="argon_vs_exp.png" alt="Graph" width="600">
 
+<img src="densities.png" alt="Graph" width="600">
+
+<img src="isotherms.png" alt="Graph" width="600">
+
+<img src="phase-diagram.png" alt="Graph" width="600">
+
+
 ## 🔍 Description
 - The **exact quantum time correlation function** (blue) is computed numerically via Hamiltonian diagonalization.  
 - The **quasi-classical (q-class) result** (green) is obtained using the Wigner truncated approximation, which combines an initial Wigner distribution with classical dynamics.  
 - The **CMD result** (red) corresponds to a centroid molecular dynamics–type approximation based on a novel phase-space mapping of quantum mechanical operators.  
+
+
 
 ## 💡 Key Insights
 - The three methods agree at **t = 0**, where no dynamics occur and the quantum ensemble is represented exactly.
