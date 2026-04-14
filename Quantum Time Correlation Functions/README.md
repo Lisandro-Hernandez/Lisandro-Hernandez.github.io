@@ -1,24 +1,21 @@
-# 📊 Quantum Time Correlation Function for a Quartic Oscillator
+# 📊 Assessment of Approximate Quantum Dynamics via Sum Rules
 
 ## 🧠 Overview
-This project compares the **real part** of the position–position quantum time correlation function for a one-dimensional **quartic oscillator** at inverse temperature **β = 1.0**, computed exactly and using two approximate methods.
+This project establishes a rigorous framework for evaluating the accuracy of approximate quantum dynamics by utilizing exact sum rules. These identities relate the time-integrals of Kubo-transformed correlation functions to specific thermally symmetrized static averages.
 
 ## 📈 Visualization
-<img src="kernels.png" alt="Graph" width="500">
+<img src="kernels.png" alt="Weighting kernels for Kubo correlation function sum rules" width="500">
 
 ## 🔍 Description
-- The **exact quantum time correlation function** (blue) is computed numerically via Hamiltonian diagonalization.  
-- The **quasi-classical (q-class) result** (green) is obtained using the Wigner truncated approximation, which combines an initial Wigner distribution with classical dynamics.  
-- The **CMD result** (red) corresponds to a centroid molecular dynamics–type approximation based on a novel phase-space mapping of quantum mechanical operators.  
+- **Weighting Kernels:** The figure illustrates the various kernels associated with different time-integrals of the Kubo correlation function and their corresponding static averages.
+- **Ensemble Averages:** The kernel associated with the standard (ordinary) ensemble average decays rapidly, limiting its ability to probe long-time dynamics.
+- **Symmetrized Statics:** The primary kernel associated with thermally symmetrized static averages exhibits a characteristic "bell-shaped" structure, analytically defined by the $\text{sech}^2(x)$ (or $1/\cosh^2(x)$) distribution.
+- **High-Order Integrals:** Additional higher-order kernels are zero at $t=0$ and exhibit polynomial growth at large times. This allows for a systematic weighting of long-time dynamics during integration, providing a sensitive test for the stability of approximate methods.
 
 ## 💡 Key Insights
-- The three methods agree at **t = 0**, where no dynamics occur and the quantum ensemble is represented exactly.
-- As time evolves, both approximate methods (red and green) deviate from the exact quantum dynamics.
-- The new phase-space mapping (red) provides improved accuracy over Wigner dynamics (green) due to the use of an effective force rather than a purely classical force.
-- As in the Wigner approach, the accuracy of the new mapping can be systematically improved to arbitrary precision with increased computational effort.
-- The new phase-space mapping is general and can describe the time evolution of any other operator.
-- At high temperatures, both approximate approaches converge to the classical limit.
-- In the harmonic limit, both methods reproduce the exact quantum dynamics.
+- **Robust Benchmarking:** Sum rules provide an exact method for assessing the quality of approximate quantum time correlation functions in non-trivial, multi-dimensional condensed phase systems.
+- **Dynamics vs. Statics:** The assessment relies on a direct comparison between dynamic time-integrals and exact static averages. Because these averages contain no dynamical information, they can be computed accurately, serving as an "anchor" for evaluating approximate trajectories.
+- **Validation of Approximations:** This framework is essential for validating semi-classical or imaginary-time path integral methods where exact quantum results are computationally inaccessible.
 
 ## 📌 Notes
-Code is available upon request.
+Code and derivation details are available upon request.
