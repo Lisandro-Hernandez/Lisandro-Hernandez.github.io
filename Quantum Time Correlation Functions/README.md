@@ -5,7 +5,7 @@ This project discusses a rigorous framework for evaluating the accuracy of appro
 
 ## 📈 Visualization
 <div style="text-align: center;">
-    <img src="kernels.png" alt="Weighting kernels for Kubo correlation function sum rules" style="transform: rotate(90deg); width: 500px; height: auto;">
+    <img src="kernels.png" alt="Weighting kernels for Kubo correlation function sum rules" style="transform: rotate(0deg); width: 500px; height: auto;">
 </div>
 
 ## 🔍 Description
