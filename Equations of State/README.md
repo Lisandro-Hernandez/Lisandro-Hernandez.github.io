@@ -1,9 +1,10 @@
-# 🧠 Overview
-A great deal of information can be extracted from equations of state. Shown here are the isotherms, liquid-vapor phase diagram, liquid-vapor densities, and heats of vaporization as a function of temperature.
-
 # Equations of State
 
-This section contains computational results for different cubic equations of state.
+## 🧠 Overview
+This project explores the information that can be extracted from cubic equations of state. The following analyses include isotherms, liquid-vapor phase diagrams, liquid-vapor densities, and heats of vaporization as a function of temperature.
 
-* [van der Waals Results](./van%20der%20Waals/) - Initial results and qualitative phase behavior.
-* [Redlich-Kwong Results](./Redlich%20Kwong/) - Improved density predictions and liquid-vapor equilibrium.
+## Available Models
+Select a model below to view the computational results:
+
+* [van der Waals Results](./van%20der%20Waals/) – Initial results and qualitative phase behavior.
+* [Redlich-Kwong Results](./Redlich%20Kwong/) – Improved density predictions and liquid-vapor equilibrium.
