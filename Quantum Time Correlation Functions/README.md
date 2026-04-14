@@ -4,7 +4,7 @@
 This project discusses a rigorous framework for evaluating the accuracy of approximate quantum dynamics using exact sum rules. These identities relate the time-integrals of Kubo-transformed correlation functions to specific thermally symmetrized static averages, providing a powerful diagnostic for approximate quantum dynamical methods.
 
 ## 📈 Visualization
-<img src="results_quartic_beta_1.0.png" alt="Graph" width="500">
+<img src="kernels.png" alt="Graph" width="500">
 
 
 ## 🔍 Description
