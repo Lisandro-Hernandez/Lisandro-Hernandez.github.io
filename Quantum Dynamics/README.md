@@ -1,4 +1,4 @@
-# 📊 Approximate Quantum Dynamics via New Phase-Space Mapping
+# 📊 Phase-Space Mapping for Quantum Dynamics
 
 ## 🧠 Overview
 This project explores the development and application of a novel phase-space mapping for quantum mechanical operators to generate approximate quantum dynamics. The benchmark results below evaluate the **real part** of the position–position correlation function for a one-dimensional **quartic oscillator** at an inverse temperature of **$\beta = 1.0$**, comparing exact quantum results against two distinct approximate mapping methods.
