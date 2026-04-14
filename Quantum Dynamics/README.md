@@ -1,7 +1,7 @@
-# 📊 Quantum Time Correlation Function for a Quartic Oscillator
+# 📊 Approximate Quantum Dynamics via New Phase-Space Mapping
 
 ## 🧠 Overview
-This project compares the **real part** of the position–position quantum time correlation function for a one-dimensional **quartic oscillator** at inverse temperature **β = 1.0**, computed exactly and using two approximate methods.
+This project explores the development and application of a novel phase-space mapping for quantum mechanical operators to generate approximate quantum dynamics. The benchmark results below evaluate the **real part** of the position–position correlation function for a one-dimensional **quartic oscillator** at an inverse temperature of **$\beta = 1.0$**, comparing exact quantum results against two distinct approximate mapping methods.
 
 ## 📈 Visualization
 <img src="results_quartic_beta_1.0.png" alt="Graph" width="500">
