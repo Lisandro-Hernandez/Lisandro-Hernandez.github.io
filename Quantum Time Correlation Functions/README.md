@@ -20,4 +20,4 @@ This project discusses a rigorous framework for evaluating the accuracy of appro
 - **Global Constraints:** The sum rules represent global dynamical constraints. While they do not provide information regarding specific points in time, they ensure that the integrated dynamics remain physically consistent with the underlying equilibrium thermodynamics.
 
 ## 📌 Notes
-Code and derivation details are available upon request.
+[Sum Rule Constraints and the Quality of Approximate Kubo-Transformed Correlation Functions.](https://pubs.acs.org/doi/abs/10.1021/acs.jpcb.5b07624)
