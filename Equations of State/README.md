@@ -5,5 +5,5 @@ A great deal of information can be extracted from equations of state. Shown here
 
 This section contains computational results for different cubic equations of state.
 
-* [van der Waals Results](./van-der-Waals/) - Initial results and qualitative phase behavior.
-* [Redlich-Kwong Results](./Redlich-Kwong/) - Improved density predictions and liquid-vapor equilibrium.
+* [van der Waals Results](./van%der%Waals/) - Initial results and qualitative phase behavior.
+* [Redlich-Kwong Results](./Redlich%Kwong/) - Improved density predictions and liquid-vapor equilibrium.
