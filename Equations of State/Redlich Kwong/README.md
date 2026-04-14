@@ -11,7 +11,7 @@ A great deal of information can be extracted from equations of state. Shown here
 
 <img src="densities.png" alt="Coexisting liquid and vapor nitrogen densities" width="600">
 
-<img src="argon_vs_exp.png" alt="Heat of vaporization comparison for Argon" width="600">
+<img src="heat_of_vap_VDW_vs_RK.png" alt="Nitrongen Heat of vaporization comparison van der Waals vs Redlich Kwong" width="600">
 
 ## 🔍 Description
 - **Isotherms:** Critical and subcritical isotherms of nitrogen as predicted by the van der Waals equation of state.
