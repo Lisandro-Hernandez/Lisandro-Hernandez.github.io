@@ -7,9 +7,9 @@ A great deal of information can be extracted from equations of state. Shown here
 
 <img src="isotherms.png" alt="Critical and subcritical isotherms of nitrogen" width="600">
 
-<img src="phase_diagram.png" alt="Nitrogen liquid-vapor phase diagram" width="600">
+<img src="liquid-vapor_line.png" alt="Nitrogen liquid-vapor phase diagram" width="600">
 
-<img src="densities.png" alt="Coexisting liquid and vapor nitrogen densities" width="600">
+<img src="liquid-vapor_densities.png" alt="Coexisting liquid and vapor nitrogen densities" width="600">
 
 <img src="heat_of_vap_VDW_vs_RK.png" alt="Nitrongen Heat of vaporization comparison van der Waals vs Redlich Kwong" width="600">
 
