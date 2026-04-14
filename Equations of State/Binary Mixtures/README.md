@@ -1,9 +1,9 @@
 # 📊 Binary Mixtures
 
 ## 🧠 Overview
-A great deal of information can be extracted from equations of state. Shown here are the isotherms, liquid-vapor phase diagram, liquid-vapor densities, and heats of vaporization as a function of temperature.
+T-x-y benzene/toluene phase diagram
 
 ## 📈 Visualization
 
-<img src="isotherms.png" alt="Critical and subcritical isotherms of nitrogen" width="600">
+<img src="benzene_toluene_phase_diagram_Temp1.png" alt="T-x-y benzene/toluene phase diagram" width="600">
 
