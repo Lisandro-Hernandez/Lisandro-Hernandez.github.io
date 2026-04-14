@@ -1,7 +1,7 @@
 # 📊 Binary Mixtures
 
 ## 🧠 Overview
-This section analyzes the **vapor-liquid equilibrium (VLE)** of a benzene/toluene mixture. Because benzene and toluene are chemically similar (both non-polar aromatics), they form a nearly **ideal mixture**, allowing for accurate modeling using Raoult's Law and cubic equations of state with standard mixing rules.
+This section analyzes the **vapor-liquid equilibrium (VLE)** of a benzene/toluene mixture. Because benzene and toluene are chemically similar (both non-polar aromatics), they form a nearly **ideal mixture**, allowing for accurate use of Raoult's Law and Claussius-Clapeyron mapping of the P-axis onto the T-axis.
 
 ## 🔬 Thermodynamics of the $T-x-y$ Diagram
 The phase diagram represents the equilibrium state of the binary system at a constant pressure:
