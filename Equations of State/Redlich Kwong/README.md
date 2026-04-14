@@ -24,3 +24,6 @@ This project examines the **Redlich-Kwong** equation of state, which introduces 
 - **Improved Critical Predictions:** While cubic equations still deviate from experiment near the critical point, the Redlich-Kwong model significantly reduces the gap between predicted (A) and experimental (B) critical points compared to the van der Waals results.
 - **Density Convergence:** As the critical point is approached along the coexistence line, the physical distinction between the liquid and vapor phases diminishes. The RK model demonstrates that the "dome" of the coexistence curve is more representative of nitrogen's real-world behavior.
 - **Enhanced Enthalpy Accuracy:** The heat of vaporization comparison illustrates that the RK model's improved handling of the attractive pressure term leads to a better approximation of the energy required for phase transition across a broader temperature range.
+
+## 📌 Notes
+Code for the generation of these plots and the underlying numerical solutions is available upon request.
