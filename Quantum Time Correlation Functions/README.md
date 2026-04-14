@@ -4,9 +4,8 @@
 This project discusses a rigorous framework for evaluating the accuracy of approximate quantum dynamics using exact sum rules. These identities relate the time-integrals of Kubo-transformed correlation functions to specific thermally symmetrized static averages, providing a powerful diagnostic for approximate quantum dynamical methods.
 
 ## 📈 Visualization
-<div style="text-align: center;">
-    <img src="kernels.png" alt="Weighting kernels for Kubo correlation function sum rules" style="transform: rotate(0deg); width: 500px; height: auto;">
-</div>
+<img src="results_quartic_beta_1.0.png" alt="Graph" width="500">
+
 
 ## 🔍 Description
 - **Weighting Kernels:** The figure illustrates the various kernels associated with different time-integrals of the Kubo correlation function and their corresponding static averages.
