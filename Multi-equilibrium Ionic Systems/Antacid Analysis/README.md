@@ -5,9 +5,12 @@ This repository analyses the **direct titration** curves of CaCO3 with hydrochlo
 
 ## 📈 Visualization
 
-<img src="Titration_CaCO3_Comparison.png" alt="Exact titration curves of HCl and KHP with NaOH" width="600">
+<img src="Titration_CaCO3_and_Ca.png" alt="Exact titration curves of HCl and KHP with NaOH" width="600">
 
 <img src="Titration_CaCO3_and_CO2Gas.png" alt="Exact titration curve of Maleic acid with NaOH" width="600">
+
+<img src="Titration_CaCO3_and_CO2Gas.png" alt="Exact titration curve of Maleic acid with NaOH" width="600">
+
 
 ## 🔍 Description
 - **Strong-Weak Acid Comparison:** Comparison of hydrochloric acid (HCl) and potassium hydrogen phthalate (KHP) titrations with a sodium hydroxide (NaOH) solution.
