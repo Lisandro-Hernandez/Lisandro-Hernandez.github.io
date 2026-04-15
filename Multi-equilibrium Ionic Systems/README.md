@@ -15,7 +15,7 @@ This project focuses on the rigorous modeling of chemical equilibria in aqueous 
 ### 🧪 Acid-Base Titrations
 Numerical solutions for the titration of various acid systems with a strong base (e.g., $NaOH$). Results include pH curves and derivative plots for endpoint detection.
 
-* **[Acid-Base Titration Curves](./Acid%20Base%20Titrations/)**
+* **[Acid-Base Titration Curves](./Acid-Base%20Titrations/)**
     * *Strong Acids:* Modeling the sharp transition of $HCl$.
     * *Weak & Polyprotic Acids:* Exact solutions for $KHP$ and Maleic acid, accounting for multiple dissociation constants ($K_{a1}, K_{a2}$).
 
