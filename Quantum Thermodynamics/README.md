@@ -19,6 +19,6 @@ The graph illustrates the irreversible work distributions for forward and revers
 - The applicability of these methods is demonstrated numerically for a quartic double-well potential and analytically for a harmonic system.
 
 ## 📌 Notes
-[Quantum free-energy differences from nonequilibrium path integrals. I. Methods and numerical application](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.78.041103)
-[Quantum free-energy differences from nonequilibrium path integrals. II. Convergence properties for the harmonic oscillator](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.78.041104)
-[Quantum Effects on the Free Energy of Ionic Aqueous Clusters Evaluated by Nonequilibrium Computational Methods](https://pubs.acs.org/doi/10.1021/jp908742n)
+-[Quantum free-energy differences from nonequilibrium path integrals. I. Methods and numerical application](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.78.041103)
+-[Quantum free-energy differences from nonequilibrium path integrals. II. Convergence properties for the harmonic oscillator](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.78.041104)
+-[Quantum Effects on the Free Energy of Ionic Aqueous Clusters Evaluated by Nonequilibrium Computational Methods](https://pubs.acs.org/doi/10.1021/jp908742n)
