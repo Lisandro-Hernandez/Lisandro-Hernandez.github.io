@@ -19,4 +19,4 @@ The graph illustrates the irreversible work distributions for forward and revers
 - The applicability of these methods is demonstrated numerically for a quartic double-well potential and analytically for a harmonic system.
 
 ## 📌 Notes
-Code available upon request.
+[Quantum free-energy differences from nonequilibrium path integrals. I. Methods and numerical application](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.78.041103)
