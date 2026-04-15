@@ -9,7 +9,7 @@ This repository analyses the **direct titration** curves of CaCO3 with hydrochlo
 
 <img src="Titration_CaCO3_and_CO2Gas.png" alt="Exact titration curve of Maleic acid with NaOH" width="600">
 
-<img src="Titration_CaCO3_and_CO2Gas.png" alt="Exact titration curve of Maleic acid with NaOH" width="600">
+<img src="Titration_CaCO3_Comparison.png" alt="Exact titration curve of Maleic acid with NaOH" width="600">
 
 
 ## 🔍 Description
