@@ -13,7 +13,7 @@ This repository analyses the **direct titration** curves of CaCO3 with hydrochlo
 
 
 ## 🔍 Description
-- **Strong-Weak Acid Comparison:** Comparison of hydrochloric acid (HCl) and potassium hydrogen phthalate (KHP) titrations with a sodium hydroxide (NaOH) solution.
+- **CaCO3 buffer and Ca dissolution:** The first figure shows the titration curve pH vs volume of HCl for CaCO3 in solution. It also shows the dissolution of Ca^2+ ions as the titration avances.
 - **Polyprotic Acid:** The titration curve of maleic acid, demonstrating the coupled **multi-ionic equilibrium** of a diprotic system.
 
 ## 💡 Key Insights
