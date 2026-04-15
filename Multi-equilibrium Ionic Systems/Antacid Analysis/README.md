@@ -13,8 +13,9 @@ This repository analyses the **direct titration** curves of CaCO3 with hydrochlo
 
 
 ## 🔍 Description
-- **CaCO3 buffer and Ca dissolution:** The first figure shows the titration curve pH vs volume of HCl for CaCO3 in solution. It also shows the dissolution of Ca^2+ ions as the titration avances.
-- **Polyprotic Acid:** The titration curve of maleic acid, demonstrating the coupled **multi-ionic equilibrium** of a diprotic system.
+- **CaCO3 buffer and Ca dissolution:** The first figure shows the titration curve pH vs volume of HCl for CaCO3 in water. It also shows the dissolution of Ca^2+ ions as the titration avances.
+- **CO2 gas generation:** The second figure shows the ratio of CO2(g)/CO2(aq) with the addition of HCl to the CaCO3 in water.
+- **NaOH titration of HCl excess:** The third figure compares the titration curves of CaCO3 with HCl and that of NaOH with HCL for analogous ammounts of substance.
 
 ## 💡 Key Insights
 - The HCl and KHP curves converge after the equivalence point as the pH is dominated by the concentration of excess titrant.
