@@ -1,4 +1,4 @@
-# Multi-Equilibrium Ionic Systems
+# Aqueous Acid–Base Multi-Equilibrium Systems
 
 ## 🧠 Overview
 This project focuses on the rigorous modeling of chemical equilibria in aqueous solutions. Unlike simplified approximations (such as the Henderson-Hasselbalch equation), these simulations solve the full system of non-linear equations—incorporating charge balance, mass balance, and water self-ionization—to provide numerically exact descriptions of ionic concentrations and pH behavior.
