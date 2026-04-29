@@ -26,3 +26,16 @@ The simulations rely on solving the first-order linear differential equation der
 $$\frac{dC_A}{dt} + \left( \frac{1}{\tau} + k \right) C_A = \frac{C_i(t)}{\tau}$$
 
 The analytical solution is implemented in Python, utilizing an integrating factor to account for the non-homogeneous time-dependent input. The model highlights the **Moving Steady State**, where the reactor's internal concentration attempts to track the inlet concentration but remains offset by a factor of $(k\tau + 1)^{-1}$ and a characteristic temporal lag.
+
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$']],
+      processEscapes: true
+    }
+  };
+</script>
