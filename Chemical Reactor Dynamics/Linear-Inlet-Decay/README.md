@@ -12,7 +12,8 @@ $$\frac{dC_A}{dt} + \left( \frac{1}{\tau} + k \right) C_A = \frac{\alpha - \beta
 
 ### Analytical Solution
 The concentration inside the reactor as a function of time is:
-$$C_A(t) =  C_{A_0}  e^{-(k + 1/\tau)t}  +  \frac{\alpha}{k\tau + 1} \left( 1 - e^{-(k + 1/\tau)t} \right) - \frac{\beta \tau}{(k\tau + 1)^2} \left( (k + 1/\tau)t - 1 + e^{-(k + 1/\tau)t} \right)$$
+![Formula](https://latex.codecogs.com/svg.image?C_A(t)=C_{A_0}e^{-(k+1/\tau)t}+\frac{\alpha}{k\tau+1}(1-e^{-(k+1/\tau)t})-\frac{\beta\tau}{(k\tau+1)^2}((k+1/\tau)t-1+e^{-(k+1/\tau)t}))
+
 
 ## 📊 Results
 
