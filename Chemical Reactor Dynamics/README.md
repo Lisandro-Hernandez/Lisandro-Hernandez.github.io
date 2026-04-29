@@ -16,7 +16,7 @@ This project investigates the transient behavior of an ideal Continuous Stirred-
 Select a model below to view the computational results for reactor concentration behavior:
 
 * **[Linear Inlet Decay Model](./Linear-Inlet-Decay/)** Analysis of reactor when subjected to a constant ramp down in feed concentration: $C_i = \alpha - \beta t$.
-* **[Step Change Response](./Step-Change/)** *Classic analysis of the CSTR's transition between two steady states (accessible by setting $\beta = 0$).*
+* **[Step Change Response](./Step-Change/)** Classic analysis of the CSTR's transition between two steady states (accessible by setting $\beta = 0$).
 
 ### System Parameters
 * **[Residence Time Studies](./Residence-Time/)** *Sensitivity analysis of reactor volume and flow rate on the damping of inlet fluctuations.*
