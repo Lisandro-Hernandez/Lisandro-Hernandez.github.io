@@ -5,14 +5,14 @@ This sub-project analyzes the dynamic response of a Continuous Stirred-Tank Reac
 ## 📝 Mathematical Formulation
 
 The inlet concentration is defined as:
-$$C_i(t) = \alpha - \beta t$$
+![Inlet Formula](https://latex.codecogs.com/svg.image?C_i(t)=\alpha-\beta&space;t)
 
 Substituting this into the dynamic mass balance for a first-order reaction ($A \rightarrow B$):
-$$\frac{dC_A}{dt} + \left( \frac{1}{\tau} + k \right) C_A = \frac{\alpha - \beta t}{\tau}$$
+![Mass Balance](https://latex.codecogs.com/svg.image?\frac{dC_A}{dt}&plus;\left(\frac{1}{\tau}&plus;k\right)C_A=\frac{\alpha-\beta&space;t}{\tau})
 
 ### Analytical Solution
 The concentration inside the reactor as a function of time is:
-![Formula](https://latex.codecogs.com/svg.image?C_A(t)=C_{A_0}e^{-(k+1/\tau)t}+\frac{\alpha}{k\tau+1}(1-e^{-(k+1/\tau)t})-\frac{\beta\tau}{(k\tau+1)^2}((k+1/\tau)t-1+e^{-(k+1/\tau)t}))
+![Analytical Solution](https://latex.codecogs.com/svg.image?C_A(t)=C_{A_0}e^{-(k+1/\tau)t}+\frac{\alpha}{k\tau+1}(1-e^{-(k+1/\tau)t})-\frac{\beta\tau}{(k\tau+1)^2}((k+1/\tau)t-1+e^{-(k+1/\tau)t}))
 
 
 ## 📊 Results
