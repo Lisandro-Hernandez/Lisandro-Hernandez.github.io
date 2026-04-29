@@ -24,7 +24,7 @@ Select a model below to view the computational results for drug distribution beh
 ## 🛠 Methodology
 The simulations rely on solving the system of first-order linear differential equations derived from the compartmental mass balance:
 
-![Differential Equation](https://latex.codecogs.com/svg.image?\begin{align*}\frac{dC_A}{dt}&=-(k_1+k_4)C_A\\ \frac{dC_R}{dt}&=k_1C_A-(k_2+k_3)C_R\end{align*})
+![Differential Equation](https://latex.codecogs.com/svg.image?\begin{align*}\frac{dC_A}{dt}&=-(k_1+k_4)C_A\\\frac{dC_R}{dt}&=k_1C_A-(k_2+k_3)C_R\end{align*})
 
 The analytical solution is implemented in Python, accounting for the unique case of identical roots in the characteristic equation. The model highlights the **Therapeutic Window**, identifying the time to peak concentration ($t_{max}$) and the duration of effective drug presence in the bloodstream.
 
