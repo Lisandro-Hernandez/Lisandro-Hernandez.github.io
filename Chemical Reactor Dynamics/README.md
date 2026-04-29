@@ -1,46 +1,31 @@
-import numpy as np
-import matplotlib.pyplot as plt
+# Dynamics of Chemical Reactors
 
-# Suggested Parameters
-CA0 = 0.5    # Initial concentration in reactor (mol/L)
-alpha = 2.0  # Initial inlet concentration (mol/L)
-beta = 0.04  # Rate of change of inlet concentration (mol/L/min)
-k = 0.1      # Reaction rate constant (1/min)
-tau = 5.0    # Mean residence time (min)
+## 🧠 Overview
+This project investigates the transient behavior of an ideal Continuous Stirred-Tank Reactor (CSTR) subjected to time-varying feed conditions. By solving the dynamic mass balance for a first-order irreversible reaction, the simulation characterizes the transition from initial reactor states to a moving steady-state equilibrium governed by inlet decay.
 
-# Time range: from 0 until the inlet concentration would theoretically reach zero
-t_max = alpha / beta
-t = np.linspace(0, t_max, 400)
+## 🔬 Core Analyses
+* **Transient Response:** Mapping the decay of initial reactor concentration $C_{A,0}$ and the "washout" effect.
+* **Lead-Lag Dynamics:** Characterizing the temporal shift and concentration "lag" between the inlet feed and the reactor environment.
+* **Kinetic Interaction:** Analyzing the coupled effect of the residence time ($\tau$) and the reaction rate constant ($k$) on reactant conversion.
 
-# Calculate exponential factor (k + 1/tau)
-gamma = k + 1/tau
-exp_term = np.exp(-gamma * t)
+---
 
-# Implementing the User's derived expression:
-# Term 1: Decay of initial concentration
-term1 = CA0 * exp_term
+## 📊 Available Results
 
-# Term 2: Response to the constant part of the inlet (alpha)
-term2 = (alpha / (k * tau + 1)) * (1 - exp_term)
+### Reactor System Models
+Select a model below to view the computational results for reactor concentration behavior:
 
-# Term 3: Response to the linear ramp part of the inlet (-beta*t)
-# Note: (kt + t/tau) is equal to gamma * t
-term3 = - (beta * tau / (k * tau + 1)**2) * (gamma * t - 1 + exp_term)
+* **[Linear Inlet Decay Model](./Linear-Inlet-Decay/)** *Analysis of reactor tracking when subjected to a constant ramp down in feed concentration ($C_i = \alpha - \beta t$).*
+* **[Step Change Response](./Step-Change/)** *Classic analysis of the CSTR's transition between two steady states (accessible by setting $\beta = 0$).*
 
-CA_t = term1 + term2 + term3
-Ci_t = alpha - beta * t
+### System Parameters
+* **[Residence Time Studies](./Residence-Time/)** *Sensitivity analysis of reactor volume and flow rate on the damping of inlet fluctuations.*
 
-# Plotting the results
-plt.figure(figsize=(10, 6))
-plt.plot(t, Ci_t, 'r--', label=r'Inlet $C_i(t) = \alpha - \beta t$')
-plt.plot(t, CA_t, 'b-', linewidth=2, label=r'Reactor $C_A(t)$')
+---
 
-plt.xlabel(r'Time $t$ (min)', fontsize=12)
-plt.ylabel(r'Concentration (mol/L)', fontsize=12)
-plt.title(r'CSTR Concentration Profile: Response to Linear Inlet Decay', fontsize=14)
-plt.legend()
-plt.grid(True, linestyle='--', alpha=0.7)
-plt.tight_layout()
+## 🛠 Methodology
+The simulations rely on solving the first-order linear differential equation derived from the species mass balance:
 
-# Save the plot
-plt.savefig('cstr_concentration_plot.png')
+$$\frac{dC_A}{dt} + \left( \frac{1}{\tau} + k \right) C_A = \frac{C_i(t)}{\tau}$$
+
+The analytical solution is implemented in Python, utilizing an integrating factor to account for the non-homogeneous time-dependent input. The model highlights the **Moving Steady State**, where the reactor's internal concentration attempts to track the inlet concentration but remains offset by a factor of $(k\tau + 1)^{-1}$ and a characteristic temporal lag.
