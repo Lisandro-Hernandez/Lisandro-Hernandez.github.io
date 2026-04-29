@@ -15,7 +15,7 @@ This project investigates the transient behavior of an ideal Continuous Stirred-
 ### Reactor System Models
 Select a model below to view the computational results for reactor concentration behavior:
 
-* **[Linear Inlet Decay Model](./Linear-Inlet-Decay/)** *Analysis of reactor tracking when subjected to a constant ramp down in feed concentration ($C\_i = \alpha - \beta t$).*
+* **[Linear Inlet Decay Model](./Linear-Inlet-Decay/)** Analysis of reactor tracking for $C_i = \alpha - \beta t$ *when subjected to a constant ramp down in feed concentration.*
 * **[Step Change Response](./Step-Change/)** *Classic analysis of the CSTR's transition between two steady states (accessible by setting $\beta = 0$).*
 
 ### System Parameters
