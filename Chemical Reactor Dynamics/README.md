@@ -20,6 +20,7 @@ Select a model below to view the computational results for reactor concentration
 
 ### System Parameters
 * **[Residence Time Studies](./Residence-Time/)** *Sensitivity analysis of reactor volume and flow rate on the damping of inlet fluctuations.*
+
 ## 🛠 Methodology
 The simulations rely on solving the first-order linear differential equation derived from the species mass balance:
 
