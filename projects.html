@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects | Lisandro Hernández de la Peña</title>
+<style>
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f9fafb;
+    color: #222;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* NAVBAR */
+.navbar {
+    position: sticky;
+    top: 0;
+    background: white;
+    border-bottom: 1px solid #ddd;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #2b6cb0;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #1a365d;
+}
+
+/* SECTIONS */
+.section {
+    margin-bottom: 50px;
+}
+
+h1, h2, h3 {
+    color: #1a365d;
+}
+
+h2 {
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 5px;
+}
+
+/* PROJECT CARDS */
+.project {
+    background: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+</style>
+</head>
+<body>
+
+<div class="navbar">
+    <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="teaching.html">TEACHING</a></li>
+        <li><a href="projects.html">PROJECTS</a></li>
+        <li><a href="publications.html">PUBLICATIONS</a></li>
+        <li><a href="movies.html">MOVIES</a></li>
+    </ul>
+</div>
+
+<div class="container">
+
+<div id="projects" class="section">
+    <h2>Projects</h2>
+
+    <h3>Quantum Dynamics & Theoretical Work</h3>
+    
+    <div class="project">
+        <a href="../Quantum%20Dynamics/index.html"><strong>Quantum Dynamics in Condensed Phase</strong></a>
+        <p>Simulating quantum dynamics towards the classical limit.</p>
+    </div>
+
+    <div class="project">
+        <a href="../Quantum%20Thermodynamics/index.html"><strong>Non-equilibrium Thermodynamics</strong></a>
+        <p>Quantum free energy differences from non-equilibrium path integral methods.</p>
+    </div>  
+
+    <div class="project">
+        <a href="../Quantum%20Time%20Correlation%20Functions/index.html"><strong>Materials Response Theory</strong></a>
+        <p>Quantum correlation functions and global thermodynamic constraints.</p>
+    </div>
+
+    <h3>Materials Modeling & Molecular Simulation</h3>
+
+    <div class="project">
+        <a href="../Theoretical%20Spectroscopy/index.html"><strong>Materials Spectroscopy</strong></a>
+        <p>Solid state lattice dynamics and Mössbauer spectra.</p>
+    </div>      
+
+    <div class="project">
+        <a href="../Equations%20of%20State/index.html"><strong>Simulation of Phase Equilibrium</strong></a>
+        <p>Phase behavior of single component and binary mixtures.</p>
+    </div>
+
+    <div class="project">
+        <a href="../Multi-equilibrium%20Ionic%20Systems/index.html"><strong>Aqueous Acid–Base Multi-Equilibrium Systems</strong></a>
+        <p>Modeling of aqueous acid–base equilibria and titration curves.</p>
+    </div>            
+
+    <h3>Kinetic Processes & Computational Engineering</h3>
+
+    <div class="project">
+        <a href="../Chemical%20Reactor%20Dynamics/index.html"><strong>Chemical Reaction Engineering</strong></a>
+        <p>Modeling transient states in Continuous Stirred-Tank Reactors (CSTR).</p>
+    </div>            
+
+    <div class="project">
+        <a href="../Pharmacokinetics-Drug-Transport/index.html"><strong>Pharmacokinetics of Multi-Pathway Drug Transport</strong></a>
+        <p>Modeling competitive degradation and target accumulation in biological systems.</p>
+    </div>      
+</div>
+
+</div>
+
+</body>
+</html>
