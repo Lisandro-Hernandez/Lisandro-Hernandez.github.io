@@ -63,5 +63,20 @@ h2 { color: #1a365d; border-bottom: 2px solid #e2e8f0; padding-bottom: 5px; }
     </div>
 </div>
 
+<!-- CSS for smaller, responsive videos -->
+<style>
+#movies .video-container {
+    max-width: 500px;       /* smaller container */
+    margin: 20px auto;      /* center container */
+    text-align: center;
+}
+
+#movies .video-container iframe {
+    width: 100%;            /* fills container width */
+    height: 280px;          /* keeps 16:9 aspect ratio for 400px width */
+    margin-bottom: 15px;
+}
+</style>
+    
 </body>
 </html>
