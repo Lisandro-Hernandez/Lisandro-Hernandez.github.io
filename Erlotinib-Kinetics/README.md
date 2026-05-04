@@ -28,10 +28,15 @@ Select a model below to view the computational results for Erlotinib behavior:
 ---
 
 ## 🛠 Methodology
-The simulation solves a hybrid system of differential equations based on the mass balance $C_A + C_B + C_C + C_D = C_{A0}$. The model incorporates first-order kinetics for absorption and degradation, and zero-order kinetics for systemic metabolism:
+The simulation uses the exact analytical solutions derived from the mass balance $C_A + C_B + C_C + C_D = C_{A0}$, incorporating first-order kinetics for absorption and degradation, along with zero-order kinetics for systemic metabolism:
 
-$$\frac{dC_A}{dt} = -(k_1 + k_3)C_A$$
-$$\frac{dC_B}{dt} = k_1 C_A - k_2$$
+$$C_A(t) = C_{A0} e^{-(k_1+k_3)t}$$
+
+$$C_B(t) = \frac{k_1 C_{A0}}{k_1 + k_3} \left(1 - e^{-(k_1+k_3)t}\right) - k_2 t$$
+
+$$C_C(t) = k_2 t$$
+
+$$C_D(t) = \frac{k_3 C_{A0}}{k_1 + k_3} \left(1 - e^{-(k_1+k_3)t}\right)$$
 
 The analytical solution accounts for two distinct regimes:
 1. **Absorption Phase:** Where $C_A$ provides a sufficient influx to the bloodstream.
