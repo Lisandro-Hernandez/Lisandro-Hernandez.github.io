@@ -38,6 +38,10 @@ $$C_C(t) = k_2 t$$
 
 $$C_D(t) = \frac{k_3 C_{A0}}{k_1 + k_3} \left(1 - e^{-(k_1+k_3)t}\right)$$
 
+For comparative modeling, the general system dynamics are governed by the following reaction pathways:
+
+![Differential Equation](https://latex.codecogs.com/svg.image?%5Cbegin%7Baligned%7D%5Cfrac%7BdC_A%7D%7Bdt%7D%26%3D-(k_1+k_4)C_A%20%5C%5C%20%5Cfrac%7BdC_R%7D%7Bdt%7D%26%3Dk_1C_A-(k_2+k_3)C_R%5Cend%7Baligned%7D)
+
 The analytical solution accounts for two distinct regimes:
 1. **Absorption Phase:** Where $C_A$ provides a sufficient influx to the bloodstream.
 2. **Depletion Phase:** Where the zero-order elimination ($k_2$) dominates as $C_A$ approaches zero.
