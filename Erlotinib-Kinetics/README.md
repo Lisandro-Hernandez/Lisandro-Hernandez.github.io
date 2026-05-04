@@ -30,17 +30,13 @@ Select a model below to view the computational results for Erlotinib behavior:
 ## 🛠 Methodology
 The simulation uses the exact analytical solutions derived from the mass balance $C_A + C_B + C_C + C_D = C_{A0}$, incorporating first-order kinetics for absorption and degradation, along with zero-order kinetics for systemic metabolism:
 
-$$C_A(t) = C_{A0} e^{-(k_1+k_3)t}$$
+![Equation 1](https://latex.codecogs.com/svg.image?C_A(t)=C_{A0}e^{-(k_1+k_3)t})
 
-$$C_B(t) = \frac{k_1 C_{A0}}{k_1 + k_3} \left(1 - e^{-(k_1+k_3)t}\right) - k_2 t$$
+![Equation 2](https://latex.codecogs.com/svg.image?C_B(t)=\frac{k_1C_{A0}}{k_1+k_3}\left(1-e^{-(k_1+k_3)t}\right)-k_2t)
 
-$$C_C(t) = k_2 t$$
+![Equation 3](https://latex.codecogs.com/svg.image?C_C(t)=k_2t)
 
-$$C_D(t) = \frac{k_3 C_{A0}}{k_1 + k_3} \left(1 - e^{-(k_1+k_3)t}\right)$$
-
-For comparative modeling, the general system dynamics are governed by the following reaction pathways:
-
-![Differential Equation](https://latex.codecogs.com/svg.image?%5Cbegin%7Baligned%7D%5Cfrac%7BdC_A%7D%7Bdt%7D%26%3D-(k_1+k_4)C_A%20%5C%5C%20%5Cfrac%7BdC_R%7D%7Bdt%7D%26%3Dk_1C_A-(k_2+k_3)C_R%5Cend%7Baligned%7D)
+![Equation 4](https://latex.codecogs.com/svg.image?C_D(t)=\frac{k_3C_{A0}}{k_1+k_3}\left(1-e^{-(k_1+k_3)t}\right))
 
 The analytical solution accounts for two distinct regimes:
 1. **Absorption Phase:** Where $C_A$ provides a sufficient influx to the bloodstream.
