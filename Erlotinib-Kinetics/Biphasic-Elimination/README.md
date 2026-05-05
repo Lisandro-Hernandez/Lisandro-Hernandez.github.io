@@ -24,7 +24,7 @@ These equations capture the dual behavior of the drug where exponential intake t
 
 The simulation profiles the concentrations of the drug in each compartment over a 10-hour window, assuming an initial dose $C_{A0} = 1.0 \text{ mol/L}$.
 
-
+![Biphasic Model Plot](./biphasic_model.png)
 
 ### Key Observations
 1. **The Absorption Phase:** The drug in the stomach ($C_A$) decays exponentially, transferring mass to the bloodstream and undergoing competitive degradation.
