@@ -18,7 +18,7 @@ This project investigates the metabolic pathways of the anticancer drug Erlotini
 ### Pharmacokinetic Models
 Select a model below to view the computational results for Erlotinib behavior:
 
-* **Biphasic Elimination Model:** Analysis of the transition between the absorption-dominant phase and the zero-order elimination phase.
+* **[Biphasic Elimination Model:](./Biphasic-Elimination)** Analysis of the transition between the absorption-dominant phase and the zero-order elimination phase.
 * **Degradation Sensitivity:** Study of how the gastric degradation rate ($k_3$) impacts the total bioavailability of Erlotinib in the blood.
 
 ### System Parameters
