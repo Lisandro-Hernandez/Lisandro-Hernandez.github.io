@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects | Lisandro Hernández de la Peña</title>
+
+<style>
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f9fafb;
+    color: #222;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* NAVBAR */
+.navbar {
+    position: sticky;
+    top: 0;
+    background: white;
+    border-bottom: 1px solid #ddd;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #2b6cb0;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #1a365d;
+}
+
+/* SECTIONS */
+.section {
+    margin-bottom: 50px;
+}
+
+h1, h2, h3 {
+    color: #1a365d;
+}
+
+h2 {
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 5px;
+}
+
+/* TOPIC GROUP CONTAINER */
+.topic-group {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.topic-group h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: #1a365d;
+}
+
+.topic-desc {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 0.95em;
+    color: #555;
+}
+
+/* PROJECT CARDS */
+.project {
+    background: #f8fafc;
+    padding: 15px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    border-left: 4px solid #2b6cb0;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.03);
+}
+
+.project:last-child {
+    margin-bottom: 0;
+}
+
+.project a {
+    text-decoration: none;
+    color: #1a365d;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+.project p {
+    margin: 5px 0 0 0;
+    color: #444;
+}
+</style>
+
+</head>
+<body>
+
+<div class="navbar">
+    <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="teaching.html">TEACHING</a></li>
+        <li><a href="projects.html">PROJECTS</a></li>
+        <li><a href="publications.html">PUBLICATIONS</a></li>
+        <li><a href="movies.html">MOVIES</a></li>
+    </ul>
+</div>
+
+<div class="container">
+
+<div id="projects" class="section">
+    <h2>Projects</h2>
+
+    <div class="topic-group">
+        <h3>Quantum Dynamics & Theoretical Work</h3>
+        <p class="topic-desc">
+            Quantum mechanical modeling of dynamical processes, thermodynamics, and non-equilibrium phenomena.
+        </p>
+
+        <div class="project">
+            <a href="../Quantum%20Dynamics/index.html">
+                <strong>Quantum Dynamics of Condensed-Phase Systems (Quantum-to-Classical Transition)</strong>
+            </a>
+            <p>Developed simulation approaches to study quantum dynamics in condensed-phase systems, focusing on the emergence of classical behavior from quantum mechanical descriptions using path integral and semi-classical methods.</p>
+        </div>
+
+        <div class="project">
+            <a href="../Quantum%20Thermodynamics/index.html">
+                <strong>Non-equilibrium Free Energy Calculations</strong>
+            </a>
+            <p>Computed quantum free energy differences using non-equilibrium path integral methods to investigate thermodynamic properties beyond equilibrium conditions.</p>
+        </div>
+
+        <div class="project">
+            <a href="../Quantum%20Time%20Correlation%20Functions/index.html">
+                <strong>Quantum Time Correlation Functions and Material Response</strong>
+            </a>
+            <p>Analyzed quantum correlation functions to understand material response properties under thermodynamic constraints and external perturbations.</p>
+        </div>
+    </div>
+
+    <div class="topic-group">
+        <h3>Materials Modeling & Molecular Simulation</h3>
+        <p class="topic-desc">
+            Atomistic and statistical mechanical modeling of materials, phase behavior, and molecular systems.
+        </p>
+
+        <div class="project">
+            <a href="../Theoretical%20Spectroscopy/index.html">
+                <strong>Solid-State Spectroscopy and Lattice Dynamics Modeling</strong>
+            </a>
+            <p>Modeled lattice dynamics in solid-state systems to predict spectroscopic properties, including Mössbauer spectra, linking microscopic structure to measurable observables.</p>
+        </div>
+
+        <div class="project">
+            <a href="../Equations%20of%20State/index.html">
+                <strong>Phase Equilibrium Modeling in Multi-Component Systems</strong>
+            </a>
+            <p>Simulated phase behavior of single-component and binary mixtures using molecular simulation and thermodynamic models to predict equilibrium properties.</p>
+        </div>
+
+        <div class="project">
+            <a href="../Multi-equilibrium%20Ionic%20Systems/index.html">
+                <strong>Aqueous Multi-Equilibrium Acid–Base Systems</strong>
+            </a>
+            <p>Developed models for complex aqueous acid–base equilibria, enabling prediction of titration curves and multi-species solution behavior.</p>
+        </div>
+    </div>
+
+    <div class="topic-group">
+        <h3>Kinetic Processes & Computational Engineering</h3>
+        <p class="topic-desc">
+            Modeling of reaction dynamics, transport processes, and biological/chemical systems.
+        </p>
+
+        <div class="project">
+            <a href="../Chemical%20Reactor%20Dynamics/index.html">
+                <strong>Transient Reaction Dynamics in Chemical Reactors (CSTR)</strong>
+            </a>
+            <p>Modeled transient reaction kinetics in continuous stirred-tank reactors to analyze time-dependent chemical process behavior and stability.</p>
+        </div>
+
+        <div class="project">
+            <a href="../Pharmacokinetics-Drug-Transport/index.html">
+                <strong>Multi-Pathway Drug Transport and Pharmacokinetics Modeling</strong>
+            </a>
+            <p>Developed kinetic models of drug transport, degradation, and accumulation across competing biological pathways.</p>
+        </div>
+
+        <div class="project">
+            <a href="../Erlotinib-Kinetics/index.html">
+                <strong>Anticancer Drug Pharmacokinetics (Erlotinib Distribution and Degradation)</strong>
+            </a>
+            <p>Modeled pharmacokinetics of Erlotinib to study distribution, degradation, and system-level drug behavior in biological environments.</p>
+        </div>
+    </div>
+
+</div>
+
+</div>
+
+</body>
+</html>
