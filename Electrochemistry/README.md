@@ -21,7 +21,7 @@ Simulations were performed across a range of interfacial reaction rates, reveali
 * **Transition Regime (Da ~ 1–10):** Smooth concentration gradients as transport and reaction compete.
 * **Diffusion-Limited Regime (Da ≫ 1):** Strong depletion near the interface and formation of a boundary layer.
 
-![CSTR Concentration Plot](./cstr_concentration_plot.png)
+![Reaction vs Diffusion Plot](./reaction_diffusion.png)
 
 ### Dimensionless Parameter
 System behavior is governed by the Damköhler number:
