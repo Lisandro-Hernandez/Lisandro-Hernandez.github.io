@@ -23,7 +23,7 @@ Simulations were performed across a range of interfacial reaction strengths, rev
 * **Intermediate Regime (Da ~ 1–10):** Smooth gradients form as diffusion and nonlinear reaction compete.
 * **Strong Reaction Regime (Da ≫ 1):** Pronounced depletion near the interface and formation of a sharp boundary layer.
 
-<img src="./reaction_diffusion_nonlinear1.png" width="600"/>
+<img src="./reaction_diffusion_nonlinear1.png" width="700"/>
 
 A key observation is that all profiles collapse in the bulk region, while differences emerge only near the reactive boundary, indicating a boundary-layer-dominated structure.
 
