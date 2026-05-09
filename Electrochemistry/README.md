@@ -1,82 +1,62 @@
-## Physics-Based Electrochemical Transport Model
+# Physics-Based Electrochemical Transport Model
 
-This project implements a one-dimensional reaction–diffusion model to study the interplay between **diffusive transport** and **interfacial reaction kinetics** in an electrochemical system.
-
----
-
-### Model Description
-
-The system represents a simplified electrolyte domain in contact with a reactive electrode. The concentration field evolves according to a diffusion equation with a reactive boundary condition:
-
-- **Bulk behavior:** diffusion of species across the domain  
-- **Boundary behavior:** consumption of species at the electrode interface  
-
-At the reactive boundary, the flux is proportional to the local concentration, representing interfacial electrochemical kinetics.
+## 🧠 Overview
+This project investigates the interplay between **diffusive transport** and **interfacial reaction kinetics** in a simplified electrochemical system. By solving a one-dimensional reaction–diffusion equation with a reactive boundary condition, the model captures how concentration profiles evolve and how transport limitations emerge near an electrode interface.
 
 ---
 
-### Numerical Approach
+## 🔬 Core Analyses
+* **Transport vs Reaction:** Characterizing the competition between diffusion and interfacial kinetics.
+* **Boundary Layer Formation:** Identifying concentration depletion near the reactive interface.
+* **Regime Transition:** Mapping system behavior across reaction-limited and diffusion-limited regimes.
 
-The governing equation is solved using a **finite-difference method**:
+---
 
-- Spatial discretization on a 1D grid  
-- Explicit time stepping  
-- Second-order central differences for diffusion  
+## 📊 Available Results
+
+### Regime Behavior
+Simulations were performed across a range of interfacial reaction rates, revealing distinct physical regimes:
+
+* **Reaction-Limited Regime (Da ≪ 1):** Nearly uniform concentration; reaction is the limiting process.
+* **Transition Regime (Da ~ 1–10):** Smooth concentration gradients as transport and reaction compete.
+* **Diffusion-Limited Regime (Da ≫ 1):** Strong depletion near the interface and formation of a boundary layer.
+
+### Dimensionless Parameter
+System behavior is governed by the Damköhler number:
+
+![Damkohler](https://latex.codecogs.com/svg.image?\mathrm{Da}=\frac{k_0L}{D})
+
+* $k_0$: interfacial reaction rate  
+* $L$: system length  
+* $D$: diffusion coefficient  
+
+---
+
+## 🛠 Methodology
+The system is modeled using a one-dimensional diffusion equation with a reactive boundary condition:
+
+![PDE](https://latex.codecogs.com/svg.image?\frac{\partial%20c}{\partial%20t}=D\frac{\partial^2%20c}{\partial%20x^2})
 
 Boundary conditions:
-- **Reactive boundary (x = 0):** flux proportional to concentration  
-- **No-flux boundary (x = L):** zero gradient  
+* **Reactive Interface (x = 0):** Flux proportional to concentration  
+![BC1](https://latex.codecogs.com/svg.image?-D\frac{\partial%20c}{\partial%20x}=k_0c)
+* **No-Flux Boundary (x = L):** Zero concentration gradient  
 
-Each simulation starts from a uniform concentration and evolves in time until a steady-state profile is reached.
+The equation is solved numerically using:
+* Finite-difference spatial discretization  
+* Explicit time stepping  
+* Uniform initial concentration  
 
----
-
-### Dimensionless Analysis
-
-The system behavior is governed by the **Damköhler number**:
-
-$$
-\mathrm{Da} = \frac{k_0 L}{D}
-$$
-
-where:
-- $k_0$: interfacial reaction rate  
-- $L$: system length  
-- $D$: diffusion coefficient  
-
-This dimensionless parameter measures the competition between **reaction kinetics** and **diffusive transport**.
+The simulations illustrate how interfacial kinetics and transport jointly determine system behavior, a key feature of electrochemical systems such as batteries.
 
 ---
 
-### Results and Physical Interpretation
-
-Simulations were performed for different values of the Damköhler number, revealing two distinct regimes:
-
-- **Reaction-limited regime (Da ≪ 1):**  
-  Reaction is slow compared to diffusion. The concentration remains nearly uniform across the domain.
-
-- **Diffusion-limited regime (Da ≫ 1):**  
-  Reaction is fast, leading to strong depletion near the interface. A concentration boundary layer forms, and transport becomes the limiting factor.
-
-- **Transition regime (Da ~ 1–10):**  
-  Both processes compete, producing smooth concentration gradients.
+## 🔑 Key Insight
+The model demonstrates that system behavior is governed by a balance between **reaction kinetics** and **mass transport**. As the Damköhler number increases, the system transitions from uniform concentration profiles to transport-limited behavior with pronounced boundary layers.
 
 ---
 
-### Key Insight
-
-This model demonstrates how complex electrochemical behavior can be understood through a simple framework:
-
-> The balance between interfacial kinetics and transport determines system behavior.
-
-This type of behavior is central to battery modeling, where transport limitations and surface reactions jointly control performance.
-
----
-
-### Extensions
-
-This framework can be extended by incorporating:
-
-- Charge conservation and electric potential  
-- Coupled electrochemical kinetics (e.g., Butler–Volmer equations)  
-- Porous electrode structures and multi-scale effects
+## 🚀 Extensions
+* Incorporation of electric potential and charge transport  
+* Coupled electrochemical kinetics (e.g., Butler–Volmer models)  
+* Extension to porous electrode and multi-scale battery systems  
