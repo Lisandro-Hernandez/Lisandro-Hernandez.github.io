@@ -57,7 +57,7 @@ This relationship was originally found empirically by Kohlrausch and later deriv
 
 ## 📊 Linearized Representation
 
-The conductivity data for KCl become approximately linear when plotting:
+The conductivity data for KCl become approximately linear at low concentration values when plotting:
 
 ![Linearized](https://latex.codecogs.com/svg.image?\frac{\sigma}{c}\text{vs}\sqrt{c})
 
