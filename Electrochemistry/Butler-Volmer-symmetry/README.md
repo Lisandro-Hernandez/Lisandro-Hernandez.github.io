@@ -62,7 +62,7 @@ The system retains the same diffusion-reaction structure but exhibits distinct s
   - Strong boundary layer forms near electrode
   - Kinetic modifications have limited impact on bulk profiles
 
-<img src="./reaction_diffusion_nonlinear1.png" width="700"/>
+<img src="./electrochemical_transport_with_Overpotential-Driven_Kinetics" width="700"/>
 
 A key observation is that kinetic modifications primarily affect reaction-limited regimes, while diffusion-limited regimes remain largely unchanged due to transport control at the interface.
 
