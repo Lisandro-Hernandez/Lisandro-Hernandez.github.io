@@ -8,7 +8,7 @@ The system captures the coupling between:
 - concentration-dependent reaction availability
 - nonlinear interfacial charge-transfer kinetics
 
-This leads to regime-dependent behavior where reaction-limited and diffusion-limited limits emerge naturally.
+This leads to regime-dependent behavior where reaction-limited and diffusion-limited cases emerge naturally.
 
 ---
 
