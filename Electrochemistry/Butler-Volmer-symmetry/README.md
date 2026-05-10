@@ -96,11 +96,11 @@ where:
 
 The governing transport equation is:
 
-![PDE](https://latex.codecogs.com/svg.image?\frac{\partial c}{\partial t}=D\frac{\partial^2 c}{\partial x^2})
+![PDE](https://latex.codecogs.com/svg.image?\frac{\partial%20c}{\partial%20t}%20=%20D%20\frac{\partial^2%20c}{\partial%20x^2})
 
 with nonlinear Butler–Volmer boundary condition at the electrode interface:
 
-![BC](https://latex.codecogs.com/svg.image?-D\frac{\partial c}{\partial x}=k_0c^n\,i_0(c)\left(e^{\eta}-e^{-\eta}\right))
+![BC](https://latex.codecogs.com/svg.image?-D%20\frac{\partial%20c}{\partial%20x}%20=%20k_0%20c^n%20i_0(c)%20\left(e^{\eta}-e^{-\eta}\right))
 
 The system is solved using:
 - Finite-difference spatial discretization  
