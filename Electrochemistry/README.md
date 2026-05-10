@@ -41,9 +41,7 @@ System behavior is governed by the Damköhler number:
 
 The nonlinear reaction law is given by:
 
-\[
-J = k_0 c^n
-\]
+![Nonlinear flux](https://latex.codecogs.com/svg.image?J=k_0c^n)
 
 where $n$ controls the strength of nonlinearity in the interfacial kinetics.
 
