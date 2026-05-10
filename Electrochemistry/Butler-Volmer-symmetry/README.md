@@ -78,11 +78,11 @@ where:
 
 The governing equation remains a one-dimensional diffusion equation for Li⁺ transport:
 
-![PDE](https://latex.codecogs.com/svg.image?\frac{\partial c}{\partial t}=D\frac{\partial^2 c}{\partial x^2})
+![PDE](https://latex.codecogs.com/svg.image?\frac{\partial%20c}{\partial%20t}%20=%20D%20\frac{\partial^2%20c}{\partial%20x^2})
 
 with a modified nonlinear boundary condition at the electrode interface:
 
-![BC](https://latex.codecogs.com/svg.image?-D\frac{\partial c}{\partial x}=k_0c^ne^{\eta})
+![BC](https://latex.codecogs.com/svg.image?-D%20\frac{\partial%20c}{\partial%20x}%20=%20k_0%20c^n%20e^{\eta})
 
 The system is solved using:
 - Finite-difference spatial discretization  
