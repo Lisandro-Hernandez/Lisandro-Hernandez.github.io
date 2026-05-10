@@ -10,36 +10,29 @@ The result is a regime-dependent system in which kinetic effects become signific
 ## 🔬 Key Physical Additions
 
 ### Electrochemical Interface
-The interfacial flux is now influenced by an electrochemical driving force through an overpotential term:
+The interfacial flux is influenced by an electrochemical driving force through an overpotential term:
 
-\[
-\eta = \phi_s - \phi_{eq}
-\]
+![eta](https://latex.codecogs.com/svg.image?\eta=\phi_s-\phi_{eq})
 
 where:
-- $\phi_s$ is the (assumed constant) electrode potential
-- $\phi_{eq}$ is a simplified equilibrium potential dependent on Li⁺ concentration
+- $\phi_s$ is the (assumed constant) electrode potential  
+- $\phi_{eq}$ is a simplified equilibrium potential dependent on Li⁺ concentration  
 
 A reduced thermodynamic form is used:
-\[
-\phi_{eq} = \ln(c)
-\]
+
+![phi_eq](https://latex.codecogs.com/svg.image?\phi_{eq}=\ln(c))
 
 ---
 
 ### Modified Interfacial Kinetics
 The nonlinear interfacial flux is extended to include an electrochemical activation factor:
 
-\[
-J = k_0 c^n e^{\eta}
-\]
+![flux](https://latex.codecogs.com/svg.image?J=k_0c^ne^{\eta})
 
 where:
-- $c$ is the local Li⁺ concentration at the electrode interface
-- $n$ controls nonlinear reaction order
-- $\eta$ represents the overpotential driving force
-
-This introduces a simplified representation of electrochemical activation effects commonly associated with charge-transfer reactions.
+- $c$ is the local Li⁺ concentration at the electrode interface  
+- $n$ controls nonlinear reaction order  
+- $\eta$ represents the overpotential driving force  
 
 ---
 
@@ -72,16 +65,12 @@ A key observation is that kinetic modifications primarily affect reaction-limite
 
 The Damköhler number continues to govern system behavior:
 
-\[
-\mathrm{Da} = \frac{k_0 L}{D}
-\]
+![Damkohler](https://latex.codecogs.com/svg.image?\mathrm{Da}=\frac{k_0L}{D})
 
 where:
 - $k_0$ is the effective interfacial reaction rate constant  
 - $L$ is the system length  
 - $D$ is the Li⁺ diffusion coefficient  
-
-This dimensionless ratio quantifies the competition between interfacial reaction kinetics and bulk transport.
 
 ---
 
@@ -89,15 +78,11 @@ This dimensionless ratio quantifies the competition between interfacial reaction
 
 The governing equation remains a one-dimensional diffusion equation for Li⁺ transport:
 
-\[
-\frac{\partial c}{\partial t} = D \frac{\partial^2 c}{\partial x^2}
-\]
+![PDE](https://latex.codecogs.com/svg.image?\frac{\partial c}{\partial t}=D\frac{\partial^2 c}{\partial x^2})
 
 with a modified nonlinear boundary condition at the electrode interface:
 
-\[
--D \frac{\partial c}{\partial x} = k_0 c^n e^{\eta}
-\]
+![BC](https://latex.codecogs.com/svg.image?-D\frac{\partial c}{\partial x}=k_0c^ne^{\eta})
 
 The system is solved using:
 - Finite-difference spatial discretization  
@@ -110,7 +95,7 @@ The system is solved using:
 
 The introduction of an electrochemical overpotential term creates a clear separation of regimes:
 
-- In **reaction-limited systems**, interfacial electrochemical driving forces strongly influence concentration profiles.
+- In **reaction-limited systems**, interfacial electrochemical driving forces strongly influence concentration profiles.  
 - In **diffusion-limited systems**, transport constraints dominate, making the system largely insensitive to kinetic details.
 
 This behavior reflects a fundamental feature of electrochemical systems: **transport-limited regimes suppress sensitivity to interfacial kinetics**.
