@@ -50,9 +50,7 @@ where $n$ controls the strength of nonlinearity in the interfacial kinetics.
 ## 🛠 Methodology
 The system is modeled using a one-dimensional diffusion equation for Li⁺ transport with a nonlinear reactive boundary condition:
 
-\[
-\frac{\partial c}{\partial t} = D \frac{\partial^2 c}{\partial x^2}
-\]
+![PDE](https://latex.codecogs.com/svg.image?\frac{\partial%20c}{\partial%20t}=D\frac{\partial^2%20c}{\partial%20x^2})
 
 Boundary conditions:
 
