@@ -32,9 +32,8 @@ A key observation is that all profiles collapse in the bulk region, while differ
 ## 📈 Dimensionless Parameter
 System behavior is governed by the Damköhler number:
 
-\[
-\mathrm{Da} = \frac{k_0 L}{D}
-\]
+![Damkohler](https://latex.codecogs.com/svg.image?\mathrm{Da}=\frac{k_0L}{D})
+
 
 - $k_0$: effective interfacial reaction rate constant  
 - $L$: system length  
