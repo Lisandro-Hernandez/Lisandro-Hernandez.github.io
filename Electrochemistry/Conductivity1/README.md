@@ -41,9 +41,7 @@ Although conductivity appears approximately linear with concentration at low con
 
 Instead of plotting conductivity directly, one considers:
 
-```markdown
-![Kohlrausch](https://latex.codecogs.com/svg.image?\frac{\sigma}{c}%20=%20\Lambda_0%20-%20K\sqrt{c})
-```
+![Kohlrausch](https://latex.codecogs.com/svg.image?\frac{\sigma}{c}=\Lambda_0-K\sqrt{c})
 
 where:
 
@@ -61,9 +59,7 @@ This relationship was originally found empirically by Kohlrausch and later deriv
 
 The conductivity data for KCl become approximately linear when plotting:
 
-```markdown
-![Linearized](https://latex.codecogs.com/svg.image?\frac{\sigma}{c}%20\text{vs}%20\sqrt{c})
-```
+![Linearized](https://latex.codecogs.com/svg.image?\frac{\sigma}{c}\text{vs}\sqrt{c})
 
 <img src="./Linearized_KCl_Plot.png" width="650"/>
 
