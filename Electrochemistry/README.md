@@ -55,9 +55,7 @@ The system is modeled using a one-dimensional diffusion equation for Li⁺ trans
 Boundary conditions:
 
 * **Nonlinear Reactive Electrode Interface (x = 0):** Concentration-dependent interfacial flux  
-\[
--D \frac{\partial c}{\partial x} = k_0 c^n
-\]
+![BC1](https://latex.codecogs.com/svg.image?-D\frac{\partial%20c}{\partial%20x}=k_0c^n)
 
 * **No-Flux Boundary (x = L):** Zero concentration gradient (symmetry / separator condition)
 
