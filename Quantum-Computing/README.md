@@ -39,16 +39,15 @@ These results highlight how small Hamiltonian perturbations lead to measurable l
 
 ### Survival Amplitude and Probability
 
-![Survival Amplitude](https://latex.codecogs.com/svg.image?A(t)=\langle\psi_0|e^{-iHt}|\psi_0\rangle)
+![Survival Amplitude](https://latex.codecogs.com/svg.image?A(t)=\left\langle\psi_0\right|e^{-iHt}\left|\psi_0\right\rangle)
 
-![Survival Probability](https://latex.codecogs.com/svg.image?P(t)=|A(t)|^2)
+![Survival Probability](https://latex.codecogs.com/svg.image?P(t)=\left|A(t)\right|^2)
 
 ---
 
 ### Fidelity Between Two Evolutions
 
-![Fidelity](https://latex.codecogs.com/svg.image?F(t)=\left|\langle\psi_0|e^{iHt}e^{-iH't}|\psi_0\rangle\right|^2)
-
+![Fidelity](https://latex.codecogs.com/svg.image?F(t)=\left|\left\langle\psi_0\right|e^{iHt}e^{-iH't}\left|\psi_0\right\rangle\right|^2)
 ---
 
 ### Definitions
