@@ -43,7 +43,7 @@ The efficiency is defined as:
 
 ### Irreversible case:
 
-![Irreversible efficiency](https://latex.codecogs.com/svg.image?\eta_{irr}=\frac{\left|\Delta%20G_{rxn}\right|-\delta}{\left|\Delta%20G_{rxn}\right|+\epsilon})
+![Irreversible efficiency](https://latex.codecogs.com/svg.image?\eta_{irr}%20=%20\frac{\left%7C\Delta%20G_{rxn}\right%7C%20-%20\delta}{\left%7C\Delta%20G_{rxn}\right%7C%20+%20\epsilon})
 
 👉 Irreversibility always reduces efficiency below 1.
 
