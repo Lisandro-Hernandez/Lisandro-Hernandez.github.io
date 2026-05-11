@@ -35,7 +35,7 @@ This shows that electrolysis requires both **electrical work and heat input**, w
 
 The efficiency is defined as:
 
-![Efficiency](https://latex.codecogs.com/svg.image?\eta=\frac{\left|w_{out}\right|}{w_{in}})
+![Efficiency](https://latex.codecogs.com/svg.image?\eta%20=%20\frac{|w_{out}|}{w_{in}})
 
 ### Reversible case:
 
