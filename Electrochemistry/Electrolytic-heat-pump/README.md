@@ -11,7 +11,7 @@ The goal is to compare **thermodynamic efficiency** and **coefficient of perform
 
 The combustion reaction is:
 
-![Hydrogen Combustion](https://latex.codecogs.com/svg.image?\ce{H2(g)%20+%20\frac{1}{2}O2(g)%20->%20H2O(l)})
+![Hydrogen Combustion](https://latex.codecogs.com/svg.image?\ce{H2(g)%20+%20\frac{1}{2}%20O2(g)%20->%20H2O(l)})
 
 At 25°C:
 
