@@ -35,15 +35,15 @@ This shows that electrolysis requires both **electrical work and heat input**, w
 
 The efficiency is defined as:
 
-![Efficiency](https://latex.codecogs.com/svg.image?\eta%20=%20\frac{|w_{out}|}{w_{in}})
+![Efficiency](https://latex.codecogs.com/svg.image?\eta=\frac{\left|w_{out}\right|}{w_{in}})
 
 ### Reversible case:
 
-![Reversible efficiency](https://latex.codecogs.com/svg.image?\eta_{rev}%20=%201)
+![Reversible efficiency](https://latex.codecogs.com/svg.image?\eta_{rev}=1)
 
 ### Irreversible case:
 
-![Irreversible efficiency](https://latex.codecogs.com/svg.image?\eta_{irr}%20=%20\frac{|\Delta%20G_{rxn}|%20-%20\delta}{|\Delta%20G_{rxn}|%20+%20\epsilon}%20<%201)
+![Irreversible efficiency](https://latex.codecogs.com/svg.image?\eta_{irr}=\frac{\left|\Delta%20G_{rxn}\right|-\delta}{\left|\Delta%20G_{rxn}\right|+\epsilon})
 
 👉 Irreversibility always reduces efficiency below 1.
 
@@ -53,20 +53,19 @@ The efficiency is defined as:
 
 The coefficient of performance is:
 
-![COP](https://latex.codecogs.com/svg.image?\lambda%20=%20\frac{|\Delta%20H_{rxn}|}{w_{in}})
+![COP](https://latex.codecogs.com/svg.image?\lambda=\frac{\left|\Delta%20H_{rxn}\right|}{w_{in}})
 
 ### Reversible case:
 
-![COP reversible](https://latex.codecogs.com/svg.image?\lambda_{rev}%20=%20\frac{|\Delta%20H_{rxn}|}{|\Delta%20G_{rxn}|})
+![COP reversible](https://latex.codecogs.com/svg.image?\lambda_{rev}=\frac{\left|\Delta%20H_{rxn}\right|}{\left|\Delta%20G_{rxn}\right|})
 
 Numerically:
 
-![COP value](https://latex.codecogs.com/svg.image?\lambda_{rev}%20\approx%201.21)
+![COP value](https://latex.codecogs.com/svg.image?\lambda_{rev}\approx1.21)
 
 ### Irreversible case:
 
-![COP irreversible](https://latex.codecogs.com/svg.image?\lambda_{irr}%20=%20\frac{|\Delta%20H_{rxn}|}{|\Delta%20G_{rxn}|%20+%20\epsilon}%20<%20\lambda_{rev})
-
+![COP irreversible](https://latex.codecogs.com/svg.image?\lambda_{irr}=\frac{\left|\Delta%20H_{rxn}\right|}{\left|\Delta%20G_{rxn}\right|+\epsilon})
 ---
 
 ## 🔑 Physical Interpretation
