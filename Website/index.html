@@ -10,20 +10,17 @@ body {
     margin: 0;
     background: #f9fafb;
     text-align: center;
+    color: #222;
 }
 
-.highlight {
-    color: #c53030;
-    font-weight: 600;
-}
-
+/* CONTAINER */
 .container {
-    max-width: 800px;
+    max-width: 900px;
     margin: 60px auto;
     padding: 20px;
 }
 
-/* HERO SECTION */
+/* PROFILE */
 .profile-img {
     width: 160px;
     height: 160px;
@@ -38,7 +35,12 @@ h1 {
     font-size: 28px;
 }
 
-/* Subtitle block */
+/* TEXT STYLES */
+.highlight {
+    color: #c53030;
+    font-weight: 600;
+}
+
 .subtitle {
     color: #555;
     margin-bottom: 5px;
@@ -51,32 +53,55 @@ h1 {
     margin-bottom: 20px;
 }
 
-/* philosophy line */
 .philosophy {
     color: #777;
     font-style: italic;
     margin-bottom: 40px;
-    max-width: 600px;
+    max-width: 650px;
     margin-left: auto;
     margin-right: auto;
+    line-height: 1.5;
 }
 
-/* BUTTONS */
-.btn {
+/* RESEARCH GRID */
+.research-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 18px;
+    margin-top: 10px;
+}
+
+/* RESEARCH CARDS */
+.research-card {
     display: block;
-    padding: 16px;
-    margin: 12px auto;
-    width: 70%;
+    text-align: left;
+    padding: 18px 20px;
     background: white;
-    border-radius: 10px;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
     text-decoration: none;
-    color: #2b6cb0;
-    font-weight: bold;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    color: #222;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
 
-.btn:hover {
-    background: #f0f4ff;
+.research-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 14px rgba(0,0,0,0.10);
+}
+
+.research-card h3 {
+    margin-top: 0;
+    margin-bottom: 8px;
+    color: #1a365d;
+    font-size: 17px;
+}
+
+.research-card p {
+    margin: 0;
+    color: #555;
+    font-size: 14px;
+    line-height: 1.4;
 }
 </style>
 </head>
@@ -91,7 +116,8 @@ h1 {
     <h1>Lisandro Hernández de la Peña</h1>
 
     <div class="subtitle">
-        <span class="highlight">Computational Chemist</span> | <span class="highlight">Theoretical & Modeling Scientist</span>
+        <span class="highlight">Computational Chemist</span> |
+        <span class="highlight">Theoretical & Modeling Scientist</span>
     </div>
 
     <div class="subtitle-note">
@@ -102,22 +128,30 @@ h1 {
         Physics-based modeling of complex systems across scales, from quantum dynamics and materials modeling to electrochemical transport.
     </div>
 
-    <!-- NAVIGATION -->
-    <a class="btn" href="electrochemistry.html">
-        Electrochemistry / Energy Systems
-    </a>
+    <!-- RESEARCH AREAS -->
+    <div class="research-grid">
 
-    <a class="btn" href="materials.html">
-        Materials Modeling / Molecular Simulation
-    </a>
+        <a class="research-card" href="electrochemistry.html">
+            <h3>Electrochemistry / Energy Systems</h3>
+            <p>Ion transport, electrochemical kinetics, and energy conversion in electrochemical systems.</p>
+        </a>
 
-    <a class="btn" href="kinetics.html">
-        Kinetic / Transport Processes
-    </a>
+        <a class="research-card" href="materials.html">
+            <h3>Materials Modeling / Molecular Simulation</h3>
+            <p>Phase behavior, quantum materials, spectroscopy, and thermodynamic modeling.</p>
+        </a>
 
-    <a class="btn" href="quantum.html">
-        Quantum / Molecular Theory
-    </a>
+        <a class="research-card" href="kinetics.html">
+            <h3>Kinetic / Transport Processes</h3>
+            <p>Reaction engineering, biological transport, pharmacokinetics, and transient dynamics.</p>
+        </a>
+
+        <a class="research-card" href="quantum.html">
+            <h3>Quantum / Molecular Theory</h3>
+            <p>Quantum dynamics, free-energy methods, and quantum computing approaches to chemistry.</p>
+        </a>
+
+    </div>
 
 </div>
 
