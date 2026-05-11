@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Teaching | Lisandro Hernández de la Peña</title>
+
+<style>
+body { 
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    background: #f9fafb; 
+    color: #222; 
+}
+
+.container { 
+    max-width: 1000px; 
+    margin: auto; 
+    padding: 20px; 
+}
+
+/* NAVBAR */
+.navbar { 
+    position: sticky; 
+    top: 0; 
+    background: white; 
+    border-bottom: 1px solid #ddd; 
+    z-index: 1000; 
+}
+
+.navbar ul { 
+    list-style: none; 
+    margin: 0; 
+    padding: 10px; 
+    display: flex; 
+    justify-content: center; 
+    gap: 25px; 
+}
+
+.navbar a { 
+    text-decoration: none; 
+    color: #2b6cb0; 
+    font-weight: bold; 
+}
+
+.navbar a:hover { 
+    color: #1a365d; 
+}
+
+/* SECTIONS */
+.section { 
+    margin-bottom: 50px; 
+}
+
+h2 { 
+    color: #1a365d; 
+    border-bottom: 2px solid #e2e8f0; 
+    padding-bottom: 5px; 
+}
+
+h3 {
+    color: #2b6cb0;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+/* SUBJECT GROUPS */
+.discipline-group {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.course-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.course-list li {
+    padding: 8px 0;
+    border-bottom: 1px solid #edf2f7;
+}
+
+.course-list li:last-child {
+    border-bottom: none;
+}
+
+/* INTERACTIVE TEXTBOOK VIEWER */
+.viewer-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.viewer-container img {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.caption {
+    margin-top: 12px;
+    color: #666;
+    font-style: italic;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="navbar">
+    <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="teaching.html">TEACHING</a></li>
+        <li><a href="projects.html">PROJECTS</a></li>
+        <li><a href="publications.html">PUBLICATIONS</a></li>
+        <li><a href="movies.html">MOVIES</a></li>
+    </ul>
+</div>
+
+<div class="container">
+
+    <div class="section">
+
+        <h2>Teaching</h2>
+
+        <p>
+            Courses taught at Kettering University and related instructional materials:
+        </p>
+
+        <!-- CHEMISTRY -->
+        <div class="discipline-group">
+            <h3>Chemistry</h3>
+
+            <ul class="course-list">
+                <li><strong>CHEM 137</strong> – General Chemistry I</li>
+                <li><strong>CHEM 237</strong> – General Chemistry II</li>
+                <li><strong>CHEM 361</strong> – Physical Chemistry I</li>
+                <li><strong>CHEM 363</strong> – Physical Chemistry II</li>
+                <li><strong>CHEM 437</strong> – Inorganic Chemistry</li>
+                <li><strong>CHEM 492</strong> – Topics Course: Electrochemistry</li>
+                <li><strong>CHEM 492</strong> – Topics Course: Transport Processes</li>
+            </ul>
+        </div>
+
+        <!-- PHYSICS -->
+        <div class="discipline-group">
+            <h3>Physics</h3>
+
+            <ul class="course-list">
+                <li><strong>PHYS 363</strong> – Statistical Physics</li>
+                <li><strong>PHYS 491</strong> – Quantum Mechanics</li>
+            </ul>
+        </div>
+
+        <!-- CHEMICAL ENGINEERING -->
+        <div class="discipline-group">
+            <h3>Chemical Engineering</h3>
+
+            <ul class="course-list">
+                <li><strong>CHME 210</strong> – Chemical Engineering Thermodynamics</li>
+            </ul>
+        </div>
+
+        <!-- ENGINEERING PHYSICS -->
+        <div class="discipline-group">
+            <h3>Engineering Physics</h3>
+
+            <ul class="course-list">
+                <li><strong>CHEM/EP 391</strong> – Introduction to Nuclear Sciences & Engineering</li>
+            </ul>
+        </div>
+
+        <!-- INTERACTIVE TEXTBOOK -->
+        <div class="discipline-group">
+
+            <h3>Interactive Course Material</h3>
+
+            <p>
+                Selected pages from instructional materials and digital textbook content.
+                Click on the figure to advance through pages.
+            </p>
+
+            <div class="viewer-container">
+
+                <img id="bookPage"
+                     src="images/page1.jpg"
+                     alt="Digital Textbook Page">
+
+                <div class="caption">
+                    Click image to advance pages
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script>
+
+const pages = [
+    "images/page1.jpg",
+    "images/page2.jpg",
+    "images/page3.jpg",
+    "images/page4.jpg"
+];
+
+let currentPage = 0;
+
+const img = document.getElementById("bookPage");
+
+img.addEventListener("click", function() {
+
+    currentPage++;
+
+    if (currentPage >= pages.length) {
+        currentPage = 0;
+    }
+
+    img.src = pages[currentPage];
+});
+
+</script>
+
+</body>
+</html>
