@@ -53,11 +53,11 @@ The efficiency is defined as:
 
 The coefficient of performance is:
 
-![COP](https://latex.codecogs.com/svg.image?\lambda=\frac{\left|\Delta%20H_{rxn}\right|}{w_{in}})
+![COP](https://latex.codecogs.com/svg.image?\lambda%20=%20\frac{\left%7C\Delta%20H_{rxn}\right%7C}{w_{in}})
 
 ### Reversible case:
 
-![COP reversible](https://latex.codecogs.com/svg.image?\lambda_{rev}=\frac{\left|\Delta%20H_{rxn}\right|}{\left|\Delta%20G_{rxn}\right|})
+![COP reversible](https://latex.codecogs.com/svg.image?\lambda_{rev}%20=%20\frac{\left%7C\Delta%20H_{rxn}\right%7C}{\left%7C\Delta%20G_{rxn}\right%7C})
 
 Numerically:
 
