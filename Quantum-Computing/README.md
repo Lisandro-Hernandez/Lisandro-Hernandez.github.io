@@ -41,7 +41,7 @@ These results highlight how small Hamiltonian perturbations lead to measurable l
 
 ![Survival Amplitude](https://latex.codecogs.com/svg.image?A(t)=\left\langle\psi_0\right|e^{-iHt}\left|\psi_0\right\rangle)
 
-![Survival Probability](https://latex.codecogs.com/svg.image?P(t)=\left|A(t)\right|^2)
+![Survival Probability](https://latex.codecogs.com/svg.image?P(t)=\left%7CA(t)\right%7C^2)
 
 ---
 
