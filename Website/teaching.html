@@ -179,27 +179,60 @@ h3 {
         </div>
 
         <!-- INTERACTIVE TEXTBOOK -->
-        <div class="discipline-group">
+<div class="discipline-group">
 
-            <h3>Interactive Course Material</h3>
+    <h3>Interactive Course Material</h3>
 
-            <p>
-                Selected pages from instructional materials and digital textbook content.
-                Click on the figure to advance through pages.
-            </p>
+    <p>
+        Selected pages from instructional materials and digital textbook content.
+        Click on the figure to advance through pages.
+    </p>
 
-            <div class="viewer-container">
+    <style>
+        .viewer-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
 
-                <img id="bookPage"
-                     src="../PChem_Book/page1.png"
-                     alt="Digital Textbook Page">
+        .book-frame {
+            background: #fffdf7;
+            padding: 18px;
+            border: 1px solid #cfcfcf;
+            border-radius: 6px;
+            box-shadow:
+                inset 0 0 0 1px rgba(0,0,0,0.05),
+                0 6px 18px rgba(0,0,0,0.12);
+        }
 
-                <div class="caption">
-                    Click image to advance pages
-                </div>
+        .viewer-container img {
+            width: 100%;
+            max-width: 500px;   /* controls page size */
+            height: auto;
+            cursor: pointer;
+            display: block;
+        }
 
-            </div>
+        .caption {
+            margin-top: 10px;
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
 
+    <div class="viewer-container">
+
+        <div class="book-frame">
+
+            <img id="bookPage"
+                 src="../PChem_Book/page1.png"
+                 alt="Digital Textbook Page">
+
+        </div>
+
+        <div class="caption">
+            Click image to advance pages
         </div>
 
     </div>
@@ -208,29 +241,30 @@ h3 {
 
 <script>
 
-const pages = [
-    "../PChem_Book/page1.png",
-    "../PChem_Book/page2.png",
-    "../PChem_Book/page3.png",
-    "../PChem_Book/page4.png"
-];
+document.addEventListener("DOMContentLoaded", function () {
 
-let currentPage = 0;
+    const pages = [
+        "../PChem_Book/page1.png",
+        "../PChem_Book/page2.png",
+        "../PChem_Book/page3.png",
+        "../PChem_Book/page4.png"
+    ];
 
-const img = document.getElementById("bookPage");
+    let currentPage = 0;
 
-img.addEventListener("click", function() {
+    const img = document.getElementById("bookPage");
 
-    currentPage++;
+    img.addEventListener("click", function () {
 
-    if (currentPage >= pages.length) {
-        currentPage = 0;
-    }
+        currentPage = (currentPage + 1) % pages.length;
+        img.src = pages[currentPage];
 
-    img.src = pages[currentPage];
+    });
+
 });
 
 </script>
 
+        
 </body>
 </html>
