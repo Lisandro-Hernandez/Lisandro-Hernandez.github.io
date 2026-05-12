@@ -34,11 +34,11 @@ To determine the transport properties of the **0.1 M HCl** solution, we utilize 
 #### 1. Transport Number ($t_+$)
 The transport number for the cation ($H^+$) is calculated using the volume swept by the boundary ($V = A \cdot L$) and the total charge passed ($Q = I \cdot t$):
 
-![Transport Number Equation](https://latex.codecogs.com/svg.image?t_+%20=%20\frac{z_+%20F%20c%20V}{I%20t}%20=%20\frac{(1)(96485)(100)(3%20\times%2010^{-5}%20\times%200.0308)}{(0.003)(3600)})
+![Transport Number Equation](https://latex.codecogs.com/svg.image?t_%2b%20%3d%20%5cfrac%7bz_%2b%20F%20c%20V%7d%7bI%20t%7d%20%3d%20%5cfrac%7b%281%29%2896485%29%28100%29%283%20%5ctimes%2010%5e%7b-5%7d%20%5ctimes%200.0308%29%7d%7b%280.003%29%283600%29%7d)
 
 **$t_{H^+} \approx 0.825$**
 
-Since ![Sum of Transport Numbers](https://latex.codecogs.com/svg.image?t_+%20+%20t_-%20=%201), the transport number for $Cl^-$ is:
+Since ![Sum of Transport Numbers](https://latex.codecogs.com/svg.image?t_%2b%20%2b%20t_-%20%3d%201), the transport number for $Cl^-$ is:
 **$t_{Cl^-} = 1 - 0.825 = 0.175$**
 
 ---
@@ -46,21 +46,21 @@ Since ![Sum of Transport Numbers](https://latex.codecogs.com/svg.image?t_+%20+%2
 #### 2. Ionic Mobilities ($u_i$)
 The mobility is related to the transport number and the total conductivity of the solution:
 
-![Mobility Relation](https://latex.codecogs.com/svg.image?u_i%20=%20\frac{t_i%20\sigma}{z_i%20F%20c})
+![Mobility Relation](https://latex.codecogs.com/svg.image?u_i%20%3d%20%5cfrac%7bt_i%20%5csigma%7d%7bz_i%20F%20c%7d)
 
 *   **For $H^+$:**
-    ![Mobility H+](https://latex.codecogs.com/svg.image?u_{H^+}%20\approx%203.59%20\times%2010^{-7}%20\text{%20m}^2\text{V}^{-1}\text{s}^{-1})
+    ![Mobility H+](https://latex.codecogs.com/svg.image?u_%7bH%5e%2b%7d%20%5capprox%203.59%20%5ctimes%2010%5e%7b-7%7d%20%5ctext%7b%20m%7d%5e2%5ctext%7bV%7d%5e%7b-1%7d%5ctext%7bs%7d%5e%7b-1%7d)
 
 *   **For $Cl^-$:**
-    ![Mobility Cl-](https://latex.codecogs.com/svg.image?u_{Cl^-}%20\approx%207.61%20\times%2010^{-8}%20\text{%20m}^2\text{V}^{-1}\text{s}^{-1})
+    ![Mobility Cl-](https://latex.codecogs.com/svg.image?u_%7bCl%5e-%7d%20%5capprox%207.61%20%5ctimes%2010%5e%7b-8%7d%20%5ctext%7b%20m%7d%5e2%5ctext%7bV%7d%5e%7b-1%7d%5ctext%7bs%7d%5e%7b-1%7d)
 
 ---
 
 #### 3. Molar Ionic Conductivities ($\lambda_i$)
-The molar ionic conductivity (![Molar Conductivity Relation](https://latex.codecogs.com/svg.image?\lambda_i%20=%20t_i%20\Lambda)) where ![Molar Conductivity Value](https://latex.codecogs.com/svg.image?\Lambda%20=%20\sigma/c%20=%200.042%20\text{%20S%20m}^2\text{mol}^{-1}):
+The molar ionic conductivity (![Molar Conductivity Relation](https://latex.codecogs.com/svg.image?%5clambda_i%20%3d%20t_i%20%5cLambda)) where ![Molar Conductivity Value](https://latex.codecogs.com/svg.image?%5cLambda%20%3d%20%5csigma/c%20%3d%200.042%20%5ctext%7b%20S%20m%7d%5e2%5ctext%7bmol%7d%5e%7b-1%7d):
 
-*   **![Lambda H+](https://latex.codecogs.com/svg.image?\lambda_{H^+}%20\approx%203.47%20\times%2010^{-2}%20\text{%20S%20m}^2\text{mol}^{-1})**
-*   **![Lambda Cl-](https://latex.codecogs.com/svg.image?\lambda_{Cl^-}%20\approx%207.35%20\times%2010^{-3}%20\text{%20S%20m}^2\text{mol}^{-1})**
+*   **![Lambda H+](https://latex.codecogs.com/svg.image?%5clambda_%7bH%5e%2b%7d%20%5capprox%203.47%20%5ctimes%2010%5e%7b-2%7d%20%5ctext%7b%20S%20m%7d%5e2%5ctext%7bmol%7d%5e%7b-1%7d)**
+*   **![Lambda Cl-](https://latex.codecogs.com/svg.image?%5clambda_%7bCl%5e-%7d%20%5capprox%207.35%20%5ctimes%2010%5e%7b-3%7d%20%5ctext%7b%20S%20m%7d%5e2%5ctext%7bmol%7d%5e%7b-1%7d)**
 
 ---
 
