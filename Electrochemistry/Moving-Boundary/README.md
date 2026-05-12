@@ -19,9 +19,9 @@ The images below illustrate the evolution of the electrolyte boundary during the
   <img src="./Picture_4.JPG" width="400"/>
 </p>
 
-### 📝 Exercise Solution: Transport Numbers and Ionic Mobilities
+### 📝 Finding Transport Numbers and Ionic Mobilities
 
-To determine the transport properties of the **0.1 M HCl** solution, we utilize the experimental parameters provided:
+To determine the transport properties of the **0.1 M HCl** solution, we utilize the following experimental parameters:
 *   **Concentration ($c$):** $0.1\text{ M} = 100\text{ mol/m}^3$
 *   **Conductivity ($\sigma$):** $4.2\text{ S/m}$
 *   **Current ($I$):** $0.003\text{ A}$
