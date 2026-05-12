@@ -34,11 +34,11 @@ To determine the transport properties of the **0.1 M HCl** solution, we utilize 
 #### 1. Transport Number ($t_+$)
 The transport number for the cation ($H^+$) is calculated using the volume swept by the boundary ($V = A \cdot L$) and the total charge passed ($Q = I \cdot t$):
 
-$$t_+ = \frac{z_+ F c V}{I t} = \frac{(1)(96485)(100)(3 \times 10^{-5} \times 0.0308)}{(0.003)(3600)}$$
+![Transport Number Equation](https://latex.codecogs.com/svg.image?t_+%20=%20\frac{z_+%20F%20c%20V}{I%20t}%20=%20\frac{(1)(96485)(100)(3%20\times%2010^{-5}%20\times%200.0308)}{(0.003)(3600)})
 
 **$t_{H^+} \approx 0.825$**
 
-Since $t_+ + t_- = 1$, the transport number for $Cl^-$ is:
+Since ![Sum of Transport Numbers](https://latex.codecogs.com/svg.image?t_+%20+%20t_-%20=%201), the transport number for $Cl^-$ is:
 **$t_{Cl^-} = 1 - 0.825 = 0.175$**
 
 ---
@@ -46,21 +46,21 @@ Since $t_+ + t_- = 1$, the transport number for $Cl^-$ is:
 #### 2. Ionic Mobilities ($u_i$)
 The mobility is related to the transport number and the total conductivity of the solution:
 
-$$u_i = \frac{t_i \sigma}{z_i F c}$$
+![Mobility Relation](https://latex.codecogs.com/svg.image?u_i%20=%20\frac{t_i%20\sigma}{z_i%20F%20c})
 
 *   **For $H^+$:**
-    $$u_{H^+} \approx 3.59 \times 10^{-7} \text{ m}^2\text{V}^{-1}\text{s}^{-1}$$
+    ![Mobility H+](https://latex.codecogs.com/svg.image?u_{H^+}%20\approx%203.59%20\times%2010^{-7}%20\text{%20m}^2\text{V}^{-1}\text{s}^{-1})
 
 *   **For $Cl^-$:**
-    $$u_{Cl^-} \approx 7.61 \times 10^{-8} \text{ m}^2\text{V}^{-1}\text{s}^{-1}$$
+    ![Mobility Cl-](https://latex.codecogs.com/svg.image?u_{Cl^-}%20\approx%207.61%20\times%2010^{-8}%20\text{%20m}^2\text{V}^{-1}\text{s}^{-1})
 
 ---
 
 #### 3. Molar Ionic Conductivities ($\lambda_i$)
-The molar ionic conductivity ($\lambda_i = t_i \Lambda$) where $\Lambda = \sigma/c = 0.042 \text{ S m}^2\text{mol}^{-1}$:
+The molar ionic conductivity (![Molar Conductivity Relation](https://latex.codecogs.com/svg.image?\lambda_i%20=%20t_i%20\Lambda)) where ![Molar Conductivity Value](https://latex.codecogs.com/svg.image?\Lambda%20=%20\sigma/c%20=%200.042%20\text{%20S%20m}^2\text{mol}^{-1}):
 
-*   **$\lambda_{H^+} \approx 3.47 \times 10^{-2} \text{ S m}^2\text{mol}^{-1}$**
-*   **$\lambda_{Cl^-} \approx 7.35 \times 10^{-3} \text{ S m}^2\text{mol}^{-1}$**
+*   **![Lambda H+](https://latex.codecogs.com/svg.image?\lambda_{H^+}%20\approx%203.47%20\times%2010^{-2}%20\text{%20S%20m}^2\text{mol}^{-1})**
+*   **![Lambda Cl-](https://latex.codecogs.com/svg.image?\lambda_{Cl^-}%20\approx%207.35%20\times%2010^{-3}%20\text{%20S%20m}^2\text{mol}^{-1})**
 
 ---
 
