@@ -1,4 +1,4 @@
-# Quantum Dynamics of Liquid Neon via Ring Polymer Molecular Dynamics
+# Dynamics of Liquid Neon via Ring Polymer Molecular Dynamics
 
 ## 🧠 Overview
 This project evaluates the accuracy of Ring Polymer Molecular Dynamics (RPMD) in describing the quantum velocity autocorrelation functions of condensed phase systems[cite: 1]. By analyzing a Lennard-Jones fluid parameterized to represent liquid neon at 30 K, the study provides a quantitative assessment of how well RPMD captures dynamical structures and obeys exact quantum mechanical constraints[cite: 1].
