@@ -16,13 +16,33 @@ body { font-family: Arial, sans-serif; margin: 0; background: #f9fafb; color: #2
 h2 { color: #1a365d; border-bottom: 2px solid #e2e8f0; padding-bottom: 5px; }
 
 /* PUBLICATIONS STYLING */
-.publication { margin-bottom: 25px; }
-.publication a { font-weight: bold; color: #2b6cb0; text-decoration: none; }
+/* UPDATED ENTRY STYLING */
+.publication { 
+    margin-bottom: 30px; 
+    padding-bottom: 20px; 
+    border-bottom: 1px solid #e2e8f0; 
+}
+
+/* Removes the line from the very last item in each section */
+.publication:last-child {
+    border-bottom: none;
+}
+
+.publication a { 
+    font-weight: bold; 
+    color: #2b6cb0; 
+    text-decoration: none; 
+}
+
+.publication p {
+    margin: 5px 0; /* Keeps text lines compact but organized */
+}
+
 .publication img { 
     max-width: 300px; 
     height: auto; 
     display: block; 
-    margin: 10px auto; 
+    margin: 15px 0; /* Changed from 'auto' to '0' to align with text */
 }
 </style>
 </head>
