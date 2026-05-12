@@ -65,28 +65,6 @@ The conductivity data for KCl become approximately linear at low concentration v
 
 ---
 
-# 🧪 Example Data Transformation
-
-Experimental conductivity measurements:
-
-| $c$ (M) | $\sigma$ |
-|---|---|
-| 0.001 | 146.9 |
-| 0.005 | 717.5 |
-| 0.010 | 1412.0 |
-
-are transformed into the linearized form:
-
-| $\sqrt{c}$ | $10^{-3}\sigma/c$ |
-|---|---|
-| 0.03162 | 146.9 |
-| 0.07071 | 143.5 |
-| 0.10000 | 141.2 |
-
-This transformation reveals the weak nonlinearity hidden in the original conductivity data.
-
----
-
 # 🔍 Physical Interpretation
 
 The decrease of molar conductivity with increasing concentration arises from:
