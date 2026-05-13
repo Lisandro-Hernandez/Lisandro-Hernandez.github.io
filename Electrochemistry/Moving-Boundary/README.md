@@ -4,9 +4,8 @@
 
 This project explores the **moving boundary method** from both experimental and theoretical perspectives, with emphasis on ionic transport and boundary propagation in electrolyte systems.
 
-The experiment demonstrates the evolution of the interface between two electrolyte solutions, showing both the **displacement** and **sharpening** of the moving boundary over time. The system below, studied in laboratory experiments conducted in Dr. Hernández’s Electrochemistry course at Kettering University, consists of aqueous **KCl/KNO₃** solutions.
-
-The images below illustrate the evolution of the electrolyte boundary during the experiment.
+The **moving boundary method** was studied in laboratory experiments conducted in Dr. Hernández’s Electrochemistry course at Kettering University. The system shown in the images below correspond to aqueous **KCl/KNO₃** solutions and illustrate the evolution of the electrolyte boundary during the experiment.
+The experiment demonstrates the evolution of the interface between two electrolyte solutions, showing both the **displacement** and **sharpening** of the moving boundary over time.
 
 <p align="center">
   <img src="./Picture_1.JPG" width="400"/>
