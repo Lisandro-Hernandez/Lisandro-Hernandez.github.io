@@ -69,7 +69,7 @@ A key focus of this numerical study is the **95% Pressure Threshold**. Because t
 | **$n_{final}$** | **47.5 bar** | **431 K** | **95.0%** |
 
 <p align="center">
-  <img src="./Asymptotic_Pressure_via_Filling_Events.png" width="600"/>
+  <img src="./Asymptotic_Pressure_via_Filling_Events.png" width="700"/>
 </p>
 
 ### Convergence Insight
