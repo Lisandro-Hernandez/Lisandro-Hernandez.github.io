@@ -4,13 +4,7 @@
 
 This project explores the **moving boundary method** from both experimental and theoretical perspectives, with emphasis on ionic transport and boundary propagation in electrolyte systems.
 
-The experiment demonstrates the evolution of the interface between two electrolyte solutions, showing both the **displacement** and **sharpening** of the moving boundary over time. The system consists of aqueous **KCl/KNO₃** solutions studied in laboratory experiments conducted in Dr. Hernández’s electrochemistry course at Kettering University.
-
-The moving boundary method provides a classical framework for analyzing:
-- ionic mobility,
-- transport processes,
-- concentration gradients,
-- and electrochemical migration phenomena.
+The experiment demonstrates the evolution of the interface between two electrolyte solutions, showing both the **displacement** and **sharpening** of the moving boundary over time. The system below, studied in laboratory experiments conducted in Dr. Hernández’s Electrochemistry course at Kettering University, consists of aqueous **KCl/KNO₃** solutions.
 
 The images below illustrate the evolution of the electrolyte boundary during the experiment.
 
@@ -19,9 +13,15 @@ The images below illustrate the evolution of the electrolyte boundary during the
   <img src="./Picture_4.JPG" width="400"/>
 </p>
 
+The moving boundary method provides a classical framework for analyzing:
+- ionic mobility,
+- transport processes,
+- concentration gradients,
+- and electrochemical migration phenomena.
+
 ### 📝 Finding Transport Numbers and Ionic Mobilities
 
-To determine the transport properties of the **0.1 M HCl** solution, we utilize the following experimental parameters:
+To determine the transport properties of a **0.1 M HCl** solution, we utilize the following experimental parameters:
 *   **Concentration ($c$):** $0.1\text{ M} = 100\text{ mol/m}^3$
 *   **Conductivity ($\sigma$):** $4.2\text{ S/m}$
 *   **Current ($I$):** $0.003\text{ A}$
