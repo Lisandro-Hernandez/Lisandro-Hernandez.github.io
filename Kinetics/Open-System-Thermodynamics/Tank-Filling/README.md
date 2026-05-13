@@ -47,13 +47,29 @@ $$P_{final} = P_f \left( \frac{T_{final}}{T_f} \right) = 50 \text{ bar} \left( \
 
 ---
 
-## 🛠 Numerical Implementation
+## 🛠 Numerical Implementation: Iterative Filling Strategy
 
-This analytical framework serves as the basis for a **Python-based transient solver** that can handle non-ideal scenarios:
+The analytical model is extended into a discrete simulation to determine the efficiency of the filling process. Rather than a single continuous event, the numerical solver models the system as a series of **successive filling pulses**.
 
-*   **Real Gas Correction:** Implementation of the **Compressibility Factor ($Z$)** and residual enthalpies to account for non-ideal behavior at high pressures (50+ bar).
-*   **Time-Dependent Flow:** Modeling the mass flow rate $\dot{m}$ as a function of the pressure differential ($P_{supply} - P_{tank}$) using orifice flow equations.
-*   **Heat Integration:** Transitioning from an adiabatic assumption to a polytropic model by including a heat transfer coefficient ($h$) for the tank walls.
+*   **Iterative Mass Balance:** For each event $n$, the solver calculates the new mass $m_n$ and temperature $T_n$ based on the residual conditions from event $n-1$.
+*   **Convergence Criterion:** The simulation runs until the internal tank pressure $P_n \ge 0.95 P_{supply}$.
+*   **Vectorized Asymptotes:** Using NumPy, we track the diminishing returns of each filling event, demonstrating how the pressure gradient—and thus the mass flow rate—decays exponentially.
+
+---
+
+## 📈 Asymptotic Pressure Approach
+
+A key focus of this numerical study is the **95% Pressure Threshold**. Because the pressure differential $\Delta P = (P_{supply} - P_{tank})$ drives the kinetics of the filling, the system exhibits asymptotic behavior.
+
+| Event Number ($n$) | Tank Pressure ($P$) | Temperature ($T$) | % of Supply Line |
+| :--- | :--- | :--- | :--- |
+| 0 (Initial) | 10.0 bar | 298 K | 20.0% |
+| 1 | 28.4 bar | 382 K | 56.8% |
+| ... | ... | ... | ... |
+| **$n_{final}$** | **47.5 bar** | **431 K** | **95.0%** |
+
+### Convergence Insight
+The simulation reveals that as the tank pressure nears the supply pressure, the "work" performed per mole of gas added decreases. This numerical approach allows us to quantify the **filling latency**—the point where the time required for further pressure gains outweighs the industrial utility of the process.
 
 ---
 
