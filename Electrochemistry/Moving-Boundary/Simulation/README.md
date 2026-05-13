@@ -16,7 +16,7 @@ The interface evolution is described by a non-linear advection-diffusion equatio
 
 $$\frac{\partial c}{\partial t} + v(c)\frac{\partial c}{\partial x} = D\frac{\partial^2 c}{\partial x^2}$$
 
-where the second term on the left represents advection (or displacement) and the term on the right represents diffusion (or mixing).
+where the second term on the left represents **advection** (the physical displacement and sharpening of the boundary), and the term on the right represents **diffusion** (the natural mixing and dissipation of the gradient).
 
 ### The Self-Sharpening Effect
 The core of this model is the implementation of a velocity gradient across the interface. By coupling the local migration velocity to the concentration, we simulate the higher electric field found in the trailing solution:
