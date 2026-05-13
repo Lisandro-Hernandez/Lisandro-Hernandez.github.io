@@ -46,6 +46,7 @@ The simulation solves a non-linear transport equation using a **stable vectorize
 
 This project demonstrates that the Moving Boundary Method is a **self-organizing system**. The sharpening observed in the lab is not a lucky coincidence of layering, but a mathematical necessity of the electric field gradient. The simulation successfully bridges the gap between the theoretical Nernst-Planck framework and the visual evidence captured in experimental photography.
 
+<!-- 
 ---
 
 ## 🚀 Future Extensions
@@ -53,3 +54,5 @@ This project demonstrates that the Moving Boundary Method is a **self-organizing
 *   **Multi-Species Modeling:** Expanding the flux equations to include multiple cations and anions.
 *   **Hittorf Method Comparison:** Developing a secondary module to simulate concentration changes in electrode compartments.
 *   **Thermal Coupling:** Modeling the impact of Joule heating on the stability and shape of the moving boundary.
+
+-->
