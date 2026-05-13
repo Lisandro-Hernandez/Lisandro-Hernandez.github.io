@@ -11,6 +11,8 @@ The **moving boundary method** was investigated through laboratory experiments i
   <img src="./Picture_4.JPG" width="400"/>
 </p>
 
+Experimental Configuration: To ensure gravitational stability, the system was modeled after a U-tube apparatus. The trailing $\text{KMnO}_4$ solution was layered atop the leading $\text{KNO}_3$ in a vertical column, creating a descending boundary. This physical arrangement, combined with the self-sharpening effect, prevents convective mixing and maintains a sharp colorimetric interface for measurement.
+
 The moving boundary method provides a classical framework for analyzing:
 *   Ionic mobility
 *   Transport processes
