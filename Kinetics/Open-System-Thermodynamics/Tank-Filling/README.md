@@ -68,6 +68,10 @@ A key focus of this numerical study is the **95% Pressure Threshold**. Because t
 | ... | ... | ... | ... |
 | **$n_{final}$** | **47.5 bar** | **431 K** | **95.0%** |
 
+<p align="center">
+  <img src="./Asymptotic_Pressure_via_Filling_Events.png" width="600"/>
+</p>
+
 ### Convergence Insight
 The simulation reveals that as the tank pressure nears the supply pressure, the "work" performed per mole of gas added decreases. This numerical approach allows us to quantify the **filling latency**—the point where the time required for further pressure gains outweighs the industrial utility of the process.
 
