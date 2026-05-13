@@ -11,6 +11,12 @@ The system captures the fundamental competition between:
 
 ## 🔬 Key Physical Mechanisms
 
+### Profile Dynamical Model 
+
+The interface evolution is described by the equation:
+
+
+
 ### The Self-Sharpening Effect
 The core of this model is the implementation of a velocity gradient across the interface. By coupling the local migration velocity to the concentration, we simulate the higher electric field found in the trailing solution:
 
@@ -22,11 +28,7 @@ This velocity differential ensures that ions lagging behind the boundary are acc
 
 ## 📊 Observed Dynamics
 
-The simulation reveals the characteristic "life cycle" of an electrochemical boundary:
-
-*   **Initial Focusing:** Starting from a deliberately blurred initial condition, the boundary is seen to rapidly "tighten" as the electric field takes effect.
-*   **Steady-State Translation:** Once the interface is established, it propagates through the domain at a constant velocity without further changing its shape.
-*   **Kinetic Plateau:** The maximum gradient rises from its initial low value and plateaus, signifying that the boundary has reached its physical limit of sharpness for the chosen parameters.
+The simulation reveals the characteristic the two key features of the electrochemical boundary dynamical evolution: sharpening and displacing.
 
 <img src="./moving_boundary_evolution.png" width="700"/>
 
