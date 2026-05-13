@@ -21,7 +21,7 @@ where the second term on the left represents **advection** (the physical displac
 ### The Self-Sharpening Effect
 The core of this model is the implementation of a velocity gradient across the interface. By coupling the local migration velocity to the concentration, we simulate the higher electric field found in the trailing solution:
 
-$$v(c) = v_{\text{lead}} + (v_{\text{trail}} - v_{\text{lead}})c$$
+![Velocity Gradient](https://latex.codecogs.com/svg.image?v(c)%20=%20v_{\text{lead}}%20&plus;%20(v_{\text{trail}}%20-%20v_{\text{lead}})c)
 
 This velocity differential ensures that ions lagging behind the boundary are accelerated forward, while those diffusing too far ahead slow down. This "squeezing" effect creates the distinct interface characteristic of laboratory systems like **KCl/KNO₃**.
 
