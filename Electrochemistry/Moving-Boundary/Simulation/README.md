@@ -16,7 +16,7 @@ The interface evolution is described by a non-linear advection-diffusion equatio
 
 ![Advection-Diffusion Equation](https://latex.codecogs.com/svg.image?\frac{\partial%20c}{\partial%20t}%20&plus;%20v(c)\frac{\partial%20c}{\partial%20x}%20=%20D\frac{\partial^2%20c}{\partial%20x^2})
 
-where the second term on the left represents **advection** (the physical displacement and sharpening of the boundary), and the term on the right represents **diffusion** (the natural mixing and dissipation of the gradient).
+where the second term on the left represents advection (the physical displacement and sharpening of the boundary), and the term on the right represents diffusion (the natural mixing and dissipation of the gradient). In this model, $c$ indicates the concentration of the $\text{MnO}_4^-$ ion, while $1-c$ represents the concentration of the displaced $\text{NO}_3^-$ ion.
 
 ### The Self-Sharpening Effect
 The core of this model is the implementation of a velocity gradient across the interface. By coupling the local migration velocity to the concentration, we simulate the higher electric field found in the trailing solution:
