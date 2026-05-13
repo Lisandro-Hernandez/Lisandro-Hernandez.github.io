@@ -20,7 +20,7 @@ The moving boundary method provides a classical framework for analyzing:
   
 ### 📝 Finding Transport Numbers and Ionic Mobilities
 
-To determine the transport properties of a **0.1 M HCl** solution, we utilize the following experimental parameters:
+To determine the transport properties of a **0.1 M HCl** solution, we employed the following experimental conditions:
 *   **Concentration ($c$):** $0.1\text{ M} = 100\text{ mol/m}^3$
 *   **Conductivity ($\sigma$):** $4.2\text{ S/m}$
 *   **Current ($I$):** $0.003\text{ A}$
