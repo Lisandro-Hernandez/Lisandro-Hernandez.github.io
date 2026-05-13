@@ -23,8 +23,9 @@ The core of this model is the implementation of a velocity gradient across the i
 
 ![Velocity Gradient](https://latex.codecogs.com/svg.image?v(c)%20=%20v_{\text{lead}}%20&plus;%20(v_{\text{trail}}%20-%20v_{\text{lead}})c)
 
-This velocity differential ensures that ions lagging behind the boundary are accelerated forward, while those diffusing too far ahead slow down. This "squeezing" effect creates the distinct interface characteristic of laboratory experiments. While the physical dependence of velocity on concentration is non-linear, this linear interpolation captures the essential restorative physics while avoiding the high computational cost of solving the full Poisson equation for the electric field at every time step.
+where $v_{\text{trail}} > v_{\text{lead}}$.
 
+This velocity differential ensures that ions lagging behind the boundary are accelerated forward, while those diffusing too far ahead slow down. This "squeezing" effect creates the distinct interface characteristic of laboratory experiments. While the physical dependence of velocity on concentration is non-linear, this linear interpolation captures the essential restorative physics while avoiding the high computational cost of solving the full Poisson equation for the electric field at every time step.
 ---
 
 ## 📊 Observed Dynamics
