@@ -2,10 +2,9 @@
 
 ## 🧠 Overview
 
-This project explores the **moving boundary method** from both experimental and theoretical perspectives, with emphasis on ionic transport and boundary propagation in electrolyte systems.
+This project explores the **moving boundary method** from both experimental and theoretical perspectives, emphasizing ionic transport and boundary propagation in electrolyte systems.
 
-The **moving boundary method** was studied in laboratory experiments conducted in Dr. Hernández’s Electrochemistry course at Kettering University. The system shown in the images below correspond to aqueous **KCl/KNO₃** solutions and illustrate the evolution of the electrolyte boundary during the experiment.
-The experiment demonstrates the evolution of the interface between two electrolyte solutions, showing both the **displacement** and **sharpening** of the moving boundary over time.
+The **moving boundary method** was investigated through laboratory experiments in Dr. Hernández’s Electrochemistry course at Kettering University. The system shown in the images below corresponds to aqueous **KCl/KNO₃** solutions, illustrating the evolution of the electrolyte boundary during the experiment. These results demonstrate the progression of the interface between two electrolyte solutions, specifically highlighting both the **displacement** and **sharpening** of the moving boundary over time.
 
 <p align="center">
   <img src="./Picture_1.JPG" width="400"/>
@@ -13,11 +12,12 @@ The experiment demonstrates the evolution of the interface between two electroly
 </p>
 
 The moving boundary method provides a classical framework for analyzing:
-- ionic mobility,
-- transport processes,
-- concentration gradients,
-- and electrochemical migration phenomena.
+*   Ionic mobility
+*   Transport processes
+*   Concentration gradients
+*   Electrochemical migration phenomena
 
+  
 ### 📝 Finding Transport Numbers and Ionic Mobilities
 
 To determine the transport properties of a **0.1 M HCl** solution, we utilize the following experimental parameters:
