@@ -1,81 +1,58 @@
-# Thermodynamic Modeling of Unsteady-State Tank Filling
+# Kinetic Modeling of Transient Tank Filling & Thermal Relaxation
 
 ## 🧠 Overview
-This project investigates the transient thermodynamics of a high-pressure gas filling process. While textbook problems often focus on steady-state systems, this model explores the **unsteady-state open system**, where mass and energy accumulate within a control volume. The simulation demonstrates a critical thermodynamic principle: the adiabatic filling of a vessel results in a temperature rise significantly higher than the source temperature due to the conversion of **flow work** into internal energy.
+This project investigates the continuous dynamical response of a rigid vessel during a high-pressure filling process. Moving beyond static "before and after" textbook states, this model captures the **real-time evolution** of pressure and temperature. 
+
+The simulation demonstrates a critical thermodynamic principle: the adiabatic conversion of **flow work** into internal energy creates a rapid temperature spike, followed by a slower thermal relaxation back to ambient conditions. By coupling mass transport with Newton's Law of Cooling, we characterize the asymptotic approach to equilibrium.
 
 ---
 
-## 🔬 Thermodynamic Derivation
+## 🔬 Dynamical Governing Equations
 
-### 1. The Energy Balance (First Law)
-For a rigid, adiabatic tank being filled from a supply line, the rate of change of internal energy ($U$) is governed by the enthalpy ($\hat{H}$) of the incoming stream. Neglecting kinetic and potential energy:
+### 1. Coupled Mass & Energy Transport
+The system is modeled as an unsteady-state open system. The rate of change of the molar holdup $n$ and temperature $T$ are governed by the following coupled differential equations:
 
-$$\frac{dU}{dt} = \dot{m}_{in}\hat{H}_{in}$$
+**Molar Flux (The Driver):**  
+The filling rate is proportional to the pressure gradient across the inlet valve:
+$$\frac{dn}{dt} = k(P_{line} - P)$$
 
-Integrating from the initial state ($i$) to the final state ($f$):
-$$U_f - U_i = (m_f - m_i)\hat{H}_{in}$$
+**Energy Balance (The Response):**  
+The temperature evolution is a competition between the enthalpy influx (heating) and convective heat loss (cooling):
+$$\frac{dT}{dt} = \frac{\dot{n}_{in}(\bar{C}_P T_{amb} - \bar{C}_V T) - hA(T - T_{amb})}{n \bar{C}_V}$$
 
-### 2. Differential Temperature Evolution
-By substituting $U = m\hat{C}_V T$ and $\hat{H} = \hat{C}_P T$, we derive the relationship between mass accumulation and temperature change. The governing differential equation is:
+where $hA$ is the thermal conductance and $k$ is the valve conductance.
 
-$$m dT = (\gamma T_{in} - T)dm$$
-
-where $\gamma = \bar{C}_P / \bar{C}_V$. Integrating this expression allows us to determine the temperature $T_f$ at the exact moment the valve is closed. For an ideal gas like Argon ($\bar{C}_P = 5R/2$, $\bar{C}_V = 3R/2$):
-
-$$T_f = T_i \left( \frac{\bar{C}_P}{R} \right) \left[ \frac{\bar{C}_V}{R} + \frac{P_i}{P_f} \right]^{-1}$$
-
-Using $T_i = 298$ K, $P_i = 10$ bar, and $P_f = 50$ bar, the final temperature reaches **438 K**.
+### 2. Pressure Coupling
+The pressure is linked to the state variables through the derivative of the Ideal Gas Law:
+$$\frac{dP}{dt} = \frac{R}{V} \left( n\frac{dT}{dt} + T\frac{dn}{dt} \right)$$
 
 ---
 
-## 📊 Long-Term Thermalization & Equilibrium
+## 📊 Observed Kinetic Behavior
 
-Once the valve is closed, the system undergoes a slow isochoric (constant volume) cooling process as it reaches thermal equilibrium with the storage environment.
-
-### Energy Dissipation
-The heat transferred to the surroundings during this cooling phase is calculated via the change in specific internal energy:
-
-$$\hat{q} = \Delta \hat{u} = \hat{C}_V(T_{final} - T_f)$$
-
-For Argon ($M = 40$ kg/kmol):
-$$\hat{q} = \frac{3}{2} \left( \frac{8.3145}{40} \right) (298 - 438) = -43.65 \text{ kJ/kg}$$
-
-### Pressure Regression
-As the kinetic energy of the particles decreases, the pressure drops linearly with temperature. The final stable pressure in the tank is:
-
-$$P_{final} = P_f \left( \frac{T_{final}}{T_f} \right) = 50 \text{ bar} \left( \frac{298 \text{ K}}{438 \text{ K}} \right) = 34.02 \text{ bar}$$
-
----
-
-## 🛠 Numerical Implementation: Iterative Filling Strategy
-
-The analytical model is extended into a discrete simulation to determine the efficiency of the filling process. Rather than a single continuous event, the numerical solver models the system as a series of **successive filling pulses**.
-
-*   **Iterative Mass Balance:** For each event $n$, the solver calculates the new mass $m_n$ and temperature $T_n$ based on the residual conditions from event $n-1$.
-*   **Convergence Criterion:** The simulation runs until the internal tank pressure $P_n \ge 0.95 P_{supply}$.
-*   **Vectorized Asymptotes:** Using NumPy, we track the diminishing returns of each filling event, demonstrating how the pressure gradient—and thus the mass flow rate—decays exponentially.
-
----
-
-## 📈 Asymptotic Pressure Approach
-
-A key focus of this numerical study is the **95% Pressure Threshold**. Because the pressure differential $\Delta P = (P_{supply} - P_{tank})$ drives the kinetics of the filling, the system exhibits asymptotic behavior.
-
-| Event Number ($n$) | Tank Pressure ($P$) | Temperature ($T$) | % of Supply Line |
-| :--- | :--- | :--- | :--- |
-| 0 (Initial) | 10.0 bar | 298 K | 20.0% |
-| 1 | 28.4 bar | 382 K | 56.8% |
-| ... | ... | ... | ... |
-| **$n_{final}$** | **47.5 bar** | **431 K** | **95.0%** |
+Unlike discrete models, the continuous simulation reveals a distinct **thermal hump**. As the pressure differential is highest at $t=0$, the temperature spikes nearly 140 K above ambient. As the flow rate $(\dot{n})$ decays asymptotically, the "cooling" term dominates, and the temperature relaxes back toward the ambient reservoir.
 
 <p align="center">
-  <img src="./tank_filling.png" width="700"/>
+  <img src="./tank_kinetic_evolution.png" width="700"/>
 </p>
 
-### Convergence Insight
-The simulation reveals that as the tank pressure nears the supply pressure, the "work" performed per mole of gas added decreases. This numerical approach allows us to quantify the **filling latency**—the point where the time required for further pressure gains outweighs the industrial utility of the process.
+### The 95% Convergence Criterion
+Because the driving force $(P_{line} - P)$ vanishes as equilibrium is approached, the system is mathematically asymptotic. We define the **Practical Filling Time** as the point where $P(t) \ge 0.95 P_{line}$. 
+
+*   **Initial Phase:** Rapid pressure gain and maximum thermal stress.
+*   **Relaxation Phase:** Minimal mass transfer as the system sheds excess thermal energy to reach stable storage pressure.
+
+---
+
+## 🛠 Numerical Implementation: Stiff ODE Integration
+
+Modeling this process requires handling significant **numerical stiffness**. At the start of the simulation, the low molar holdup ($n$) in the denominator of the energy balance makes the temperature gradient extremely sensitive to small fluctuations.
+
+*   **Stiff Solver Selection:** The simulation utilizes the **Radau method** (an implicit Runge-Kutta scheme) to maintain stability during the initial high-gradient phase.
+*   **Precision Control:** Tightened absolute and relative tolerances ($10^{-8}$) were implemented to eliminate numerical "chatter" and ensure a smooth physical trajectory.
+*   **Vectorized Evolution:** Developed in Python using `SciPy.integrate`, the model allows for rapid sensitivity analysis of valve conductance ($k$) versus cooling rates ($hA$).
 
 ---
 
 ## 🔑 Key Insight
-This model proves that **temperature is not just a measure of thermal contact, but a reflection of work performed.** Even though the supply line is at room temperature, the gas inside the tank heats up by 140 K because the environment is performing work to "shove" the gas into the rigid container. This has significant implications for the safety and material integrity of high-pressure storage systems.
+This project demonstrates that **equilibrium is a kinetic destination.** The "final state" of 50 bar is not reached instantly; its approach is governed by the physical constraints of the hardware. The observation that temperature peaks and then drops *while filling is still occurring* highlights the non-linear interplay between work, heat, and time—essential knowledge for designing safe high-pressure gas infrastructure.
