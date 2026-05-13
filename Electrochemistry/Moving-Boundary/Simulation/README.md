@@ -20,15 +20,6 @@ This velocity differential ensures that ions lagging behind the boundary are acc
 
 ---
 
-### Gradient Analysis & Sharpness Tracking
-To quantify the "sharpness" of the boundary, the simulation tracks the maximum spatial derivative of the concentration profile over time:
-
-$$\text{Sharpness} = \max \left| \frac{\Delta c}{\Delta x} \right|$$
-
-Observing this value allows us to identify the exact moment the system reaches a **non-equilibrium steady state**—the point where the sharpening forces and diffusive forces reach a perfect balance.
-
----
-
 ## 📊 Observed Dynamics
 
 The simulation reveals the characteristic "life cycle" of an electrochemical boundary:
