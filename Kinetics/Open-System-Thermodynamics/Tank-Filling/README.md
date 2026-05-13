@@ -14,30 +14,35 @@ The system is modeled as an unsteady-state open system. The rate of change of th
 
 **Molar Flux (The Driver):**  
 The filling rate is proportional to the pressure gradient across the inlet valve:
-$$\frac{dn}{dt} = k(P_{line} - P)$$
+
+![Molar Flux](https://latex.codecogs.com/svg.image?\frac{dn}{dt}=k(P_{line}-P))
 
 **Energy Balance (The Response):**  
 The temperature evolution is a competition between the enthalpy influx (heating) and convective heat loss (cooling):
-$$\frac{dT}{dt} = \frac{\dot{n}_{in}(\bar{C}_P T_{amb} - \bar{C}_V T) - hA(T - T_{amb})}{n \bar{C}_V}$$
+
+![Energy Balance](https://latex.codecogs.com/svg.image?\frac{dT}{dt}=\frac{\dot{n}_{in}(\bar{C}_PT_{amb}-\bar{C}_VT)-hA(T-T_{amb})}{n\bar{C}_V})
 
 where $hA$ is the thermal conductance and $k$ is the valve conductance.
 
 ### 2. Pressure Coupling
 The pressure is linked to the state variables through the derivative of the Ideal Gas Law:
-$$\frac{dP}{dt} = \frac{R}{V} \left( n\frac{dT}{dt} + T\frac{dn}{dt} \right)$$
+
+![Pressure Coupling](https://latex.codecogs.com/svg.image?\frac{dP}{dt}=\frac{R}{V}\left(n\frac{dT}{dt}+T\frac{dn}{dt}\right))
 
 ---
 
 ## 📊 Observed Kinetic Behavior
 
-Unlike discrete models, the continuous simulation reveals a distinct **thermal hump**. As the pressure differential is highest at $t=0$, the temperature spikes nearly 140 K above ambient. As the flow rate $(\dot{n})$ decays asymptotically, the "cooling" term dominates, and the temperature relaxes back toward the ambient reservoir.
+Unlike discrete models, the continuous simulation reveals a distinct **thermal hump**. As the pressure differential is highest at $t=0$, the temperature spikes nearly 140 K above ambient. As the flow rate decays asymptotically, the "cooling" term dominates, and the temperature relaxes back toward the ambient reservoir.
 
 <p align="center">
   <img src="./tank_kinetic_evolution.png" width="700"/>
 </p>
 
 ### The 95% Convergence Criterion
-Because the driving force $(P_{line} - P)$ vanishes as equilibrium is approached, the system is mathematically asymptotic. We define the **Practical Filling Time** as the point where $P(t) \ge 0.95 P_{line}$. 
+Because the driving force vanishes as equilibrium is approached, the system is mathematically asymptotic. We define the **Practical Filling Time** as the point where:
+
+![Threshold](https://latex.codecogs.com/svg.image?P(t)\ge0.95P_{line})
 
 *   **Initial Phase:** Rapid pressure gain and maximum thermal stress.
 *   **Relaxation Phase:** Minimal mass transfer as the system sheds excess thermal energy to reach stable storage pressure.
@@ -49,8 +54,8 @@ Because the driving force $(P_{line} - P)$ vanishes as equilibrium is approached
 Modeling this process requires handling significant **numerical stiffness**. At the start of the simulation, the low molar holdup ($n$) in the denominator of the energy balance makes the temperature gradient extremely sensitive to small fluctuations.
 
 *   **Stiff Solver Selection:** The simulation utilizes the **Radau method** (an implicit Runge-Kutta scheme) to maintain stability during the initial high-gradient phase.
-*   **Precision Control:** Tightened absolute and relative tolerances ($10^{-8}$) were implemented to eliminate numerical "chatter" and ensure a smooth physical trajectory.
-*   **Vectorized Evolution:** Developed in Python using `SciPy.integrate`, the model allows for rapid sensitivity analysis of valve conductance ($k$) versus cooling rates ($hA$).
+*   **Precision Control:** Tightened absolute and relative tolerances were implemented to eliminate numerical "chatter" and ensure a smooth physical trajectory.
+*   **Vectorized Evolution:** Developed in Python using `SciPy.integrate`, the model allows for rapid sensitivity analysis of valve conductance versus cooling rates.
 
 ---
 
