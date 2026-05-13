@@ -1,7 +1,7 @@
 # Discrete Thermalization and Dynamical Heat Transfer
 
 ## 🧠 Overview
-This project explores the transition from discrete thermalization events to continuous dynamical heat transfer. By analyzing a series of successive thermal contacts between two liquid masses, the model demonstrates how a kinetic process—typically described by differential equations—can emerge from a limit of discrete steps.
+This project explores the transition from discrete thermalization events to continuous dynamical heat transfer. By analyzing a series of successive thermal contacts between two liquid masses at different temperatures, the model demonstrates how a kinetic process—typically described by differential equations—can emerge from a limit of discrete thermalization processes.
 
 ---
 
