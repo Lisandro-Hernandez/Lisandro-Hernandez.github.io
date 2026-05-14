@@ -22,7 +22,7 @@ Select a model below to view results for systems with symmetric mass distributio
 
 <p align="center">
   <img src="./CC-radial_distribution_function_methane.jpg" width="400"/>
-  <img src="./CC-radial_distribution_function_methane.jpg" width="400"/>
+  <img src="./Velocity_correlation_function_methane.jpg" width="400"/>
 </p>
 
 
