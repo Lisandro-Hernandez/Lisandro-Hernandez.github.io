@@ -25,7 +25,7 @@ Select a model below to view results for systems with symmetric mass distributio
 ### Complex Molecular Architectures
 * **Benzene Liquid Model:** *Application of the rigid discontinuous method to benzene, showing qualitative agreement with detailed continuous-potential models regarding equilibrium and dynamical properties[cite: 1].*
 
-
+<img src="./XX-radial_distribution_function_benzene.jpg" width="500"/>
 
 ---
 
