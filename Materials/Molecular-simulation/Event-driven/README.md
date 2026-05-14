@@ -19,7 +19,7 @@ Select a model below to view results for systems with symmetric mass distributio
 
 * **Methane EDMD Study:** *Comparison of discontinuous and standard Lennard-Jones potentials, reproducing essential structural and dynamical features at gas and liquid densities[cite: 1].*
 
-<img src="./CC-radial_distribution_function_methane.png" width="500"/>
+<img src="./CC-radial_distribution_function_methane.jpg" width="500"/>
 
 
 ### Complex Molecular Architectures
