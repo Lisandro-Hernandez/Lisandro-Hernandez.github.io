@@ -21,6 +21,8 @@ Select a system below to view the quantitative impact of quantization on cluster
 ### Potential of Mean Force
 * **Na+(H2O)12 Transport:** *Significant quantum effects were identified in the potential of mean force, suggesting that quantization plays a critical role in the kinetics of ionic transport.*
 
+<img src="./PMF_Na_12H2O.png" width="700"/>
+
 ---
 
 ## 🛠 Methodology
