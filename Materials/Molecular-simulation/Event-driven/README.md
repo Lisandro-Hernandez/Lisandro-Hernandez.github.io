@@ -17,7 +17,7 @@ Select a model below to view results for systems with symmetric mass distributio
 
 * **Rigid vs. Semiflexible Motion:** *Characterization of analytical free motion in rigid bodies versus numerical integration requirements for semiflexible cases[cite: 1].*
 
-* **Methane EDMD Study:** *Comparison of discontinuous and standard Lennard-Jones potentials, reproducing essential structural and dynamical features at gas and liquid densities[cite: 1].*
+* **Methane EDMD Study:** *The figures below show a comparison of discontinuous [red] and standard Lennard-Jones potentials [blue], reproducing essential structural and dynamical features of liquid methane. The C-C radial distribution function appears on the left and the velocity-velocity time correlation function appears on the right.*
 
 
 <p align="center">
