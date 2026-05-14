@@ -15,11 +15,11 @@ This project combines nonequilibrium simulation methods with rigid-body path-int
 ### Small Cluster Dynamics
 Select a system below to view the quantitative impact of quantization on cluster dissociation:
 
-* **[I−(H2O)5 Dissociation](./iodide-cluster/)** *Findings indicate that quantum effects contribute approximately 11% to the free energy, marking them as non-negligible components of cluster stability[cite: 1].*
-* **[Protonic Quantum Effects](./proton-effects/)** *Analysis of how protonic quantization alters the free energy landscape of small ion-water assemblies[cite: 1].*
+* **I−(H2O)5 Dissociation** *Findings indicate that quantum effects contribute approximately 11% to the free energy, marking them as non-negligible components of cluster stability[cite: 1].*
+* **Protonic Quantum Effects** *Analysis of how protonic quantization alters the free energy landscape of small ion-water assemblies[cite: 1].*
 
 ### Larger Solvated Systems
-* **[Na+(H2O)12 Transport](./sodium-cluster/)** *Significant quantum effects were identified in the potential of mean force, suggesting that quantization plays a critical role in the kinetics of ionic transport[cite: 1].*
+* **Na+(H2O)12 Transport** *Significant quantum effects were identified in the potential of mean force, suggesting that quantization plays a critical role in the kinetics of ionic transport[cite: 1].*
 
 ---
 
