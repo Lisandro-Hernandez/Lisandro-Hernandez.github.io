@@ -40,3 +40,8 @@ Select a model below to view results for systems with symmetric mass distributio
 
 ## 🛠 Methodology
 The simulations utilize an **event-driven framework** that calculates the exact times of interaction events rather than using fixed time steps[cite: 1]. This approach is applied to rigid-body systems where free motion can be computed analytically, utilizing discontinuous potentials to capture the essential physics of molecular attraction and repulsion with significantly reduced computational cost[cite: 1].
+
+## 📌 Notes
+- [Discontinuous molecular dynamics for semi-flexible and rigid bodies](https://doi.org/10.1063/1.2434957)
+- [Discontinuous molecular dynamics for rigid bodies: Applications][(https://doi.org/10.1063/1.2434957)
+
