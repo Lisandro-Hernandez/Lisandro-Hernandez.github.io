@@ -5,7 +5,7 @@ This project explores the transition from discrete thermalization events to cont
 
 ---
 
-## 📝 Exercise: Sequential Thermal Contact
+## 📝 Sequential Thermal Contact
 
 ### 1. Equilibrium of Two Masses
 Consider masses ![Mass A](https://latex.codecogs.com/svg.image?m_A) and ![Mass B](https://latex.codecogs.com/svg.image?m_B) of the same liquid at temperatures ![Temperature A](https://latex.codecogs.com/svg.image?T_A) and ![Temperature B](https://latex.codecogs.com/svg.image?T_B), where ![Ta > Tb](https://latex.codecogs.com/svg.image?T_A%20%3E%20T_B). When placed in thermal contact, the heat lost by A is absorbed by B:
