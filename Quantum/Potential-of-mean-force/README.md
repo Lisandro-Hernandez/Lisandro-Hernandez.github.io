@@ -17,7 +17,7 @@ Select a system below to view the quantitative impact of quantization on cluster
 
 * **I−(H2O)5 Dissociation:** *The figure below shows irreversible work distributions for the classical and quantum system in the forward and reverse directions. The instersection of the work distribution represents the free energy of dissociation, and this is shifted in the quantum case as compared with the classical system. Findings indicate that quantum effects contribute approximately 11% to the dissociation free energy, marking them as non-negligible components of cluster stability. Analysis of show how protonic quantization alters the free energy landscape of small ion-water assemblies.*
 
-<img src="./PMF_Na_12H2O.png" width="500"/>
+<img src="./forward-reverse-work-distributions.jpg" width="500"/>
 
 ### Potential of Mean Force
 * **Na+(H2O)12 Dissociation:** *Significant quantum effects were identified in the potential of mean force, suggesting that quantization plays a critical role in the kinetics of ionic transport.*
