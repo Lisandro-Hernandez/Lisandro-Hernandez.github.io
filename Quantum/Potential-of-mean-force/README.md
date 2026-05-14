@@ -28,3 +28,6 @@ Select a system below to view the quantitative impact of quantization on cluster
 
 ## 🛠 Methodology
 The research utilizes a hybrid approach merging **nonequilibrium simulation methods** with **rigid-body path-integral techniques**. The methodology relies on Jarzynski’s work theorem and Crooks’ fluctuation relation to extract equilibrium free energy differences from nonequilibrium work distributions, providing a rigorous framework for assessing quantization in aqueous ionic transport.
+
+## 📌 Notes
+- [Quantum Effects on the Free Energy of Ionic Aqueous Clusters Evaluated by Nonequilibrium Computational Methods](https://pubs.acs.org/doi/10.1021/jp908742n)
