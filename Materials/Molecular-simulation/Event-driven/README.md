@@ -15,11 +15,15 @@ This project establishes a general framework for performing event-driven molecul
 ### Spherical & High-Symmetry Systems
 Select a model below to view results for systems with symmetric mass distributions:
 
-* **[Methane EDMD Study](./methane/)** *Comparison of discontinuous and standard Lennard-Jones potentials, reproducing essential structural and dynamical features at gas and liquid densities[cite: 1].*
-* **[Rigid vs. Semiflexible Motion](./motion-types/)** *Characterization of analytical free motion in rigid bodies versus numerical integration requirements for semiflexible cases[cite: 1].*
+* **Methane EDMD Study:** *Comparison of discontinuous and standard Lennard-Jones potentials, reproducing essential structural and dynamical features at gas and liquid densities[cite: 1].*
+* **Rigid vs. Semiflexible Motion:** *Characterization of analytical free motion in rigid bodies versus numerical integration requirements for semiflexible cases[cite: 1].*
+
+
 
 ### Complex Molecular Architectures
-* **[Benzene Liquid Model](./benzene/)** *Application of the rigid discontinuous method to benzene, showing qualitative agreement with detailed continuous-potential models regarding equilibrium and dynamical properties[cite: 1].*
+* **Benzene Liquid Model:** *Application of the rigid discontinuous method to benzene, showing qualitative agreement with detailed continuous-potential models regarding equilibrium and dynamical properties[cite: 1].*
+
+
 
 ---
 
