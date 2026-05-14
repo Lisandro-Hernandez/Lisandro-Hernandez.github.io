@@ -20,7 +20,7 @@ Select a system below to view the quantitative impact of quantization on cluster
 <img src="./forward-reverse-work-distributions.jpg" width="500"/>
 
 ### Potential of Mean Force
-* **Na+(H2O)12 Dissociation:** *The figure below shows the potential of mean force as a function of the cluster radial distance for the classical and quantum system.  Significant quantum effects were identified in the potential of mean force, suggesting that quantization plays a critical role in the kinetics of ionic transport.*
+* **Na+(H2O)12 Dissociation:** *The figure below shows the potential of mean force as a function of the cluster radial distance for the classical and quantum system.  Significant quantum effects are identified in the potential of mean force, suggesting that quantization plays a critical role in the kinetics of ionic transport.*
 
 <img src="./PMF_Na_12H2O.png" width="500"/>
 
