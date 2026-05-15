@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Projects | Lisandro Hernández de la Peña</title>
+
 <style>
 html {
     scroll-behavior: smooth;
@@ -55,7 +56,7 @@ body {
     margin-bottom: 50px;
 }
 
-h1, h2, h3 {
+h2, h3 {
     color: #1a365d;
 }
 
@@ -64,16 +65,77 @@ h2 {
     padding-bottom: 5px;
 }
 
+/* BACK LINK STYLING */
+.back-link {
+    text-decoration: none;
+    color: inherit;
+    transition: opacity 0.2s;
+}
+
+.back-link:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.back-link::before {
+    content: "← ";
+    font-size: 0.8em;
+    vertical-align: middle;
+}
+
+/* GROUPS */
+.topic-group {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.topic-group h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.topic-desc {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #555;
+    font-size: 0.95em;
+}
+
 /* PROJECT CARDS */
 .project {
-    background: white;
+    background: #f8fafc;
     padding: 15px;
-    margin-bottom: 10px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    margin-bottom: 12px;
+    border-radius: 6px;
+    border-left: 4px solid #2b6cb0;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.03);
+}
+
+.project:last-child {
+    margin-bottom: 0;
+}
+
+.project a {
+    text-decoration: none;
+    color: #1a365d;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+.project p {
+    margin: 5px 0 0 0;
+    color: #444;
 }
 </style>
+
 </head>
+
 <body>
 
 <div class="navbar">
@@ -88,59 +150,94 @@ h2 {
 <div class="container">
 
 <div id="projects" class="section">
-    <h2>Materials Modeling & Molecular Simulations</h2>
+    <h2><a href="./materials.html" class="back-link">Materials Modeling & Molecular Simulations</a></h2>
 
+    <!-- ===================================================== -->
+    <!-- MOLECULAR SIMULATIONS -->
+    <!-- ===================================================== -->
+    <div class="topic-group">
+        <h3>Molecular Simulations</h3>
+        <p class="topic-desc">
+            Computational studies of chemical systems using quantum and event-driven dynamics to explore condensed phase behavior.
+        </p>
 
-    <h3>Molecular Simulations</h3> 
+        <div class="project">
+            <a href="../Materials/Molecular-simulation/Liquid-water/">
+                <strong>Molecular Simulation of Liquid Water</strong>
+            </a>
+            <p>Quantum dynamics, tunneling, and isotopic effects in the condensed phase.</p>
+        </div>
 
-    <div class="project">
-        <a href="../Materials/Molecular-simulation/Liquid-water/"><strong>Molecular Simulation of Liquid Water</strong></a>
-        <p>Quantum dynamics, tunneling, and isotopic effects in the condensed phase</p>
+        <div class="project">
+            <a href="../Materials/Molecular-simulation/Ice/">
+                <strong>Quantum Effects in Ice and Liquid Water</strong>
+            </a>
+            <p>Comparative study of lattice dynamics, melting, and model-dependent quantum shifts.</p>
+        </div>
+
+        <div class="project">
+            <a href="../Materials/Molecular-simulation/Event-driven/">
+                <strong>Event-Driven Simulations of Rigid and Semiflexible Molecules</strong>
+            </a>
+            <p>General theoretical framework, algorithmic development and applications.</p>
+        </div>
     </div>
 
-    <div class="project">
-        <a href="../Materials/Molecular-simulation/Ice/"><strong>Quantum Effects in Ice and Liquid Water</strong></a>
-        <p>Comparative study of lattice dynamics, melting, and model-dependent quantum shifts</p>
+    <!-- ===================================================== -->
+    <!-- MATERIALS MODELING -->
+    <!-- ===================================================== -->
+    <div class="topic-group">
+        <h3>Materials Modeling</h3>
+        <p class="topic-desc">
+            Thermodynamic and equilibrium modeling of phase behavior and aqueous chemical systems.
+        </p>
+
+        <div class="project">
+            <a href="../Equations%20of%20State/index.html">
+                <strong>Simulation of Phase Equilibrium</strong>
+            </a>
+            <p>Phase behavior of single component and binary mixtures.</p>
+        </div>
+
+        <div class="project">
+            <a href="../Multi-equilibrium%20Ionic%20Systems/index.html">
+                <strong>Aqueous Acid–Base Multi-Equilibrium Systems</strong>
+            </a>
+            <p>Modeling of aqueous acid–base equilibria and titration curves.</p>
+        </div>
     </div>
-      
-    <div class="project">
-        <a href="../Materials/Molecular-simulation/Event-driven/"><strong>Event-Driven Simulations of Rigid and Semiflexible Molecules</strong></a>
-        <p>General theoretical framework, algorithmic development and applications</p>
-    </div>  
-    
-    
-    <h3>Materials Modeling</h3> 
 
-    <div class="project">
-        <a href="../Equations%20of%20State/index.html"><strong>Simulation of Phase Equilibrium</strong></a>
-        <p>Phase behavior of single component and binary mixtures.</p>
+    <!-- ===================================================== -->
+    <!-- QUANTUM MATERIALS -->
+    <!-- ===================================================== -->
+    <div class="topic-group">
+        <h3>Quantum Materials</h3>
+        <p class="topic-desc">
+            Advanced theoretical approaches to free energy, spectroscopy, and fluid dynamics in quantum systems.
+        </p>
+
+        <div class="project">
+            <a href="../Quantum/Potential-of-mean-force/">
+                <strong>Free Energy from Non-equilibrium Processes</strong>
+            </a>
+            <p>Dissociation free energy and PMFs of Ion−Water Clusters.</p>
+        </div>
+
+        <div class="project">
+            <a href="../Quantum/Liquid-Neon/">
+                <strong>Assessment of Approximate Quantum Dynamics of Fluids</strong>
+            </a>
+            <p>Diffusion coefficient of liquid neon at 30 K.</p>
+        </div>
+
+        <div class="project">
+            <a href="../Theoretical%20Spectroscopy/index.html">
+                <strong>Materials Spectroscopy</strong>
+            </a>
+            <p>Solid state lattice dynamics and Mössbauer spectra.</p>
+        </div>
     </div>
 
-    <div class="project">
-        <a href="../Multi-equilibrium%20Ionic%20Systems/index.html"><strong>Aqueous Acid–Base Multi-Equilibrium Systems</strong></a>
-        <p>Modeling of aqueous acid–base equilibria and titration curves.</p>
-    </div>            
-
-
-    <h3>Quantum Materials</h3>      
-    
-    <div class="project">
-        <a href="../Quantum/Potential-of-mean-force/"><strong>Free Energy from Non-equilibrium Processes</strong></a>
-        <p>Dissociation free energy and PMFs of Ion−Water Clusters.</p>
-    </div>  
-
-    <div class="project">
-    <a href="../Quantum/Liquid-Neon/"><strong>Assessment of Approximate Quantum Dynamics of Fluids</strong></a>
-    <p>Diffusion coefficient of liquid neon at 30 K.</p>
-    </div>
-    
-    <div class="project">
-        <a href="../Theoretical%20Spectroscopy/index.html"><strong>Materials Spectroscopy</strong></a>
-        <p>Solid state lattice dynamics and Mössbauer spectra.</p>
-    </div>   
-         
-
-    
 </div>
 
 </div>
