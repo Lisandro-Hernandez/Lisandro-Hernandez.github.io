@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Projects | Lisandro Hernández de la Peña</title>
+
 <style>
 html {
     scroll-behavior: smooth;
@@ -55,7 +56,7 @@ body {
     margin-bottom: 50px;
 }
 
-h1, h2, h3 {
+h2, h3 {
     color: #1a365d;
 }
 
@@ -64,7 +65,25 @@ h2 {
     padding-bottom: 5px;
 }
 
-/* TOPIC GROUP CONTAINER */
+/* BACK LINK STYLING */
+.back-link {
+    text-decoration: none;
+    color: inherit;
+    transition: opacity 0.2s;
+}
+
+.back-link:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.back-link::before {
+    content: "← ";
+    font-size: 0.8em;
+    vertical-align: middle;
+}
+
+/* GROUPS */
 .topic-group {
     background: #ffffff;
     border: 1px solid #e2e8f0;
@@ -76,8 +95,14 @@ h2 {
 
 .topic-group h3 {
     margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.topic-desc {
+    margin-top: 0;
     margin-bottom: 15px;
-    color: #1a365d;
+    color: #555;
+    font-size: 0.95em;
 }
 
 /* PROJECT CARDS */
@@ -93,8 +118,24 @@ h2 {
 .project:last-child {
     margin-bottom: 0;
 }
+
+.project a {
+    text-decoration: none;
+    color: #1a365d;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+.project p {
+    margin: 5px 0 0 0;
+    color: #444;
+}
 </style>
+
 </head>
+
 <body>
 
 <div class="navbar">
@@ -109,50 +150,72 @@ h2 {
 <div class="container">
 
 <div id="projects" class="section">
-    <h2>Quantum / Molecular Theory</h2>
+    <h2><a href="./theory.html" class="back-link">Quantum / Molecular Theory</a></h2>
 
+    <!-- ===================================================== -->
+    <!-- QUANTUM DYNAMICS & THEORETICAL WORK -->
+    <!-- ===================================================== -->
     <div class="topic-group">
         <h3>Quantum Dynamics & Theoretical Work</h3>
+        <p class="topic-desc">
+            Formal development of quantum-classical mapping methods and the evolution of time-dependent correlation functions in complex environments.
+        </p>
         
         <div class="project">
-            <a href="../Quantum%20Dynamics/index.html"><strong>Quantum Dynamics in Condensed Phase</strong></a>
+            <a href="../Quantum%20Dynamics/index.html">
+                <strong>Quantum Dynamics in Condensed Phase</strong>
+            </a>
             <p>Simulating quantum dynamics towards the classical limit.</p>
         </div>
 
         <div class="project">
-            <a href="../Quantum%20Time%20Correlation%20Functions/index.html"><strong>Materials Response Theory</strong></a>
+            <a href="../Quantum%20Time%20Correlation%20Functions/index.html">
+                <strong>Materials Response Theory</strong>
+            </a>
             <p>Quantum dynamics and global thermodynamic constraints.</p>
         </div>
     </div>
 
+    <!-- ===================================================== -->
+    <!-- QUANTUM MATERIALS MODELING -->
+    <!-- ===================================================== -->
     <div class="topic-group">
         <h3>Quantum Materials Modeling</h3>
+        <p class="topic-desc">
+            Application of non-equilibrium statistical mechanics and path integral formalisms to spectroscopic and thermodynamic properties of solids.
+        </p>
 
         <div class="project">
-            <a href="../Quantum%20Thermodynamics/index.html"><strong>Non-equilibrium Thermodynamics</strong></a>
+            <a href="../Quantum%20Thermodynamics/index.html">
+                <strong>Non-equilibrium Thermodynamics</strong>
+            </a>
             <p>Quantum free energy differences from non-equilibrium path integral methods.</p>
         </div>  
         
         <div class="project">
-            <a href="../Theoretical%20Spectroscopy/index.html"><strong>Materials Spectroscopy</strong></a>
+            <a href="../Theoretical%20Spectroscopy/index.html">
+                <strong>Materials Spectroscopy</strong>
+            </a>
             <p>Solid state lattice dynamics and Mössbauer spectra.</p>
         </div>      
-
-                   
     </div>
 
-
+    <!-- ===================================================== -->
+    <!-- QUANTUM COMPUTING -->
+    <!-- ===================================================== -->
     <div class="topic-group">
         <h3>Quantum Computing</h3>
+        <p class="topic-desc">
+            Exploring algorithmic frameworks and computational paradigms for next-generation quantum information processing.
+        </p>
 
         <div class="project">
-            <a href="../Quantum-Computing/index.html"><strong>Quantum Computing</strong></a>
-            <p>Quantum Computing.</p>
+            <a href="../Quantum-Computing/index.html">
+                <strong>Quantum Computing Frameworks</strong>
+            </a>
+            <p>Investigation of quantum algorithms and circuit-based simulations of molecular systems.</p>
         </div>      
-
-                   
     </div>    
-    
     
 </div>
 
