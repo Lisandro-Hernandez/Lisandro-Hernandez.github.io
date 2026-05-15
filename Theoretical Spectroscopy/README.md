@@ -6,8 +6,8 @@ This graph shows the gamma-ray energy spectrum of Iron-57 in a 1D harmonic latti
 ## 📈 Visualization
 
 <p align="center">
-  <img src="mossbauer_spectrum.png" alt="Graph" width="600">
-  <img src="mossbauer_spectrum.png" alt="Graph" width="600">
+  <img src="mossbauer_spectrum.png" alt="Graph" width="500">
+  <img src="mossbauer_spectrum.png" alt="Graph" width="500">
 </p>
 
 ## 🔍 What This Shows
