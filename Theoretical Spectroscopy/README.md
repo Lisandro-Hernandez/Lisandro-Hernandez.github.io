@@ -15,7 +15,7 @@ This graph shows the gamma-ray energy spectrum of Iron-57 in a 1D harmonic latti
 
 ## 🔍 Lattice Dynamics
 
-The spectrum above corresponds to the Fourier transform of the following quantum time correlation function of the lattice dynamics
+The spectrum above corresponds to the Fourier transform of the following periodic quantum time correlation function of the lattice dynamics. The correlation function period is 3.17 ps, 
 
 <img src="mossbauer_correlation_function.png" alt="Graph" width="600">
 
