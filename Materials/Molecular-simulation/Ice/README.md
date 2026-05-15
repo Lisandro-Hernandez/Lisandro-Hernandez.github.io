@@ -38,10 +38,13 @@ Select a study below to explore the quantum properties of the solid phase:
 
 * **[Universal Quantum Metrics]()** Findings showing a consistent 8% energy shift and 11° molecular uncertainty across different water models in the liquid phase.
 
-
-
 ---
 
 ## 🛠 Methodology
 
 The simulations utilize the **rigid-body centroid molecular dynamics (CMD)** framework applied to ice Ih and liquid water. By comparing classical and quantum trajectories across multiple models (TIP4P, TIP4P-Ew, and SPC/E), the methodology isolates model-dependent artifacts from true quantum phenomena, providing a formal context for the role of quantization in water's condensed phases.
+
+## 📌 Notes
+- [Quantum effects in ice Ih](https://doi.org/10.1063/1.2049283)
+- [Quantum effects in liquid water and ice: Model dependence](https://doi.org/10.1063/1.2238861)
+
