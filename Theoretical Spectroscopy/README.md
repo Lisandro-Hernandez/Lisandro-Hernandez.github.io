@@ -5,16 +5,20 @@ This graph shows the gamma-ray energy spectrum of Iron-57 in a 1D harmonic latti
 
 ## 📈 Visualization
 
-<p align="center">
-  <img src="mossbauer_spectrum.png" alt="Graph" width="500">
-  <img src="mossbauer_spectrum.png" alt="Graph" width="500">
-</p>
+<img src="mossbauer_spectrum.png" alt="Graph" width="500">
 
-## 🔍 What This Shows
 - \(E_0 = 14.4 \, \text{keV}\) corresponds to the nuclear excitation energy of iron-57.  
 - The line spacing is determined by the lattice vibrational frequency.  
 - \(E_R\) represents the recoil kinetic energy of the nucleus.  
 - For illustration, the graph depicts a “weakly bound” nucleus with \(E_R > \hbar \omega\); this parameter can be adjusted. In practice, \(E_R \approx \hbar \omega / 2\), leading to fewer spectral lines with larger spacing.
+
+
+## 🔍 Lattice Dynamics
+
+The spectrum above corresponds to the Fourier transform of the following quantum time correlation function of the lattice dynamics
+
+<img src="mossbauer_spectrum.png" alt="Graph" width="500">
+
 
 
 ## 💡 Key Insights
