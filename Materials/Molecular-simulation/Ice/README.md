@@ -24,19 +24,19 @@ This project extends the study of quantum effects to the crystalline phase of wa
 
 Select a study below to explore the quantum properties of the solid phase:
 
-* **[Local Structure & Energy](https://www.google.com/search?q=./ice-structure/)** Analysis of radial and spatial distribution functions showing that quantum potential energy shifts are equivalent to a ~50 K temperature increase.
+* **Local Structure & Energy:** Analysis of radial and spatial distribution functions showing that quantum potential energy shifts are equivalent to a ~50 K temperature increase.
 
 
-* **[Quantum Uncertainty in Solids]()** Evidence that energy shifts and molecular uncertainty are smaller in ice than in the liquid phase due to the rigid lattice environment.
+* **Quantum Uncertainty in Solids:** Evidence that energy shifts and molecular uncertainty are smaller in ice than in the liquid phase due to the rigid lattice environment.
 
 
 
 ### Model Comparison & Transport
 
-* **[Isotopic Shifts & Diffusion]()** Demonstration that quantum dynamics increase the self-diffusion coefficient by over 50% and accurately reproduce experimental isotopic shifts.
+* **Isotopic Shifts & Diffusion:** Demonstration that quantum dynamics increase the self-diffusion coefficient by over 50% and accurately reproduce experimental isotopic shifts.
 
 
-* **[Universal Quantum Metrics]()** Findings showing a consistent 8% energy shift and 11° molecular uncertainty across different water models in the liquid phase.
+* **Universal Quantum Metrics:** Findings showing a consistent 8% energy shift and 11° molecular uncertainty across different water models in the liquid phase.
 
 ---
 
