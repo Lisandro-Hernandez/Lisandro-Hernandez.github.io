@@ -1,4 +1,4 @@
-# 📊 Mossbauer Spectrum of Iron-57 at 300 K
+# 📊 Solid state Mössbauer spectra and lattice dynamics
 
 ## 🧠 Overview
 This graph shows the gamma-ray energy spectrum of Iron-57 in a 1D harmonic lattice at room temperature. The spectrum is fully determined analytically.
