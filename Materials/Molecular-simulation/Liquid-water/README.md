@@ -15,14 +15,19 @@ This project explores the application of rigid-body Centroid Molecular Dynamics 
 ### Equilibrium & Structural Properties
 Select an analysis below to view the impact of quantization on water's molecular arrangement:
 
-* **[Local Coordination & Topology](./coordination/)** *Evidence of enhanced probability for nontetrahedral coordination in quantum systems compared to classical models.*
-* **[Isotopic Comparisons](./isotopes/)** *Detailed results comparing rigid-body CMD against path integral simulations for light and heavy water.*
+* **Local Coordination & Topology:** *Evidence of enhanced probability for nontetrahedral coordination in quantum systems compared to classical models.*
+* **Isotopic Comparisons:** *Detailed results comparing rigid-body CMD against path integral simulations for light and heavy water.*
 
 ### Dynamical Behavior
-* **[Hydrogen-Bond Dynamics](./hbonds/)** *Analysis of how quantum tunneling facilitates hydrogen-bond breaking and molecular diffusion.*
-* **[Supercooled Water Analysis](./supercooled/)** *Characterization of quantum effects in the -35 °C to 100 °C range, highlighting their necessity in the low-temperature region.*
+* **Hydrogen-Bond Dynamics:** *Analysis of how quantum tunneling facilitates hydrogen-bond breaking and molecular diffusion.*
+* **Supercooled Water Analysis:** *Characterization of quantum effects in the -35 °C to 100 °C range, highlighting their necessity in the low-temperature region.*
 
 ---
 
 ## 🛠 Methodology
 The simulations utilize a **rigid-body CMD technique**, which provides significant computational efficiency over standard flexible models while maintaining high accuracy. The approach involves both classical and quantum simulations to isolate the effects of quantization, specifically looking at how the strong water-water interactions in the condensed phase influence the quantum mechanical uncertainty of the molecules.
+
+## 📌 Notes
+- [Quantum effects in light and heavy liquid water: A rigid body centroid molecular dynamics study](https://doi.org/10.1063/1.1783871)
+- [Temperature dependence of quantum effects in liquid water](https://pubs.acs.org/doi/10.1021/ja0424676)
+- [Impacts of quantization on the properties of liquid water](https://pubs.acs.org/doi/10.1021/jp051616j)
