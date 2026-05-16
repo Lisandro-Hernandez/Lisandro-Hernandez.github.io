@@ -18,12 +18,22 @@ This project evaluates the accuracy of approximate quantum time correlation func
 <p align="center">
   <img src="./Liquid-Neon-P-Convergence.jpg" width="500"/>
 </p>
+
+
+* **[Temporal Accuracy Mapping](./temporal-accuracy/)** *The numerial convergence of the constraints
+  
+are compared with Gvv(0). Analysis showing high accuracy for times up to $\beta\hbar$ (approx. 0.26 ps), with a subsequent decrease in reliability as the structure of the correlation function minimum is reached[cite: 1].*
+
+<p align="center">
+  <img src="./Liquid-Neon-velocity-correlation-function.jpg" width="500"/>
+</p>
+
+  
   
 * **[Integrand Time-Scaling](./integrand-analysis/)** *Quantitative definition of representative times for various integral constraints to pinpoint where RPMD dynamics diverge from exact behavior[cite: 1].*
 
 
-* **[Quantum vs. Classical Limits](./neon-quantum-limit/)** *[cite: 1].*
-* **[Temporal Accuracy Mapping](./temporal-accuracy/)** *Analysis showing high accuracy for times up to $\beta\hbar$ (approx. 0.26 ps), with a subsequent decrease in reliability as the structure of the correlation function minimum is reached[cite: 1].*
+
 
 ---
 
