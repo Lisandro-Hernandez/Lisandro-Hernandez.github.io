@@ -13,7 +13,7 @@ This project evaluates the accuracy of Ring Polymer Molecular Dynamics (RPMD) in
 ## 📊 Available Results
 
 ### Algorithmic Performance
-* **Path Integral Convergence:** *Findings confirming that 20 beads ($P=20$) are sufficient for convergence in path integral results at 30 K[cite: 1].*
+* **Path Integral Convergence:** *The thermaly symmetrized static average of the velocity $G_VV(0)$ and the zero-time value of the Kubo transformed velocity qunatum time correlation functions are shown to  be sufficiently converged numericaly at 20 "beads" ($P=20$) in path integral results for liquid neon at 30 K.*
 
 <p align="center">
   <img src="./Liquid-Neon-P-Convergence.jpg" width="700"/>
