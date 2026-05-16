@@ -16,7 +16,7 @@ This project evaluates the accuracy of approximate quantum time correlation func
 * **Path Integral Convergence:** *The thermaly symmetrized static average of the velocity $G_VV(0)$ and the zero-time value of the Kubo transformed velocity qunatum time correlation functions are shown to  be sufficiently converged numericaly at 20 "beads" ($P=20$) in path integral results for liquid neon at 30 K.*
 
 <p align="center">
-  <img src="./Liquid-Neon-P-Convergence.jpg" width="700"/>
+  <img src="./Liquid-Neon-P-Convergence.jpg" width="500"/>
 </p>
   
 * **[Integrand Time-Scaling](./integrand-analysis/)** *Quantitative definition of representative times for various integral constraints to pinpoint where RPMD dynamics diverge from exact behavior[cite: 1].*
