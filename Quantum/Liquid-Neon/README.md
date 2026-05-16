@@ -37,3 +37,6 @@ $$g_3 = \frac{\beta \hbar}{\pi} \int_{0}^{\infty} dt \ln \left[ \cosh \left( \fr
 
 ## 🛠 Methodology
 The simulations utilize **Ring Polymer Molecular Dynamics (RPMD)**, generating Hamiltonian trajectories from initial conditions drawn via Monte Carlo sampling from the Boltzmann distribution. Trajectories are integrated using a **velocity-Verlet algorithm** with a 4.6-femtosecond time step. The methodology relies on evaluating three distinct integral constraints to verify the correctness of the correlation function across different time scales relative to the quantum thermal time ($\beta\hbar$).
+
+## 📌 Notes
+[Sum Rule Constraints and the Quality of Approximate Kubo-Transformed Correlation Functions.](https://pubs.acs.org/doi/abs/10.1021/acs.jpcb.5b07624)
