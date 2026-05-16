@@ -1,7 +1,7 @@
 # Dynamics of Liquid Neon via Ring Polymer Molecular Dynamics
 
 ## 🧠 Overview
-This project evaluates the accuracy of approximate quantum time correlation functions in condensed-phase systems. Specifically, we analyze the Kubo-transformed velocity quantum time correlation function obtained from Ring Polymer Molecular Dynamics (RPMD) for liquid neon at 30 K. The system is modeled as a Lennard-Jones fluid, and the thermally symmetrized static velocity average is compared with time integrals of the approximate Kubo velocity correlation function. This apporach naturally allows to assess progressively longer (and in principle arbitrarity large) times with employment of a sequence of kernels.
+This project evaluates the accuracy of approximate quantum time correlation functions in condensed-phase systems. Specifically, we analyze the Kubo-transformed velocity quantum time correlation function obtained from Ring Polymer Molecular Dynamics (RPMD) for liquid neon at 30 K. The system is modeled as a Lennard-Jones fluid, and the thermally symmetrized static velocity average is compared with time integrals of the approximate Kubo velocity correlation function. This approach naturally allows us to assess progressively longer (and in principle arbitrarily long) times by employing a sequence of kernels.
 
 ## 🔬 Core Analyses
 * **Velocity Autocorrelation Functions:** Calculation of the Kubo-transformed velocity autocorrelation function ($C_{vv}^K(t)$) and the thermally symmetrized correlation function ($G_{vv}(0)$).
@@ -21,11 +21,11 @@ This project evaluates the accuracy of approximate quantum time correlation func
 
 * **Temporal Accuracy Mapping** *The numerical cumulative convergence in time of the constraints:*
 
-$$g_1 = \frac{\pi}{\beta \hbar} \int_{0}^{\infty} dt  \text{sech}^2 \left( \frac{\pi t}{\beta \hbar} \right) C^K_{AB}(t)$$
+$$g_1 = \frac{\pi}{\beta \hbar} \int_{0}^{\infty} dt \, \text{sech}^2 \left( \frac{\pi t}{\beta \hbar} \right) C^K_{AB}(t)$$
 
-$$g_2 = - \int_{0}^{\infty} dt  \tanh \left( \frac{\pi t}{\beta \hbar} \right) \frac{dC^K_{AB}(t)}{dt}$$
+$$g_2 = - \int_{0}^{\infty} dt \, \tanh \left( \frac{\pi t}{\beta \hbar} \right) \frac{dC^K_{AB}(t)}{dt}$$
 
-$$g_3 = \frac{\beta \hbar}{\pi} \int_{0}^{\infty} dt \ln \left[ \cosh \left( \frac{\pi t}{\beta \hbar} \right) \right] \frac{d^2 C^K_{AB}(t)}{dt^2}$$
+$$g_3 = \frac{\beta \hbar}{\pi} \int_{0}^{\infty} dt \, \ln \left[ \cosh \left( \frac{\pi t}{\beta \hbar} \right) \right] \frac{d^2 C^K_{AB}(t)}{dt^2}$$
 
 *The cumulative integrals are shown in the figure below and compared with $G_{vv}(0)$. The analysis demonstrates high accuracy for times up to $\beta\hbar$ (approx. 0.26 ps), with a subsequent decrease in reliability as the trajectory reaches the minimum structure of the correlation function.*
 
@@ -39,4 +39,4 @@ $$g_3 = \frac{\beta \hbar}{\pi} \int_{0}^{\infty} dt \ln \left[ \cosh \left( \fr
 The simulations utilize **Ring Polymer Molecular Dynamics (RPMD)**, generating Hamiltonian trajectories from initial conditions drawn via Monte Carlo sampling from the Boltzmann distribution. Trajectories are integrated using a **velocity-Verlet algorithm** with a 4.6-femtosecond time step. The methodology relies on evaluating three distinct integral constraints to verify the correctness of the correlation function across different time scales relative to the quantum thermal time ($\beta\hbar$).
 
 ## 📌 Notes
-[Sum Rule Constraints and the Quality of Approximate Kubo-Transformed Correlation Functions.](https://pubs.acs.org/doi/abs/10.1021/acs.jpcb.5b07624)
+* [Sum Rule Constraints and the Quality of Approximate Kubo-Transformed Correlation Functions.](https://pubs.acs.org/doi/abs/10.1021/acs.jpcb.5b07624)
