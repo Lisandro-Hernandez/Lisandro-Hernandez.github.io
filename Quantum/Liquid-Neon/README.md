@@ -12,20 +12,20 @@ This project evaluates the accuracy of Ring Polymer Molecular Dynamics (RPMD) in
 
 ## 📊 Available Results
 
-### Liquid Neon Case Study
-Select the analysis below to view the performance of RPMD at cryogenic temperatures:
-
-* **[Quantum vs. Classical Limits](./neon-quantum-limit/)** *Comparison of $C_{vv}^K(0)$ and $G_{vv}(0)$ to quantitatively measure the significance of quantum effects in liquid neon[cite: 1].*
-* **[Temporal Accuracy Mapping](./temporal-accuracy/)** *Analysis showing high accuracy for times up to $\beta\hbar$ (approx. 0.26 ps), with a subsequent decrease in reliability as the structure of the correlation function minimum is reached[cite: 1].*
-
 ### Algorithmic Performance
-* **[Path Integral Convergence](./convergence/)** *Findings confirming that 20 beads ($P=20$) are sufficient for convergence in path integral results at 30 K[cite: 1].*
+* **Path Integral Convergence:** *Findings confirming that 20 beads ($P=20$) are sufficient for convergence in path integral results at 30 K[cite: 1].*
 
 <p align="center">
   <img src="./Liquid-Neon-P-Convergence.jpg" width="700"/>
 </p>
   
 * **[Integrand Time-Scaling](./integrand-analysis/)** *Quantitative definition of representative times for various integral constraints to pinpoint where RPMD dynamics diverge from exact behavior[cite: 1].*
+
+### Liquid Neon Case Study
+Select the analysis below to view the performance of RPMD at cryogenic temperatures:
+
+* **[Quantum vs. Classical Limits](./neon-quantum-limit/)** *Comparison of $C_{vv}^K(0)$ and $G_{vv}(0)$ to quantitatively measure the significance of quantum effects in liquid neon[cite: 1].*
+* **[Temporal Accuracy Mapping](./temporal-accuracy/)** *Analysis showing high accuracy for times up to $\beta\hbar$ (approx. 0.26 ps), with a subsequent decrease in reliability as the structure of the correlation function minimum is reached[cite: 1].*
 
 ---
 
