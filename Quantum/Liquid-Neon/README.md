@@ -13,7 +13,7 @@ This project evaluates the accuracy of approximate quantum time correlation func
 ## 📊 Liquid Neon Case Study
 
 ### Algorithmic Performance
-* **Path Integral Convergence:** *The thermally symmetrized static average of the velocity, $G_{vv}(0)$, and the zero-time value of the Kubo-transformed velocity quantum time correlation function are shown to be sufficiently converged numerically at 20 "beads" ($P=20$) in the path integral results for liquid neon at 30 K. Furthermore, the quantitative difference between $C_{vv}^K(0)$ and $G_{vv}(0)$ measures the significance of quantum effects in liquid neon.*
+* **Path Integral Convergence:** *The thermally symmetrized static average of the velocity, $G_{vv}(0)$, and the zero-time value of the Kubo-transformed velocity quantum time correlation function are shown to be sufficiently converged numerically for a lattice regulazitaion parameter of 20 ($P=20$ "beads") in the path integral results for liquid neon at 30 K. Furthermore, the quantitative difference between $C_{vv}^K(0)$ and $G_{vv}(0)$ measures the significance of quantum effects in liquid neon.*
 
 <p align="center">
   <img src="./Liquid-Neon-P-Convergence.jpg" width="500"/>
