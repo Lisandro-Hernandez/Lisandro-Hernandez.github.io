@@ -20,9 +20,15 @@ This project evaluates the accuracy of approximate quantum time correlation func
 </p>
 
 
-* **[Temporal Accuracy Mapping](./temporal-accuracy/)** *The numerial convergence of the constraints
-  
-are compared with Gvv(0). Analysis showing high accuracy for times up to $\beta\hbar$ (approx. 0.26 ps), with a subsequent decrease in reliability as the structure of the correlation function minimum is reached[cite: 1].*
+* **[Temporal Accuracy Mapping](./temporal-accuracy/)** *The numerial cummulative convergence in time of the constraints
+
+$g_1 = \frac{\pi}{\beta \hbar} \int_{0}^{\infty} dt \, \text{sech}^2 \left( \frac{\pi t}{\beta \hbar} \right) C^K_{AB}(t)$
+
+$g_2 = - \int_{0}^{\infty} dt \, \tanh \left( \frac{\pi t}{\beta \hbar} \right) \frac{dC^K_{AB}(t)}{dt} \tag{28b} $
+
+$g_3 = \frac{\beta \hbar}{\pi} \int_{0}^{\infty} dt \, \ln \left[ \cosh \left( \frac{\pi t}{\beta \hbar} \right) \right] \frac{d^2 C^K_{AB}(t)}{dt^2} $
+
+is shown in the figure below and compared with Gvv(0). Analysis showing high accuracy for times up to $\beta\hbar$ (approx. 0.26 ps), with a subsequent decrease in reliability as the structure of the correlation function minimum is reached[cite: 1].*
 
 <p align="center">
   <img src="./Liquid-Neon-velocity-correlation-function.jpg" width="500"/>
