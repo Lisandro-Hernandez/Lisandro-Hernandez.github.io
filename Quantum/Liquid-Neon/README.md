@@ -19,7 +19,7 @@ This project evaluates the accuracy of approximate quantum time correlation func
   <img src="./Liquid-Neon-P-Convergence.jpg" width="500"/>
 </p>
 
-* **[Temporal Accuracy Mapping](./temporal-accuracy/)** *The numerical cumulative convergence in time of the constraints:*
+* **Temporal Accuracy Mapping** *The numerical cumulative convergence in time of the constraints:*
 
 $$g_1 = \frac{\pi}{\beta \hbar} \int_{0}^{\infty} dt  \text{sech}^2 \left( \frac{\pi t}{\beta \hbar} \right) C^K_{AB}(t)$$
 
