@@ -21,11 +21,11 @@ This project evaluates the accuracy of approximate quantum time correlation func
 
 * **[Temporal Accuracy Mapping](./temporal-accuracy/)** *The numerical cumulative convergence in time of the constraints:*
 
-$$g_1 = \frac{\pi}{\beta \hbar} \int_{0}^{\infty} dt \, \text{sech}^2 \left( \frac{\pi t}{\beta \hbar} \right) C^K_{AB}(t)$$
+$$g_1 = \frac{\pi}{\beta \hbar} \int_{0}^{\infty} dt  \text{sech}^2 \left( \frac{\pi t}{\beta \hbar} \right) C^K_{AB}(t)$$
 
-$$g_2 = - \int_{0}^{\infty} dt \, \tanh \left( \frac{\pi t}{\beta \hbar} \right) \frac{dC^K_{AB}(t)}{dt}$$
+$$g_2 = - \int_{0}^{\infty} dt  \tanh \left( \frac{\pi t}{\beta \hbar} \right) \frac{dC^K_{AB}(t)}{dt}$$
 
-$$g_3 = \frac{\beta \hbar}{\pi} \int_{0}^{\infty} dt \, \ln \left[ \cosh \left( \frac{\pi t}{\beta \hbar} \right) \right] \frac{d^2 C^K_{AB}(t)}{dt^2}$$
+$$g_3 = \frac{\beta \hbar}{\pi} \int_{0}^{\infty} dt \ln \left[ \cosh \left( \frac{\pi t}{\beta \hbar} \right) \right] \frac{d^2 C^K_{AB}(t)}{dt^2}$$
 
 *The cumulative integrals are shown in the figure below and compared with $G_{vv}(0)$. The analysis demonstrates high accuracy for times up to $\beta\hbar$ (approx. 0.26 ps), with a subsequent decrease in reliability as the trajectory reaches the minimum structure of the correlation function.*
 
