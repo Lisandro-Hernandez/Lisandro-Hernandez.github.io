@@ -13,7 +13,7 @@ This project evaluates the accuracy of approximate quantum time correlation func
 ## 📊 Liquid Neon Case Study
 
 ### Algorithmic Performance
-* **Path Integral Convergence:** *The thermaly symmetrized static average of the velocity $G_VV(0)$ and the zero-time value of the Kubo transformed velocity qunatum time correlation functions are shown to  be sufficiently converged numericaly at 20 "beads" ($P=20$) in path integral results for liquid neon at 30 K.*
+* **Path Integral Convergence:** *The thermaly symmetrized static average of the velocity $G_VV(0)$ and the zero-time value of the Kubo transformed velocity qunatum time correlation functions are shown to  be sufficiently converged numericaly at 20 "beads" ($P=20$) in path integral results for liquid neon at 30 K. Note further that the quantitative difference between $C_{vv}^K(0)$ and $G_{vv}(0)$ measure the significance of quantum effects in liquid neon.*
 
 <p align="center">
   <img src="./Liquid-Neon-P-Convergence.jpg" width="500"/>
@@ -22,7 +22,7 @@ This project evaluates the accuracy of approximate quantum time correlation func
 * **[Integrand Time-Scaling](./integrand-analysis/)** *Quantitative definition of representative times for various integral constraints to pinpoint where RPMD dynamics diverge from exact behavior[cite: 1].*
 
 
-* **[Quantum vs. Classical Limits](./neon-quantum-limit/)** *Comparison of $C_{vv}^K(0)$ and $G_{vv}(0)$ to quantitatively measure the significance of quantum effects in liquid neon[cite: 1].*
+* **[Quantum vs. Classical Limits](./neon-quantum-limit/)** *[cite: 1].*
 * **[Temporal Accuracy Mapping](./temporal-accuracy/)** *Analysis showing high accuracy for times up to $\beta\hbar$ (approx. 0.26 ps), with a subsequent decrease in reliability as the structure of the correlation function minimum is reached[cite: 1].*
 
 ---
