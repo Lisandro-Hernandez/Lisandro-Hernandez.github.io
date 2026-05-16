@@ -1,7 +1,7 @@
 # Dynamics of Liquid Neon via Ring Polymer Molecular Dynamics
 
 ## 🧠 Overview
-This project evaluates the accuracy of approximate quantum time correlation functions in condensed-phase systems. Specifically, we analyze the Kubo-transformed velocity quantum time correlation function obtained from Ring Polymer Molecular Dynamics (RPMD) for liquid neon at 30 K. The system is modeled as a Lennard-Jones fluid, and the thermally symmetrized static velocity average is compared with time integrals of the approximate Kubo velocity correlation function. We employ different kernels to extend this assessment to progressively longer times.
+This project evaluates the accuracy of approximate quantum time correlation functions in condensed-phase systems. Specifically, we analyze the Kubo-transformed velocity quantum time correlation function obtained from Ring Polymer Molecular Dynamics (RPMD) for liquid neon at 30 K. The system is modeled as a Lennard-Jones fluid, and the thermally symmetrized static velocity average is compared with time integrals of the approximate Kubo velocity correlation function. This apporach naturally allows to assess progressively longer (an in principle arbitrarity long) times with employment of a sequence of kernels.
 
 ## 🔬 Core Analyses
 * **Velocity Autocorrelation Functions:** Calculation of the Kubo-transformed velocity autocorrelation function ($C_{vv}^K(t)$) and the thermally symmetrized correlation function ($G_{vv}(0)$).
