@@ -20,6 +20,11 @@ Select the analysis below to view the performance of RPMD at cryogenic temperatu
 
 ### Algorithmic Performance
 * **[Path Integral Convergence](./convergence/)** *Findings confirming that 20 beads ($P=20$) are sufficient for convergence in path integral results at 30 K[cite: 1].*
+
+<p align="center">
+  <img src="./Liquid-Neon-P-Convergence.jpg" width="700"/>
+</p>
+  
 * **[Integrand Time-Scaling](./integrand-analysis/)** *Quantitative definition of representative times for various integral constraints to pinpoint where RPMD dynamics diverge from exact behavior[cite: 1].*
 
 ---
