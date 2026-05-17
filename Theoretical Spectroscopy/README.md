@@ -20,7 +20,7 @@ This graph shows the gamma-ray energy spectrum of $^{57}\text{Fe}$ in a 1D harmo
 
 The spectrum above is the Fourier transform of the **intermediate scattering function**, a periodic quantum time correlation function of the lattice dynamics:
 
-$$C(t) = \langle e^{ik\hat{x}(0)} e^{-ik\hat{x}(t)} \rangle$$
+![Quantum Time-Correlation Function](https://latex.codecogs.com/svg.image?C(t)%20=%20\langle%20e^{ik\hat{x}(0)}%20e^{-ik\hat{x}(t)}%20\rangle)
 
 For the parameters shown:
 *   **Correlation Period:** $3.17\text{ ps}$
