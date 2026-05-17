@@ -22,7 +22,7 @@ The spectrum above is the Fourier transform of the **intermediate scattering fun
 
 ![Quantum Time-Correlation Function](https://latex.codecogs.com/svg.image?C(t)%20=%20\langle%20e^{ik\hat{x}(0)}%20e^{-ik\hat{x}(t)}%20\rangle)
 
-For the parameters shown:
+The figure below shows the real and imaginary parts of this correlation function for the parameters:
 *   **Correlation Period:** $3.17\text{ ps}$
 *   **Coupling Parameter ($\eta^2$):** $0.750$
 *   **Mean Phonon Occupancy ($\bar{n}$):** $19.328$
